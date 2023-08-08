@@ -1,0 +1,388 @@
+// ========================================================================== //
+//  DEPENDENCIES
+// ========================================================================== //
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+// Partials
+@import 'partials/animations';
+
+// ========================================================================== //
+//  TAILWIND
+// --------------------------------------------------------------------------
+//  In order to mute "Unknown at rule" warnings, you have to set your
+//  editor's CSS/SCSS linting settings to ignore them. You can do this in
+//  VS Code by going to "Settings", searching for "unknownAtRules", and
+//  changing "warning" to "ignore" in the dropdown.
+// ========================================================================== //
+
+// Directives
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+// Layers
+@layer base {
+    * {
+        @apply font-text font-light;
+    }
+
+    section {
+        @screen md-max {
+            @apply py-4;
+        }
+        @screen lg {
+            @apply py-8;
+        }
+    }
+
+    nav {
+        @apply font-display font-medium;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        @apply mb-2;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-display;
+    }
+
+    h1 {
+        @apply relative inline-block pb-1 font-medium uppercase leading-6 text-blue-light sm-max:text-28 md:text-36;
+
+        &::after {
+            @apply bg-green-light;
+
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            max-width: 60px;
+            height: 3px;
+        }
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-normal;
+    }
+
+    h2 {
+        @apply text-green-light sm-max:text-24 md:text-28;
+    }
+
+    h3 {
+        @apply text-orange-light sm-max:text-20 md:text-24;
+    }
+
+    h4 {
+        @apply text-20;
+    }
+
+    h5 {
+        @apply text-18;
+    }
+
+    h6 {
+        @apply text-16;
+    }
+
+    p,
+    ul,
+    ol,
+    [class*='cta'] {
+        @apply text-20;
+    }
+
+    p,
+    ul:not(.nav-list):not(.app-list) li,
+    ol li {
+        a {
+            @apply font-bold text-blue-light underline underline-offset-2;
+        }
+    }
+
+    p {
+        &:last-of-type {
+            @apply mb-0;
+        }
+    }
+
+    ul,
+    ol {
+        @apply mb-2 px-3;
+
+        & + p {
+            @apply mt-2;
+        }
+
+        ul {
+            @apply list-circle mb-0 mt-2;
+        }
+
+        li {
+            @apply mb-2;
+
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    ul {
+        @apply list-disc;
+
+        & + ol {
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    ol {
+        @apply list-decimal;
+
+        & + ul {
+            &:last-of-type {
+                @apply mb-0;
+            }
+        }
+    }
+
+    a {
+        @apply inline-block;
+    }
+
+    input[type='email'],
+    input[type='text'],
+    select,
+    textarea {
+        @apply block w-full rounded-lg text-18 text-blue-dark;
+
+        padding: 12px;
+    }
+
+    input[type='checkbox'],
+    input[type='radio'] {
+        & + label {
+            @apply ml-1;
+        }
+    }
+
+    input[type='checkbox'] {
+        @apply rounded;
+    }
+
+    select {
+        @apply pr-4;
+    }
+}
+
+// Components
+@layer components {
+    .cta {
+        &-group {
+            [class*='cta'] {
+                &:not(:first-of-type) {
+                    @apply xs-max:mt-2 sm:ml-2;
+                }
+            }
+        }
+
+        &-primary,
+        &-secondary,
+        &-tertiary,
+        &-primary-outline,
+        &-secondary-outline,
+        &-tertiary-outline {
+            @apply rounded-lg border px-2 py-1 text-center transition-all duration-300;
+        }
+
+        &-primary {
+            @apply border-blue-light bg-blue-light text-white;
+
+            &:hover {
+                @apply lg:border-blue-light lg:bg-blue;
+            }
+
+            &-outline {
+                @apply border-blue-light text-blue-light;
+
+                &:hover {
+                    @apply lg:border-blue-light lg:bg-blue-light lg:text-white;
+                }
+            }
+        }
+
+        &-secondary {
+            @apply border-green-light bg-green-light text-white;
+
+            &:hover {
+                @apply lg:border-green-light lg:bg-green;
+            }
+
+            &-outline {
+                @apply border-green-light text-green-light;
+
+                &:hover {
+                    @apply lg:border-green-light lg:bg-green-light lg:text-white;
+                }
+            }
+        }
+
+        &-tertiary {
+            @apply border-orange-light bg-orange-light text-white;
+
+            &:hover {
+                @apply lg:border-orange-light lg:bg-orange;
+            }
+
+            &-outline {
+                @apply border-orange-light text-orange-light;
+
+                &:hover {
+                    @apply lg:border-orange-light lg:bg-orange-light lg:text-white;
+                }
+            }
+        }
+
+        &-link {
+            &::after {
+                @apply relative text-24 transition-all duration-300;
+
+                content: '›';
+                top: 1px;
+                left: 5px;
+            }
+
+            &:hover {
+                &::after {
+                    @apply left-1;
+                }
+            }
+
+            &-reverse {
+                margin-left: 5px;
+
+                &::before {
+                    @apply relative text-24 transition-all duration-300;
+
+                    content: '‹';
+                    top: 1px;
+                    right: 5px;
+                }
+
+                &:hover {
+                    &::before {
+                        @apply right-1;
+                    }
+                }
+            }
+        }
+    }
+
+    .scroll {
+        &-indicator,
+        &-wheel {
+            @apply absolute;
+        }
+
+        &-indicator {
+            @apply left-1/2 -translate-x-1/2 transform;
+
+            bottom: 23px;
+        }
+
+        &-mouse {
+            @apply relative inline-block rounded-full border-2 border-white;
+
+            width: 34px;
+            height: 54px;
+        }
+
+        &-wheel {
+            @apply rounded-full bg-white;
+
+            top: 14px;
+            left: 13px;
+            width: 4px;
+            height: 4px;
+            animation: scrollDown 2.5s infinite;
+        }
+    }
+}
+
+// Extend pre-existing utility classes
+@layer utilities {
+    .container {
+        @apply mx-auto px-2;
+    }
+
+    .list {
+        &-none {
+            @apply mb-0 px-0;
+
+            li {
+                @apply mb-0;
+            }
+        }
+
+        &-circle {
+            list-style-type: circle;
+        }
+    }
+}
+
+// Variants
+@layer variants {
+}
+
+// ========================================================================== //
+//  ADDITIONAL SCSS
+// ========================================================================== //
+
+// Navigation (Toggle)
+.nav-toggle {
+    &-open {
+        .nav-toggle-item {
+            &:first-child,
+            &:last-child {
+                transform-origin: 10px;
+            }
+
+            &:first-child {
+                transform: rotate(45deg);
+            }
+            &:nth-child(2) {
+                opacity: 0;
+            }
+            &:last-child {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    &-item {
+        margin-bottom: 5px;
+        width: 40px;
+        height: 2px;
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "nuxt-starter",
+    "version": "",
+    "title": "Nuxt Starter",
+    "description": "A starter repo for Nuxt, the free and open-source framework with an intuitive and extendable way to create type-safe, performant, and production-grade web projects with Vue.js.",
+    "homepage": "https://github.com/ryanaltvater/nuxt-starter",
+    "license": "ISC",
+    "author": {
+        "name": "Ryan Altvater",
+        "url": "http://www.ryanaltvater.com"
+    },
+    "contributors": [
+        {
+            "name": "Ryan Altvater",
+            "email": "ryan@ryanaltvater.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ryanaltvater/nuxt-starter.git"
+    },
+    "scripts": {
+        "build": "nuxt build",
+        "build:preview": "nuxt preview",
+        "build:static": "nuxt generate",
+        "postinstall": "nuxt prepare",
+        "start": "nuxt dev -o",
+        "tailwind": "nuxi dev -o & tailwind-config-viewer -o -p 3000"
+    },
+    "devDependencies": {
+        "@supabase/supabase-js": "^2.25.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@types/node": "^18",
+        "autoprefixer": "^10.4.14",
+        "nuxt": "^3.5.3",
+        "postcss": "^8.4.24",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.3.0",
+        "sass": "^1.63.4",
+        "tailwind-config-viewer": "^1.7.2",
+        "tailwindcss": "^3.3.2",
+        "vuex": "^4.1.0"
+    },
+    "engines": {
+        "node": "",
+        "npm": ""
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not dead",
+        "> 0.2%"
+    ]
+}

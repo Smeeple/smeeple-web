@@ -1,0 +1,27 @@
+// Scroll down
+@keyframes scrollDown {
+    0% {
+        top: 14px;
+        opacity: 0;
+    }
+
+    15% {
+        top: 14px;
+        opacity: 1;
+    }
+
+    30% {
+        top: 14px;
+        opacity: 1;
+    }
+
+    45% {
+        top: 34px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 34px;
+        opacity: 0;
+    }
+}
