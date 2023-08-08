@@ -57,12 +57,6 @@ npm ci
 npm run start
 ```
 
-## Preview Tailwind configuration
-
-```bash
-npm run tailwind
-```
-
 ## Build for production
 
 ```bash
@@ -79,6 +73,12 @@ npm run build:preview
 
 ```bash
 npm run build:static
+```
+
+## Preview Tailwind configuration
+
+```bash
+npm run tailwind
 ```
 
 # 🔗 Additional links
