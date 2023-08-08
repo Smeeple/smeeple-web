@@ -19,7 +19,7 @@ git clone git@github.com:ryanaltvater/nuxt-starter.git
 ## Install Node Version Manager ([NVM](https://github.com/nvm-sh/nvm#about))
 
 ```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
 ```
 
 - `nvm` allows the installation and use of different versions of Node, via the command line.
