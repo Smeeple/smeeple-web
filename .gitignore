@@ -3,6 +3,7 @@
 .output/
 .nuxt/
 _design/
+dist/
 
 ## NodeJS
 *.log
