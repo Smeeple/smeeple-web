@@ -8,16 +8,14 @@
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
         ],
-        bodyAttrs: { class: 'page-dark home bg-blue-dark bg-[url("/assets/img/bg-shapes.png")]' },
+        bodyAttrs: { class: 'home' },
     });
 </script>
 
 <template>
-    <Header_Dark />
-
-    <section class="hero relative -mt-[141px] flex h-[100vh] items-center py-0">
+    <section class="relative -mt-[141px] flex h-[100vh] items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] py-0" data-speed="0.5">
         <div class="container mt-[49px]">
-            <div class="grid grid-cols-12">
+            <div class="grid grid-cols-12 items-center">
                 <div class="col-span-12 lg:col-span-6 lg:col-start-2">
                     <h1 class="text-[72px]">Subject Matter Experts + People</h1>
 
@@ -30,8 +28,8 @@
                     </div>
                 </div>
 
-                <div class="col-span-12 lg:col-span-4">
-                    <img src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
+                <div class="relative md-max:hidden lg:col-span-4">
+                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
                 </div>
             </div>
         </div>
@@ -43,7 +41,65 @@
         </div>
     </section>
 
-    <section class="bg-white">
+    <section class="pb-0">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-3">
+                <div class="col-span-12 lg:col-span-3 lg:col-start-3 lg:text-right">
+                    <div class="flex lg:justify-end">
+                        <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">1</span>
+                    </div>
+
+                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">Find an expert</h2>
+
+                    <p class="font-caveat text-36 leading-10">Browse our community of vetted experts</p>
+                </div>
+
+                <div class="col-span-12 lg:col-span-5">
+                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-0">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-3">
+                <div class="col-span-12 md-max:order-2 lg:col-span-5 lg:col-start-3">
+                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
+                </div>
+
+                <div class="col-span-12 md-max:order-1 lg:col-span-3">
+                    <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">2</span>
+
+                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">Book an appointment</h2>
+
+                    <p class="font-caveat text-36 leading-10">Pick the expert and time that work for you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-0">
+        <div class="container">
+            <div class="grid grid-cols-12 gap-3">
+                <div class="col-span-12 lg:col-span-3 lg:col-start-3 lg:text-right">
+                    <div class="flex lg:justify-end">
+                        <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">3</span>
+                    </div>
+
+                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">1:1 virtual session</h2>
+
+                    <p class="font-caveat text-36 leading-10">Talk with your expert and gain expertise</p>
+                </div>
+
+                <div class="col-span-12 lg:col-span-5">
+                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
         <div class="container">
             <div class="grid gap-3 md:grid-cols-4">
                 <div class="sm-max:col-span-4 md:col-span-1">
