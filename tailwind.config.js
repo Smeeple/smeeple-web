@@ -35,19 +35,22 @@ module.exports = {
             '2xl'    : {'min': '1400px'},
         },
         colors: ({ colors }) => ({
-            transparent   : 'transparent',
-            white         : '#ffffff',
-            black         : '#000000',
-            'blue-light'  : '#615af3',
-            blue          : '#2d3287',
-            'blue-dark'   : '#151943',
-            'gray-light'  : '#f2f3f3',
-            'green-light' : '#5ebf8f',
-            green         : '#2d865a',
-            'green-dark'  : '#15422c',
-            'orange-light': '#f8961f',
-            orange        : '#865e2d',
-            'orange-dark' : '#422e15',
+            transparent     : 'transparent',
+            white           : '#ffffff',
+            black           : '#000000',
+            'blue-lighter'  : '#7067ff',
+            'blue-light'    : '#615af3',
+            blue            : '#2d3287',
+            'blue-dark'     : '#151943',
+            'gray-light'    : '#f2f3f3',
+            'green-lighter' : '#6bce9d',
+            'green-light'   : '#5ebf8f',
+            green           : '#2d865a',
+            'green-dark'    : '#15422c',
+            'orange-lighter': '#ffa52a',
+            'orange-light'  : '#f8961f',
+            orange          : '#865e2d',
+            'orange-dark'   : '#422e15',
 
 
 
@@ -346,8 +349,9 @@ module.exports = {
             DEFAULT: '1',
         },
         fontFamily: {
-            display: "'Poppins', sans-serif",
-            text: "'Karla', sans-serif",
+            caveat: "'Caveat', sans-serif",
+            karla: "'Karla', sans-serif",
+            poppins: "'Poppins', sans-serif",
         },
         fontSize: {
             // TODO: Use rem calculation for line height.
