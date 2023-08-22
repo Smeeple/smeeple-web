@@ -1,4 +1,7 @@
 <script setup>
+    definePageMeta({
+        layout: 'interior',
+    });
     useHead({
         title: 'Privacy policy',
         meta: [
@@ -13,14 +16,20 @@
 </script>
 
 <template>
-    <Header_Light />
+    <section class="bg-gray-light bg-[url('/assets/img/bg-shapes-gray.png')]">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-8 lg:col-start-3">
+                    <h1 class="mb-0">Privacy policy</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-white">
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
-                    <h1>Privacy policy</h1>
-
                     <p>Smeeple values your trust, and protecting your information is a high priority. Smeeple is committed to your privacy. This Privacy Policy explains what information Smeeple, Inc. and its affiliates (collectively, "Smeeple" or "We") collect, how information is collected, how we use that information, what information is shared with whom, and how Smeeple protects your information when you use our products and services ("Services").</p>
 
                     <h2>When this privacy policy applies</h2>

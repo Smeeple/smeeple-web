@@ -1,4 +1,7 @@
 <script setup>
+    definePageMeta({
+        layout: 'interior',
+    });
     useHead({
         title: 'Terms and conditions',
         meta: [
@@ -13,14 +16,20 @@
 </script>
 
 <template>
-    <Header_Light />
+    <section class="bg-gray-light bg-[url('/assets/img/bg-shapes-gray.png')]">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-8 lg:col-start-3">
+                    <h1 class="mb-0">Terms & conditions</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-white">
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
-                    <h1>Terms & conditions</h1>
-
                     <p>These Terms of Use ("Terms") govern your use of the Smeeple website ("Site") at <NuxtLink to="/">www.smeeple.com</NuxtLink>, any mobile device application or any other means provided or authorized by Smeeple, Inc. ("Smeeple"). Please read these Terms before using or continuing to use the Site. By using or continuing to use the Site, you represent and warrant that you understand, agree to, and accept all terms and conditions contained in these Terms.</p>
 
                     <h2>General terms</h2>

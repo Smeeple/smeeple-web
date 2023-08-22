@@ -3,7 +3,7 @@
         layout: 'interior',
     });
     useHead({
-        title: 'For experts',
+        title: 'About Smeeple',
         meta: [
             { name: 'description', content: '' },
             { name: 'keywords', content: '' },
@@ -11,7 +11,7 @@
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
         ],
-        bodyAttrs: { class: 'experts' },
+        bodyAttrs: { class: 'about' },
     });
 </script>
 
@@ -20,7 +20,7 @@
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
-                    <h1 class="mb-0">For experts</h1>
+                    <h1 class="mb-0">About Smeeple</h1>
                 </div>
             </div>
         </div>

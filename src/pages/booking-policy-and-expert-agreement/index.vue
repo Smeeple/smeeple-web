@@ -1,4 +1,7 @@
 <script setup>
+    definePageMeta({
+        layout: 'interior',
+    });
     useHead({
         title: 'Booking policy and expert agreement',
         meta: [
@@ -13,14 +16,20 @@
 </script>
 
 <template>
-    <Header_Light />
+    <section class="bg-gray-light bg-[url('/assets/img/bg-shapes-gray.png')]">
+        <div class="container">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12 lg:col-span-8 lg:col-start-3">
+                    <h1 class="mb-0">Booking policy & expert agreement</h1>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="bg-white">
         <div class="container">
             <div class="grid grid-cols-12">
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
-                    <h1>Booking policy & expert agreement</h1>
-
                     <h2>Booking policy</h2>
 
                     <p>This Booking Policy ("Terms") governs the booking arrangement between you, ("consumer") and the expert ("expert"). Please read this Booking Policy before using or continuing to use the Site and booking an appointment. By using or continuing to use the Site, you represent and warrant that you understand, agree to, and accept all terms and conditions contained in the Booking Policy.</p>
