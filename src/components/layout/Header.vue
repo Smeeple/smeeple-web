@@ -1,8 +1,6 @@
 <script setup>
     useHead({
-        script: [
-            { src: 'assets/js/components/Header.js', tagPosition: 'bodyClose' }
-]
+        script: [{ src: 'assets/js/components/Header.js', tagPosition: 'bodyClose' }],
     });
 </script>
 
