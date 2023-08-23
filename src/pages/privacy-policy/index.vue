@@ -2,6 +2,7 @@
     definePageMeta({
         layout: 'interior',
     });
+
     useHead({
         title: 'Privacy policy',
         meta: [
@@ -32,13 +33,13 @@
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
                     <p>Smeeple values your trust, and protecting your information is a high priority. Smeeple is committed to your privacy. This Privacy Policy explains what information Smeeple, Inc. and its affiliates (collectively, "Smeeple" or "We") collect, how information is collected, how we use that information, what information is shared with whom, and how Smeeple protects your information when you use our products and services ("Services").</p>
 
-                    <h2>When this privacy policy applies</h2>
+                    <h2>1. When this privacy policy applies</h2>
 
                     <p>Our Privacy Policy applies to all of the Services offered by Smeeple, and its affiliates, including Services offered on other sites, but excludes Services that have separate privacy policies that do not incorporate this Privacy Policy, and Services that you may receive as a result of your participation in a program that expressly supersedes this Privacy Policy.</p>
 
                     <p>Our Privacy Policy does not apply to Services offered by other companies or individuals, including products or sites that may be displayed to you in search results, sites that may include Services, or other sites linked from our Services. Our Privacy Policy does not cover the information practices of other companies and organizations who advertise our Services, and who may use cookies, pixel tags and other technologies to serve and offer relevant ads.</p>
 
-                    <h2>Information we collect</h2>
+                    <h2>2. Information we collect</h2>
 
                     <p>The information Smeeple collects varies based on the type of Services you use and the manner in which you access them. Depending on these factors, Smeeple may collect the following information about you:</p>
 
@@ -48,7 +49,7 @@
                         <li><strong>Other Information</strong> - Other Information is information that, by itself, does not individually identify you such as browser type, operating system, technical data, and usage. We may link together different types of Other Information or link Other Information to Personal Information.</li>
                     </ul>
 
-                    <h2>How we collect information</h2>
+                    <h2>3. How we collect information</h2>
 
                     <p>We collect information in the following ways:</p>
 
@@ -76,7 +77,7 @@
                         </li>
                     </ul>
 
-                    <h2>Why we use information we collect</h2>
+                    <h2>4. Why we use information we collect</h2>
 
                     <ul>
                         <li><strong>To Provide Services To You</strong> - We use the information that we collect about you to provide, maintain, protect and improve the Services that Smeeple provides to you.</li>
@@ -86,7 +87,7 @@
                         <li><strong>To Improve Our Services</strong> - We use de-identified, anonymous information that we collect about you for statistical and analysis purposes to improve our products and services, and to provide statistical analysis.</li>
                     </ul>
 
-                    <h2>Legal grounds for processing your personal data</h2>
+                    <h2>5. Legal grounds for processing your personal data</h2>
 
                     <p>We rely on the following legal grounds to process your Personal Information:</p>
 
@@ -98,7 +99,7 @@
                         <li><strong>Legitimate Interests</strong> - We may use your Personal Information for our legitimate interests, including but not limited to marketing, to provide our Services and to improve our Services and the content on our sites.</li>
                     </ul>
 
-                    <h2>What information we share</h2>
+                    <h2>6. What information we share</h2>
 
                     <p>We do not sell your Personal Information to third parties and the information disclosed is the minimum amount necessary to fulfill the legitimate business purpose. We do not share Personal Information with companies, organizations and individuals outside of Smeeple except in the following circumstances:</p>
 
@@ -116,11 +117,11 @@
                         <li><strong>After Being Fully De-Identified, Incapable of Re-Identification</strong> - We may share aggregated, de-identified information publicly and with our partners to evaluate the effectiveness, value, and analytic trends of the Services.</li>
                     </ul>
 
-                    <h2>How we protect your information</h2>
+                    <h2>7. How we protect your information</h2>
 
                     <p>We take steps to secure Personal Information through administrative, technical, and physical safeguards designed to protect against the risk of accidental, unlawful, or unauthorized destruction, loss, alteration, access, disclosure, or use. Unfortunately, we cannot guarantee the security of information transmitted through the Internet, and where we have given you (or where you have chosen) a password, you are responsible for keeping this password confidential.</p>
 
-                    <h2>Transparency, privacy rights and choices, and account termination</h2>
+                    <h2>8. Transparency, privacy rights and choices, and account termination</h2>
 
                     <p>Our goal is to be clear about what information we collect, so that you can make meaningful choices about how it is used. Subject to your specific use of the Services, your privacy rights include:</p>
 
@@ -140,33 +141,65 @@
                         <li><strong>Right to data portability</strong> - You have the right to data portability of your own personal data by contacting us. There are instances where applicable law or regulatory requirements allow or require us to refrain from transmitting your Personal Information to certain recipients or may require additional documentation before transmitting your information. In addition, some or all of the Personal Information may have been destroyed, erased or made anonymous. In the event we cannot fulfill your data portability request or require additional information to do so, we will contact you.</li>
                     </ul>
 
-                    <h2>Terminating your account</h2>
+                    <h2>9. Terminating your account</h2>
 
                     <p>You may terminate your account with us at any time through the account settings or emailing <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink> Terminating your account will revoke any applicable consents or opt-ins but will be subject to any data retention requirements as described below.</p>
 
-                    <h2>Retention of collected information</h2>
+                    <h2>10. Retention of collected information</h2>
 
                     <p>Except as otherwise permitted or required by applicable law or regulatory requirements, we will retain your Personal Information only for as long as we believe it is necessary to fulfill the purposes for which the Personal Information was collected (including for the purpose of meeting any legal, accounting or other reporting requirements or obligations). You may request that we delete the Personal Information about you that we hold, as described above.</p>
 
-                    <h2>Accessing and updating your personal information</h2>
+                    <h2>11. Accessing and updating your personal information</h2>
 
                     <p>Whenever you use our Services, we aim to provide you with access to your Personal Information. If that information is wrong, we strive to give you ways to update it quickly or to delete it &ndash; unless we have to keep that information for legitimate business or legal purposes. When updating your Personal Information, we may ask you to verify your identity before we can act on your request. Where we can provide information access and correction, we will do so for free, except where it would require a disproportionate effort. We aim to maintain our Services in a manner that protects information from accidental or malicious destruction. Because of this, after you delete information from our Services, we may not immediately delete residual copies from our active servers and may not remove information from our backup systems. Access, correction, or deletion requests can be made by contacting <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</p>
 
-                    <h2>Information on children</h2>
+                    <h2>12. Information on children</h2>
 
                     <p>The Services are not directed to or intended for use by minors. In compliance with laws, we will not intentionally collect any Personal Information from children under the age of 18. If we learn we have collected or received Personal Information from a child under 18 without verification of parental consent, we will delete it. If you are the parent or guardian of a child under 18 years of age whom you believe might have provided us with their Personal Information, please contact us to request that it be deleted.</p>
 
-                    <h2>Compliance and cooperation with regulatory authorities</h2>
+                    <h2>13. Compliance and cooperation with regulatory authorities</h2>
 
                     <p>We regularly review our compliance with our Privacy Policy. If we receive a formal written complaint, we will contact the person who made the complaint to follow up. We work with the appropriate regulatory authorities, including local data protection authorities, to resolve any complaints regarding the transfer of Personal Information that we cannot resolve with our users directly.</p>
 
-                    <h2>Changes to this privacy policy</h2>
+                    <h2>14. California user privacy rights</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>For California residents: We may share your personal information with third parties and affiliated third parties (such as local, state and regional affiliates and affiliate alliances), some of which do not share the We name, for their direct marketing purposes. As these third parties and this category of affiliated third parties are considered an unaffiliated party under California law, you may opt-out of our disclosure of personal information to third parties for their direct marketing purposes. To opt out, please contact us as at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</p>
+
+                    <p>We will continue to provide your information to local, state and regional affiliates and affiliate alliances identified in your membership application or account for the purpose of processing your membership in such affiliate and affiliate alliance programs.</p>
+
+                    <p>The California Consumer Privacy Act (CCPA), effective January 1, 2020, gives California consumers enhanced rights with respect to their personal information that is collected by businesses. First, California consumers may opt out of having their personal information sold to other persons or parties. Second, they have a right to know:</p>
+
+                    <ul class="list-alpha">
+                        <li>what specific pieces of information a business has about the consumer;</li>
+
+                        <li>categories of personal information it has collected about the consumer;</li>
+
+                        <li>categories of sources from which the personal information is collected;</li>
+
+                        <li>categories of personal information that the business sold or disclosed for a business purpose about the consumer;</li>
+
+                        <li>categories of third parties to whom the personal information was sold or disclosed for a business purpose; and</li>
+
+                        <li>the business or commercial purpose for collecting or selling personal information.</li>
+                    </ul>
+
+                    <p>In addition, California consumers can request that the personal information a business has collected about them be deleted from the business's systems and records. Company may be considered a covered business under the CCPA as it collects and processes the personal information of California consumers. This Privacy Policy provides the required notices to California consumers. The CCPA also prohibits covered businesses from providing discriminatory treatment to California consumers if they exercise their rights under the Act.</p>
+
+                    <p>In addition, California consumers can request that the personal information a business has collected about them be deleted from the business's systems and records. Company may be considered a covered business under the CCPA as it collects and processes the personal information of California consumers. This Privacy Policy provides the required notices to California consumers. The CCPA also prohibits covered businesses from providing discriminatory treatment to California consumers if they exercise their rights under the Act.</p>
+
+                    <p>To make a "request to know" or request to delete your personal information, send us an e-mail at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink> (Please put either "Request to Know" or "Request to Delete" in the subject heading of your email.) We will use commercially reasonable efforts to honor these requests whether or not you would qualify as a California consumer under the CCPA. If and to the extent we are considered a covered business under the CCPA: We will confirm receipt of your request within 10 days along with a description of what steps we will take to verify and respond. We must provide the requested information or delete your personal information within 45 days of receipt of your request but can use an additional 45 days, but we must let you know the additional time is needed.</p>
+
+                    <p>When contacting us, we may ask you to provide certain, limited personal information, such as your name, email address and/or account login ID and/or password, to verify your request and to match with our records and systems. This is also to protect against fraud. We will not retain this personal information or use it for any other purpose. Also please be advised that we need to search our records and systems only for the preceding 12 months.</p>
+
+                    <p>Residents of other states may also have similar rights to request information about or delete their personal information. To inquire about exercising these rights, please contact us at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</p>
+
+                    <p>Pursuant to California's "Shine The Light law (California Civil Code § 1798.983), California residents are entitled, once a year and free of charge, to request the disclosure of certain categories of personal information to third parties for their own direct marketing purposes in the preceding calendar year, if any. Under the law, a business should either provide California customers certain information upon request or permit California customers to opt out of this type of sharing. You may request this information by contacting us at support@smeeple.com and indicate in the email subject line, "California Shine The Light Request." Please include your mailing address, state of residence and email address with your request.</p>
+
+                    <h2>15. Changes to this privacy policy</h2>
 
                     <p>This Privacy Policy is not intended to and does not create any contractual or other legal rights in or on behalf of any party. If we change this Privacy Policy, we will post any privacy policy changes on this page and, if the changes are material, we will provide a more prominent notice by sending you an email and/or posting a notice in the Services. Smeeple reserves the right to modify this Privacy Policy at any time, so please review it frequently.</p>
 
-                    <p class="text-16 italic">Last modified: March 28<sup>th</sup>, 2023</p>
+                    <p class="text-16 italic">Last modified: August 23<sup>rd</sup>, 2023</p>
                 </div>
             </div>
         </div>

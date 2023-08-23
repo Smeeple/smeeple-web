@@ -2,6 +2,7 @@
     definePageMeta({
         layout: 'interior',
     });
+
     useHead({
         title: 'Terms and conditions',
         meta: [
@@ -32,19 +33,31 @@
                 <div class="col-span-12 lg:col-span-8 lg:col-start-3">
                     <p>These Terms of Use ("Terms") govern your use of the Smeeple website ("Site") at <NuxtLink to="/">www.smeeple.com</NuxtLink>, any mobile device application or any other means provided or authorized by Smeeple, Inc. ("Smeeple"). Please read these Terms before using or continuing to use the Site. By using or continuing to use the Site, you represent and warrant that you understand, agree to, and accept all terms and conditions contained in these Terms.</p>
 
-                    <h2>General terms</h2>
+                    <h2>1. General terms</h2>
 
-                    <p>Smeeple provides this Site to customers seeking an instructor with expertise in a certain area ("Customer") and to experts seeking to provide such expertise ("Experts"). The terms "you" or "You" or "Customer" or "Customers" or "User" or "Users" shall refer to Customers, Experts or any person or entity who views, uses, accesses, or browses any content on, and/or creates, uploads, posts, sends, receives or stores content to the Site. These Terms are entered into by and between Smeeple and you, and you accept them by: (a) accessing or viewing the content of the Site; (b) contracting for session(s) with an Expert through the Site; (c) registering as an Expert or providing expert sessions through the Site; (d) using the Site in any other manner; and/or (e) acknowledging agreement with these Terms. If you do not agree to these Terms, do not use the Site.</p>
+                    <p>Smeeple provides this Site to customers seeking an instructor with expertise in a certain area ("Customer") and to experts seeking to provide such expertise ("Experts"). The terms "you" or "You" or "Customer" or "Customers" or "User" or "Users" shall refer to Customers, Experts or any person or entity who views, uses, accesses, or browses any content on, and/or creates, uploads, posts, sends, receives or stores content to the Site. These Terms are entered into by and between Smeeple and you, and you accept them by:</p>
+
+                    <ul class="list-alpha">
+                        <li>accessing or viewing the content of the Site;</li>
+
+                        <li>contracting for session(s) with an Expert through the Site;</li>
+
+                        <li>registering as an Expert or providing expert sessions through the Site;</li>
+
+                        <li>using the Site in any other manner; and/or</li>
+
+                        <li>acknowledging agreement with these Terms. If you do not agree to these Terms, do not use the Site.</li>
+                    </ul>
 
                     <p>To the extent that anything in or associated with the Site is in conflict or inconsistent with these Terms, the Terms shall control. Any express waiver or failure to exercise promptly any right under the Terms will not create a continuing waiver or any expectation of non-enforcement. If any provision of the Terms is held invalid by any law or regulation of any government, or by any court or arbitrator, the parties agree that such provision will be replaced with a new provision that accomplishes the original business purpose, and the other provisions of the Terms will remain in full force and effect.</p>
 
                     <p class="uppercase">Please read this agreement carefully to ensure that you understand each provision. This agreement contains a mandatory individual arbitration and class action/jury trial waiver provision that requires the use of arbitration on an individual basis to resolve disputes, rather than jury trials or class actions.</p>
 
-                    <h2>Privacy policy</h2>
+                    <h2>2. Privacy policy</h2>
 
                     <p>Please refer to the Smeeple Privacy Policy at <NuxtLink to="/privacy-policy">www.smeeple.com/privacy-policy</NuxtLink> for information on how Smeeple collects, uses and discloses information about you.</p>
 
-                    <h2>Services</h2>
+                    <h2>3. Services</h2>
 
                     <p>The Site offers a marketplace for those seeking Experts to provide their expertise. As independent businesses engaged by Customers, Experts decide, are responsible for, and generally control the methods, materials, scheduling, frequency, duration and all other aspects of the sessions they provide.</p>
 
@@ -54,15 +67,51 @@
 
                     <p>To use the Site, you must obtain access to the internet, either directly or through devices that access web-based content and pay any service fees or other costs associated with such access. In addition, you must provide all equipment necessary to make such connection to the internet, including a computer and modem or other access device. If you are under eighteen (18) years of age, you may use the Site only with the involvement and consent of a parent or legal guardian.</p>
 
-                    <h2>Academic honesty</h2>
+                    <h2>4. Virtual sessions</h2>
+
+                    <ul class="list-alpha">
+                        <li>Cameras. Your Video Expert has the option to (i) enable (A) the Video Expert-facing cameras and (B) your self-facing and/or world-facing cameras (in the case of (B), subject to your approval), so you may see the Video Expert and the Video Expert may see you via video and (ii) initiate recording the video of that chat session ("Video Recording"). By using our Video Services, you consent to the Video Recording of any chat session that you have via Video Services and you give your permission to Smeeple to use your likeness and voice in connection with such Video Recordings, and you release Smeeple and anyone acting under its authorization from any claims that any use of the Video Recordings as authorized herein violates any of your rights, including any rights of publicity or privacy. Smeeple may, in its discretion, make such Video Recordings available to you through the Services or otherwise.</li>
+
+                        <li>Be careful and show respect. Video Experts and other Smeeple representatives should be treated with respect. We know that requesting service can be stressful, but if you or anyone interacting with us on your behalf are verbally abusive or threaten the safety, well-being, or property of our Video Experts or other representatives, we may terminate your access to the Services and any products or services you have purchased. Our Video Experts strive to place your safety first, but if at any time you are uncomfortable performing actions suggested by a Video Expert, you should stop and communicate this to the Video Expert.</li>
+
+                        <li>Disclaimer. Smeeple makes no representations and provides no warranties or guarantees regarding the quality, legality, suitability, reliability, timeliness, or accuracy of any Video Services or information provided through the Video Services. You are responsible for your compliance with applicable laws.</li>
+
+                        <li>Video Content. You are solely responsible for your use of the Video Services, and you agree that your use of your device's camera to capture video and/or images shall comply with the requirements for Contributions described in Section 4.1. Notwithstanding the foregoing, subject to applicable law and the terms of our Privacy Policy, all images, artwork, technology and other content, data, meta-data, information, materials and other items recorded, streamed, provided or made available by you to Smeeple through your access and use of the Video Services, and all information and materials derived from or based on the foregoing, shall be and remain the sole and exclusive property of Smeeple.</li>
+
+                        <li>Impermissible Use and Sharing. You may not use, or attempt to use, the Video Services through any means not explicitly and intentionally made available, provided or intended with respect to the Video Services (including, but not limited to, attempting to gain unauthorized access to any portion of the Video Services or any other systems connected to the Video Services). You may not use or access the Video Services in any manner that could damage, disable, overburden, or impair the Video Services or that could interfere with the rights of or otherwise harm Smeeple. To the extent permitted by Smeeple, you may use and share Video Recordings with local pros in connection with your home repair or maintenance. Any other reproduction or distribution, and any commercial use, of Video Recordings is strictly prohibited.</li>
+                    </ul>
+
+                    <h2>5. Academic honesty</h2>
 
                     <p>Smeeple's services are provided for the purpose of facilitating learning, and not to encourage or facilitate cheating or any other form of academic dishonesty. You shall not use the Site to inquire about, engage in or aid or assist anyone with any form of academic dishonesty (for example, completing assignments or projects, writing papers or essays, taking (or helping to take) quizzes or examinations on someone's behalf), or to take any action that would violate the academic or conduct policies of a school, university, academic institution or workplace.</p>
 
-                    <h2>Your obligations and conduct</h2>
+                    <h2>6. Your obligations and conduct</h2>
 
-                    <p>All Users must: (a) be of legal age and have capacity to agree to these Terms on their own behalf or on behalf of a minor who will be receiving expert sessions; (b) reside within the United States, (c) provide accurate, current, and complete information about themselves as required during Site registration ("Registration Data"); (d) maintain the security of any password and identification information used to access the Site; (e) maintain and promptly update the Registration Data and any information you provide to Smeeple, keep it accurate, current and complete; and (f) accept all risks of unauthorized access to information and Registration Data.</p>
+                    <p>All Users must:</p>
 
-                    <p>You will have a password upon completing the registration process on the Site. You are responsible for maintaining the confidentiality of the password and are fully responsible for all activities that occur under your password or account. You agree to (a) immediately notify Smeeple of any unauthorized use of your password or account or any other breach of security, and (b) ensure that you exit from your account at the end of each session. Smeeple cannot and will not be liable for any unauthorized access to your account or data that arises from your acts or omissions.</p>
+                    <ul class="list-alpha">
+                        <li>be of legal age and have capacity to agree to these Terms on their own behalf or on behalf of a minor who will be receiving expert sessions;</li>
+
+                        <li>reside within the United States,</li>
+
+                        <li>provide accurate, current, and complete information about themselves as required during Site registration ("Registration Data");</li>
+
+                        <li>maintain the security of any password and identification information used to access the Site;</li>
+
+                        <li>maintain and promptly update the Registration Data and any information you provide to Smeeple, keep it accurate, current and complete; and</li>
+
+                        <li>accept all risks of unauthorized access to information and Registration Data.</li>
+                    </ul>
+
+                    <p>You will have a password upon completing the registration process on the Site. You are responsible for maintaining the confidentiality of the password and are fully responsible for all activities that occur under your password or account. You agree to:</p>
+
+                    <ul class="list-alpha">
+                        <li>immediately notify Smeeple of any unauthorized use of your password or account or any other breach of security, and</li>
+
+                        <li>ensure that you exit from your account at the end of each session.</li>
+                    </ul>
+
+                    <p>Smeeple cannot and will not be liable for any unauthorized access to your account or data that arises from your acts or omissions.</p>
 
                     <p>Users must use the Site in a manner that is lawful, relevant and proper to the applicable forum. Any use of the Site that Smeeple, in its sole discretion, finds inappropriate and/or offensive may result in suspension and/or termination of a User with or without notice. Specifically, but without limitation, Users may not:</p>
 
@@ -100,23 +149,33 @@
 
                     <p>Smeeple reserves all of its rights under the Communications Decency Act, including without limitation its right to remove anything objectionable to Smeeple in its sole discretion. Alleged improprieties by any User may be reported to Smeeple by email at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</p>
 
-                    <h2>Third-party reports</h2>
+                    <h2>7. Third-party reports</h2>
 
                     <p>Smeeple may utilize third-party consumer reporting agencies that perform, among other things, criminal background checks, sex offender registry checks, motor vehicle records checks, credit checks, and identification verifications ("Consumer Reports"). Smeeple does not endorse or make any representations or warranties regarding the reliability of such Consumer Reports or the accuracy, timeliness or completeness of any information in the Consumer Reports. Smeeple does not independently verify information in the Consumer Reports.</p>
 
                     <p>Smeeple may collect, use and disclose the information in the Consumer Reports. Smeeple may, in its sole discretion, review and rely on the information in the Consumer Reports in deciding whether to suspend or terminate a User or to investigate a complaint about a User, but Smeeple shall not be responsible or liable in any way in the event that any information in the Consumer Reports about any person, including without limitation any Expert, is not accurate, timely or complete. Experts who are the subject of Consumer Reports may contact the service provider to dispute the accuracy, timeliness or completeness of such information. Smeeple reserves the right to suspend and/or terminate an Expert based on information in the Consumer Reports or for any other reason in Smeeple's sole discretion.</p>
 
-                    <p>Smeeple may make available one or more third-party verification services that enable Users of the Site to inquire about information including, but not limited to, another User's identity and criminal history. Use of a third-party verification service is voluntary for both the party requesting the verification and the party undergoing the verification. You agree that Smeeple shall not be held responsible or liable in any way if any information provided by a third-party verification service is inaccurate. When a third-party verification service is used, you warrant that you will comply with the Fair Credit Reporting Act, 15 USC 1681.</p>
+                    <p>Smeeple may make available one or more third-party verification services that enable Users of the Site to inquire about information including, but not limited to, another User's identity and criminal history. Use of a third-party verification service is voluntary for both the party requesting the verification and the party undergoing the verification. You agree that Smeeple shall not be held responsible or liable in any way if any information provided by a third-party verification service is inaccurate. When a third-party verification service is used, you warrant that you will comply with the <NuxtLink to="https://www.consumer.ftc.gov/articles/pdf-0111-fair-credit-reporting-act.pdf" target="_blank">Fair Credit Reporting Act</NuxtLink>, 15 USC 1681.</p>
 
-                    <p>See the <NuxtLink to="http://www.consumer.ftc.gov/articles/pdf-0111-fair-credit-reporting-act.pdf">Fair Credit Reporting Act</NuxtLink> for details.</p>
-
-                    <h2>Confidentiality of Smeeple information</h2>
+                    <h2>8. Confidentiality of Smeeple information</h2>
 
                     <p>You may obtain direct access via the Site to certain confidential information of Smeeple and its affiliates, including without limitation technical, contractual, product, program, pricing, marketing and other valuable information that should reasonably be understood as confidential ("Confidential Information"). You must hold Confidential Information in strict confidence. All right, title and interest in the Confidential Information remains with Smeeple and its affiliates.</p>
 
-                    <p>The Terms impose no obligation upon you with respect to Confidential Information that you can establish: (a) you possessed prior to your receipt from Smeeple, without an obligation to maintain its confidentiality; (b) is or becomes generally known to the public through no act or omission by you, or otherwise without violation of the Terms; (c) you obtained from a third party who had the right to disclose it, without an obligation to keep such information confidential; (d) you independently developed without the use of Confidential Information and without the participation of individuals who have had access to it, or (e) in response to a valid order by a court or other governmental body, or as otherwise required by law, or as necessary to establish the rights of either party under these Terms and as disclosed after prior notice to Smeeple adequate to afford Smeeple the opportunity to object to the disclosure.</p>
+                    <p>The Terms impose no obligation upon you with respect to Confidential Information that you can establish:</p>
 
-                    <h2>User content</h2>
+                    <ul class="list-alpha">
+                        <li>you possessed prior to your receipt from Smeeple, without an obligation to maintain its confidentiality;</li>
+
+                        <li>is or becomes generally known to the public through no act or omission by you, or otherwise without violation of the Terms;</li>
+
+                        <li>you obtained from a third party who had the right to disclose it, without an obligation to keep such information confidential;</li>
+
+                        <li>you independently developed without the use of Confidential Information and without the participation of individuals who have had access to it, or</li>
+
+                        <li>in response to a valid order by a court or other governmental body, or as otherwise required by law, or as necessary to establish the rights of either party under these Terms and as disclosed after prior notice to Smeeple adequate to afford Smeeple the opportunity to object to the disclosure.</li>
+                    </ul>
+
+                    <h2>9. User content</h2>
 
                     <p>You are solely responsible for any content that you create, transmit or display while using the Site.</p>
 
@@ -126,21 +185,47 @@
 
                     <p>You must have the legal right to the User Content you submit to the Site. You may not upload or post any User Content to the Site that infringes the copyright, trademark or other intellectual property rights of a third party nor may you upload User Content that violates any third party's right of privacy or right of publicity. You may post only User Content that you have permission to post from the owner or by law.</p>
 
-                    <p>Users shall not create, upload, post, send, receive or store User Content that: (a) is inaccurate, harmful, obscene, pornographic, defamatory, racist, violent, offensive, harassing, inconsistent with the Smeeple mission or otherwise objectionable to Smeeple or other Users; (b) includes unauthorized disclosure of personal information; (c) violates or infringes anyone's intellectual property rights; or (d) contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment. Smeeple reserves the right to edit or remove User Content that violates these Terms, that contains third-party commercial advertisements, or for any other reason it deems necessary.</p>
+                    <p>Users shall not create, upload, post, send, receive or store User Content that:</p>
 
-                    <h2>Terms of transacting business</h2>
+                    <ul class="list-alpha">
+                        <li>is inaccurate, harmful, obscene, pornographic, defamatory, racist, violent, offensive, harassing, inconsistent with the Smeeple mission or otherwise objectionable to Smeeple or other Users;</li>
 
-                    <p>Smeeple employs a third-party payment processor, Stripe. Users should become familiar with Stripe's terms and conditions, which are accessible at <NuxtLink to="https://stripe.com/legal/ssa" target="_blank">https://stripe.com/legal/ssa</NuxtLink>>. Users must pay all costs associated with the services through Stripe. These costs may include but are not limited to: (a) an Expert's hourly rate as listed; (b) travel and transportation fees; (c) cancellation fees as described in a Expert's cancellation policy, which can be found on a Expert's profile on the Site; (d) a service fee as listed; and (e) the platform fee arranged between the Expert and Smeeple. If a User cancels four hours or less prior to their scheduled time with an Expert, they are not eligible for a refund. Further, no refunds shall be granted for completed Expert sessions, unless the Expert agrees to do so unilaterally.</p>
+                        <li>includes unauthorized disclosure of personal information;</li>
 
-                    <h2>Advertisements and promotions</h2>
+                        <li>violates or infringes anyone's intellectual property rights;</li>
+
+                        <li>contains software viruses or any other computer code, files or programs designed to interrupt, destroy or limit the functionality of any computer software or hardware or telecommunications equipment.</li>
+                    </ul>
+
+                    <p>Smeeple reserves the right to edit or remove User Content that violates these Terms, that contains third-party commercial advertisements, or for any other reason it deems necessary.</p>
+
+                    <h2>10. Terms of transacting business</h2>
+
+                    <p>Smeeple employs a third-party payment processor, Stripe. Users should become familiar with the <NuxtLink to="https://stripe.com/legal/ssa" target="_blank">Stripe Service Agreement</NuxtLink>. Users must pay all costs associated with the services through Stripe. These costs may include but are not limited to:</p>
+
+                    <ul class="list-alpha">
+                        <li>an Expert's hourly rate as listed;</li>
+
+                        <li>travel and transportation fees;</li>
+
+                        <li>cancellation fees as described in a Expert's cancellation policy, which can be found on a Expert's profile on the Site;</li>
+
+                        <li>a service fee as listed; and</li>
+
+                        <li>the platform fee arranged between the Expert and Smeeple.</li>
+                    </ul>
+
+                    <p>If a User cancels four hours or less prior to their scheduled time with an Expert, they are not eligible for a refund. Further, no refunds shall be granted for completed Expert sessions, unless the Expert agrees to do so unilaterally.</p>
+
+                    <h2>11. Advertisements and promotions</h2>
 
                     <p>Smeeple may run advertisements and promotions from third parties on the Site. Your correspondence or business dealings with, or participation in promotions of, advertisers other than Smeeple, found on or through the Site, including payment and delivery of related goods or services, and any other terms, conditions, warranties or representations associated with such dealings, are solely between you and such advertiser. Smeeple is not responsible or liable for any loss or damage of any sort incurred as the result of any such dealings or as the result of the presence of such non-Smeeple advertisers on the Site.</p>
 
-                    <h2>Content provided via links</h2>
+                    <h2>12. Content provided via links</h2>
 
                     <p>You may find links to other websites or resources on the Site. You acknowledge and agree that Smeeple is not responsible for the availability of such external websites or resources, and does not endorse and is not responsible or liable for any content, advertising, products, or other materials on or available from such websites or resources. Smeeple will not be responsible or liable, directly or indirectly, for any actual or alleged damage or loss caused by or in connection with use of or reliance on any such content, goods or services available on or through any such site or resource.</p>
 
-                    <h2>Intellectual property rights</h2>
+                    <h2>13. Intellectual property rights</h2>
 
                     <p>Smeeple grants you permission (which may be revoked at any time for any reason or no reason) to use the Site for the purposes provided herein and in accordance with these Terms and solely for your own personal, non-commercial use (except as provided herein), provided you do not remove any trademark, copyright or other notice. No other use is permitted. You may not, for example, incorporate the information, content, or other material in any database, compilation, archive or cache. Except as specifically authorized by Smeeple, you may not deep-link to the Site for any purpose or access the Site manually or with any robot, spider, web crawler, extraction software, automated process or device to scrape, copy, or monitor any portion of the Site or any information, content, or material on the Site. Smeeple reserves all of its statutory and common law rights against any person or entity who violates this paragraph. You may not link or frame to any pages of the Site or any content contained therein, whether in whole or in part, without prior written consent from Smeeple. You may like or follow Smeeple or share links to the Site via social networking technology referenced on the Site. Any rights not expressly granted herein are reserved.</p>
 
@@ -148,15 +233,41 @@
 
                     <p>"Smeeple Trademarks" means all names, marks, brands, logos, designs, trade dress, slogans and other designations Smeeple uses in connection with its products and services. You may not remove or alter any Smeeple Trademarks, or co-brand your own products or material with Smeeple Trademarks, without Smeeple's prior written consent. You acknowledge Smeeple's rights in Smeeple Trademarks and agree that any use of Smeeple Trademarks by you shall inure to Smeeple's sole benefit. You agree not to incorporate any Smeeple Trademarks into your trademarks, service marks, company names, internet addresses, domain names, or any other similar designations, for use on or in connection with computer or internet-related products, services or technologies.</p>
 
-                    <p>Unless explicitly stated herein, nothing in these Terms shall be construed as conferring any license to intellectual property rights. Permission is granted to display, copy, distribute and download content owned by Smeeple on the Site provided that: (a) the copyright notice pertaining to the content remains, and a permission notice (e.g., "used with permission") is added to such content; (b) the use of such content is solely for personal and non-commercial use; (c) such content will not be copied or posted on any networked computer or published in any medium, except as explicitly permitted by valid permission or license covering such materials; and (d) no modifications are made to such content. This permission terminates automatically without notice if you breach any of the terms or conditions in this document. Upon termination, you must immediately destroy any downloaded and/or printed content.</p>
+                    <p>Unless explicitly stated herein, nothing in these Terms shall be construed as conferring any license to intellectual property rights. Permission is granted to display, copy, distribute and download content owned by Smeeple on the Site provided that:</p>
 
-                    <h2>Copyright infringement</h2>
+                    <ul class="list-alpha">
+                        <li>the copyright notice pertaining to the content remains, and a permission notice (e.g., "used with permission") is added to such content;</li>
+
+                        <li>the use of such content is solely for personal and non-commercial use;</li>
+
+                        <li>such content will not be copied or posted on any networked computer or published in any medium, except as explicitly permitted by valid permission or license covering such materials; and</li>
+
+                        <li>no modifications are made to such content.</li>
+                    </ul>
+
+                    <p>This permission terminates automatically without notice if you breach any of the terms or conditions in this document. Upon termination, you must immediately destroy any downloaded and/or printed content.</p>
+
+                    <h2>14. Copyright infringement</h2>
 
                     <p>Smeeple respects the intellectual property of others, and we ask our Users to do the same. Accordingly, Users may not post, modify, distribute, or reproduce in any way any content of Smeeple on the Site that is copyrighted material you do not own or have permission to use, without obtaining prior written consent of the copyright owner. Smeeple reserves the right, in its discretion, to remove any content on the Site if we believe it may infringe the copyright rights of others, and/or to terminate the accounts of Users who we believe to be infringers.</p>
 
-                    <p>If you believe that your work has been copied and posted on the Site in a way that constitutes copyright infringement, we will respond to notices of alleged infringement that comply with the Digital Millennium Copyright Act of 1998 (the "DMCA"), a federal law that provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law. If you believe in good faith that content or material hosted on the Site infringes your copyright, you (or your agent) may send Smeeple a notice requesting that the content or material be removed, or access to it blocked. The notice must include the following information: (a) a physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed; (b) identification of the copyrighted work claimed to have been infringed (or if multiple copyrighted works are covered by a single notification, a representative list of such works); (c) identification of the material that is claimed to be infringing or the subject of infringing activity, and information reasonably sufficient to allow Smeeple to locate the content or material within the Site; (d) the name, address, telephone number and email address (if available) of the complaining party; (e) a statement that the complaining party has a good faith belief that use of the content or material in the manner complained of is not authorized by the copyright owner, its agent or the law; and (f) a statement that the information in the notification is accurate and, under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed. If you believe in good faith that a notice of copyright infringement has been wrongly filed against you, the DMCA permits you to send us a counter-notice. Notices and counter-notices must meet the then-current statutory requirements imposed by the DMCA; see <NuxtLink to="http://www.loc.gov/copyright">http://www.loc.gov/copyright</NuxtLink> for details. Smeeple's agent for notice of claims of copyright or other intellectual property infringement can be reached as follows:</p>
+                    <p>If you believe that your work has been copied and posted on the Site in a way that constitutes copyright infringement, we will respond to notices of alleged infringement that comply with the Digital Millennium Copyright Act of 1998 (the "DMCA"), a federal law that provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law. If you believe in good faith that content or material hosted on the Site infringes your copyright, you (or your agent) may send Smeeple a notice requesting that the content or material be removed, or access to it blocked. The notice must include the following information:</p>
 
-                    <p>By email: <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink></p>
+                    <ul class="list-alpha">
+                        <li>a physical or electronic signature of a person authorized to act on behalf of the owner of an exclusive right that is allegedly infringed;</li>
+
+                        <li>identification of the copyrighted work claimed to have been infringed (or if multiple copyrighted works are covered by a single notification, a representative list of such works);</li>
+
+                        <li>identification of the material that is claimed to be infringing or the subject of infringing activity, and information reasonably sufficient to allow Smeeple to locate the content or material within the Site;</li>
+
+                        <li>the name, address, telephone number and email address (if available) of the complaining party;</li>
+
+                        <li>a statement that the complaining party has a good faith belief that use of the content or material in the manner complained of is not authorized by the copyright owner, its agent or the law; and</li>
+
+                        <li>a statement that the information in the notification is accurate and, under penalty of perjury, that the complaining party is authorized to act on behalf of the owner of an exclusive right that is allegedly infringed.</li>
+                    </ul>
+
+                    <p>If you believe in good faith that a notice of copyright infringement has been wrongly filed against you, the DMCA permits you to send us a counter-notice. Notices and counter-notices must meet the then-current statutory requirements imposed by the DMCA; see <NuxtLink to="http://www.loc.gov/copyright" target="_blank">http://www.loc.gov/copyright</NuxtLink> for details. Smeeple's agent for notice of claims of copyright or other intellectual property infringement can be reached at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</p>
 
                     <p class="uppercase">Under federal law, if you knowingly misrepresent that online material is infringing, you may be subject to criminal prosecution for perjury and civil penalties, including monetary damages, court costs, and attorneys' fees.</p>
 
@@ -164,7 +275,7 @@
 
                     <p>In accordance with the DMCA and other applicable law, Smeeple has adopted a policy of terminating, in appropriate circumstances, Users who are deemed to be repeat infringers. Smeeple may also at its sole discretion limit access to the Site and/or terminate the accounts of any Users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.</p>
 
-                    <h2>Termination and suspension</h2>
+                    <h2>15. Termination and suspension</h2>
 
                     <p>Smeeple reserves the right at any time and from time to time to modify or temporarily discontinue Smeeple's services (or any part thereof) with or without notice. You agree that Smeeple shall not be liable to you or to any third party for any modification, suspension or temporary discontinuance of service.</p>
 
@@ -172,17 +283,27 @@
 
                     <p>You will have the ability to delete your account from the Profile tab in the mobile application. This will automatically wipe out video recordings, messages, past and upcoming appointments, profiles, notes, logins, etc. You will receive an email once this is complete.</p>
 
-                    <h2>Disclaimer of warranties</h2>
+                    <h2>16. Disclaimer of warranties</h2>
 
                     <p class="uppercase">You expressly understand and agree that:</p>
 
                     <p class="uppercase">Use of the Site is at your sole risk unless otherwise explicitly stated. The Site, including the information, services, and content, is provided on an "as is", "as available", and "with all faults" basis. Smeeple disclaims all express or implied conditions, representations, and warranties of any kind, including any implied warranty or condition of merchantability, satisfactory quality, or fitness for a particular purpose. Smeeple makes no representations, warranties, conditions or guarantees as to the usefulness, quality, suitability, truth, accuracy, or completeness of the Site.</p>
 
-                    <p class="uppercase">Smeeple makes no warranty or representations that: (a) the Site will be uninterrupted, timely, secure, or error-free; (b) the results that may be obtained from the use of the website will be accurate or reliable; (c) the quality of any products, services, content, information, or other material purchased or obtained from Experts will meet your expectations or requirements; (d) any errors in the Site will be corrected; or that the services are appropriate for use or access outside of the united states.</p>
+                    <p class="uppercase">Smeeple makes no warranty or representations that:</p>
+
+                    <ul class="list-alpha">
+                        <li>the Site will be uninterrupted, timely, secure, or error-free;</li>
+
+                        <li>the results that may be obtained from the use of the website will be accurate or reliable;</li>
+
+                        <li>the quality of any products, services, content, information, or other material purchased or obtained from Experts will meet your expectations or requirements;</li>
+
+                        <li>any errors in the Site will be corrected; or that the services are appropriate for use or access outside of the united states.</li>
+                    </ul>
 
                     <p class="uppercase">You assume all risk for any damage to your computer system or device or loss of data that results from obtaining any content from the Site, including any damages resulting from computer viruses.</p>
 
-                    <h2>Limitation of liability</h2>
+                    <h2>17. Limitation of liability</h2>
 
                     <p class="uppercase">The Site offers a marketplace for those seeking expert services to connect with those seeking to provide expert sessions.</p>
 
@@ -190,41 +311,101 @@
 
                     <p class="uppercase">Users of the Site transact between themselves. Smeeple will not be involved in any User interactions. Smeeple is not responsible for disputes, claims, loss, injury, or damage of any kind that might arise during and after User interaction.</p>
 
-                    <p class="uppercase">To the full extent permitted by law, Smeeple is not liable for any direct, indirect, punitive, special, incidental, consequential, or exemplary damages (including without limitation loss of business, revenue, profits, goodwill, use, data, electronically transmitted orders, or other economic advantage) arising out of or in connection with the Site, even if Smeeple has previously been advised of, or reasonably could have foreseen, the possibility of such damages, however they arise, whether in breach of contract or in tort (including negligence), including without limitation damages due to: (a) the use of or the inability to use the Site; (b) the cost or procurement of substitute goods and services resulting from any goods, data, information, or services purchased or obtained, or messages received or transactions entered into, through or from the Site; (c) statements or conduct of any third party on the Site, including without limitation unauthorized access to or alteration of transmission or data, malicious or criminal behavior, or false or fraudulent transactions; or (d) content or information Users may download, use, modify, or distribute. These limitations shall apply notwithstanding any failure of essential purpose of any limited remedy. Because some jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitations may not apply to you. In no event shall Smeeple's total liability to you for all damages, losses and causes of action, whether in contract, tort (including but not limited to, negligence) or otherwise, exceed (a) the amount paid by you to Smeeple or a Smeeple partner, if any, or (b) $100 (whichever is less).</p>
+                    <p class="uppercase">To the full extent permitted by law, Smeeple is not liable for any direct, indirect, punitive, special, incidental, consequential, or exemplary damages (including without limitation loss of business, revenue, profits, goodwill, use, data, electronically transmitted orders, or other economic advantage) arising out of or in connection with the Site, even if Smeeple has previously been advised of, or reasonably could have foreseen, the possibility of such damages, however they arise, whether in breach of contract or in tort (including negligence), including without limitation damages due to:</p>
+
+                    <ul class="uppercase">
+                        <li><strong class="lowercase">a.</strong> the use of or the inability to use the Site;</li>
+
+                        <li><strong class="lowercase">b.</strong> the cost or procurement of substitute goods and services resulting from any goods, data, information, or services purchased or obtained, or messages received or transactions entered into, through or from the Site;</li>
+
+                        <li><strong class="lowercase">c.</strong> statements or conduct of any third party on the Site, including without limitation unauthorized access to or alteration of transmission or data, malicious or criminal behavior, or false or fraudulent transactions; or</li>
+
+                        <li><strong class="lowercase">d.</strong> content or information Users may download, use, modify, or distribute.</li>
+                    </ul>
+
+                    <p class="uppercase">These limitations shall apply notwithstanding any failure of essential purpose of any limited remedy. Because some jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, the above limitations may not apply to you. In no event shall Smeeple's total liability to you for all damages, losses and causes of action, whether in contract, tort (including but not limited to, negligence) or otherwise, exceed:</p>
+
+                    <ul class="uppercase">
+                        <li><strong class="lowercase">a.</strong> the amount paid by you to Smeeple or a Smeeple partner, if any, or</li>
+
+                        <li><strong class="lowercase">b.</strong> $100 (whichever is less).</li>
+                    </ul>
 
                     <p class="uppercase">You and Smeeple agree that the warranty disclaimers and limitations of liability in these Terms are material, bargained-for bases of this agreement, and that they have been taken into account in determining the consideration to be given by each party under this agreement and in the decision by each party to enter into this agreement. You and Smeeple agree that the warranty disclaimers and limitations of liability in these Terms are fair and reasonable.</p>
 
                     <p class="uppercase">If you are dissatisfied with the Site or do not agree to any provisions of these Terms, your sole and exclusive remedy is to discontinue using the Site, except as may be provided for in this section 18.</p>
 
-                    <h2>Assumption of risk</h2>
+                    <h2>18. Assumption of risk</h2>
 
                     <p>Users assume all risks when using the Site, including without limitation any and all of the risks associated with any online or offline interactions with other Users. Users shall take all necessary precautions when interacting with other Users.</p>
 
-                    <h2>Indemnification</h2>
+                    <h2>19. Indemnification</h2>
 
-                    <p>Users shall indemnify, defend, and hold harmless Smeeple and its subsidiaries, affiliates, shareholders, officers, directors, agents, licensors, suppliers, other partners, employees, and representatives from and against any and all claims, demands, causes of action, losses, expenses, damages and/or liabilities, including reasonable attorney's fees and court costs, incurred by Smeeple in any way related to your (a) acts and/or omissions on or off the Site; (b) violation of any rights of another, including without limitation any alleged infringement of intellectual property or other right of any person or entity relating to the Site; (c) breach of these Terms; (d) disputes with or between other Users; (e) use and/or misuse of the Site, including without limitation any information, content and/or materials thereon; (f) violation of any applicable law or regulation; (g) inaccurate, untimely, incomplete or misleading User information, including without limitation with respect to registration, profile or eligibility; (h) misstatements and/or misrepresentations; (i) use of links to third party websites, including without limitation such websites' availability, terms of use, privacy policy, information, content, materials, advertising, products and/or services; (j) User information and any acts or omissions with respect to such User information; (k) use of any information in third-party reports; (l) use of third party payment processing services; (m) use of phone support services; and/or (n) use of any services or products or any contracts or arrangements made or provided based on information, content and/or materials obtained on or through the Site. Users must cooperate as requested by Smeeple in the defense of such claims. Smeeple reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by Users, and you shall not, in any event, settle any claim or matter on behalf of Smeeple without the written consent of Smeeple.</p>
+                    <p>Users shall indemnify, defend, and hold harmless Smeeple and its subsidiaries, affiliates, shareholders, officers, directors, agents, licensors, suppliers, other partners, employees, and representatives from and against any and all claims, demands, causes of action, losses, expenses, damages and/or liabilities, including reasonable attorney's fees and court costs, incurred by Smeeple in any way related to your:</p>
 
-                    <h2>Arbitration</h2>
+                    <ul class="list-alpha">
+                        <li>acts and/or omissions on or off the Site;</li>
 
-                    <p><span class="uppercase">Read this section carefully because it requires the parties to arbitrate their disputes and limits the manner in which you can seek relief from</span> Smeeple. For any dispute with Smeeple, you agree to first contact us at [url] and attempt to resolve the dispute with us informally. In the unlikely event that Smeeple has not been able to resolve a dispute it has with you after sixty (60) days, we each agree to resolve any controversy or claim arising out of or relating to this contract, or the breach thereof, by binding arbitration administered by the american arbitration association in accordance with its commercial arbitration rules and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. The place of arbitration shall be st. Mary's county, maryland. Except as may be required by law, neither a party nor an arbitrator may disclose the existence, content, or results of any arbitration hereunder without the prior written consent of Smeeple and expert. Nothing in this section shall be deemed as preventing Smeeple from seeking injunctive or other equitable relief from the courts as necessary to prevent the actual or threatened infringement, misappropriation, or violation of our data security, intellectual property rights or other proprietary rights.</p>
+                        <li>violation of any rights of another, including without limitation any alleged infringement of intellectual property or other right of any person or entity relating to the Site;</li>
 
-                    <h2>Injunction</h2>
+                        <li>breach of these Terms;</li>
+
+                        <li>disputes with or between other Users;</li>
+
+                        <li>use and/or misuse of the Site, including without limitation any information, content and/or materials thereon;</li>
+
+                        <li>violation of any applicable law or regulation;</li>
+
+                        <li>inaccurate, untimely, incomplete or misleading User information, including without limitation with respect to registration, profile or eligibility;</li>
+
+                        <li>misstatements and/or misrepresentations;</li>
+
+                        <li>use of links to third party websites, including without limitation such websites' availability, terms of use, privacy policy, information, content, materials, advertising, products and/or services;</li>
+
+                        <li>User information and any acts or omissions with respect to such User information;</li>
+
+                        <li>use of any information in third-party reports;</li>
+
+                        <li>use of third party payment processing services;</li>
+
+                        <li>use of phone support services; and/or</li>
+
+                        <li>use of any services or products or any contracts or arrangements made or provided based on information, content and/or materials obtained on or through the Site.</li>
+                    </ul>
+
+                    <p>Users must cooperate as requested by Smeeple in the defense of such claims. Smeeple reserves the right, at its own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by Users, and you shall not, in any event, settle any claim or matter on behalf of Smeeple without the written consent of Smeeple.</p>
+
+                    <h2>20. Arbitration</h2>
+
+                    <p><span class="uppercase">Read this section carefully because it requires the parties to arbitrate their disputes and limits the manner in which you can seek relief from</span> Smeeple. For any dispute with Smeeple, you agree to first contact us at <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink> and attempt to resolve the dispute with us informally. In the unlikely event that Smeeple has not been able to resolve a dispute it has with you after sixty (60) days, we each agree to resolve any controversy or claim arising out of or relating to this contract, or the breach thereof, by binding arbitration administered by the american arbitration association in accordance with its commercial arbitration rules and judgment on the award rendered by the arbitrator(s) may be entered in any court having jurisdiction thereof. The place of arbitration shall be st. Mary's county, maryland. Except as may be required by law, neither a party nor an arbitrator may disclose the existence, content, or results of any arbitration hereunder without the prior written consent of Smeeple and expert. Nothing in this section shall be deemed as preventing Smeeple from seeking injunctive or other equitable relief from the courts as necessary to prevent the actual or threatened infringement, misappropriation, or violation of our data security, intellectual property rights or other proprietary rights.</p>
+
+                    <h2>21. Injunction</h2>
 
                     <p>Notwithstanding Section 21, Users agree that any material breach of the Terms will result in irreparable harm to Smeeple for which damages would be an inadequate remedy and, therefore, in addition to its rights and remedies otherwise available at law, Smeeple reserves the right to seek equitable relief through the court system, including both a preliminary and permanent injunction, if such a breach occurs. You waive any requirement for the posting of a bond or other security if Smeeple seeks such an injunction.</p>
 
-                    <h2>Notices; modification and termination of services; amendment of terms</h2>
+                    <h2>22. Notices; modification and termination of services; amendment of terms</h2>
 
                     <p>Smeeple may provide notice to Users via email, regular mail, or posting notices or links to notices on the Site. Smeeple reserves the right at any time to modify, suspend or terminate the services (or any part thereof), and/or use of or access to them, with or without notice. Smeeple may also delete, or bar access to or use of, all related information and files. Smeeple will not be liable to Users or any third-party for any modification, suspension, or termination of service, or loss of related information. Smeeple may amend these Terms at any time by posting the amended terms on this Site. Your continued use of the Site following such update constitutes your acceptance of the revised Terms. If you do not agree to any of these Terms or to any future terms in a future revision of this Agreement, do not use or access (or continue to access) the Site.</p>
 
                     <p>Notwithstanding the foregoing, Smeeple shall not make any material change to the Terms that relate to the collection or use of Customer data without first giving notice to the school or parent and providing a choice before the Customer data is used in a materially different manner than was disclosed when the information was collected.</p>
 
-                    <h2>Governing law; waivers</h2>
+                    <h2>23. Governing law; waivers</h2>
 
                     <p>This Agreement shall be governed by and construed in accordance with the substantive laws, without regard to choice-of-law rules, of the State of Delaware. You agree to submit to the personal jurisdiction of the federal and state courts located in [Lusby, Maryland] for any actions for which we retain the right to seek injunctive or other equitable relief in a court of competent jurisdiction to prevent the actual or threatened infringement, misappropriation or violation of our copyrights, trademarks, trade secrets, patents, or other intellectual property or proprietary rights, as set forth in Section 21 (Arbitration), including any provisional relief required to prevent irreparable harm. You agree that St. Mary's, Maryland is the proper forum for any appeals of an arbitration award or for trial court proceedings if Section 21 (Arbitration) is found to be unenforceable.</p>
 
                     <p class="uppercase">With respect to all persons and entities, regardless of whether they have obtained or used the service for personal, commercial or other purposes, all claims must be brought in the parties' individual capacity, and not as a plaintiff or class member in any purported class action, collective action, private attorney general action or other representative proceeding. This waiver applies to class arbitration, and, unless we agree otherwise, the arbitrator may not consolidate more than one person's claims. You agree that, by entering into this agreement, you and smeeple are each waiving the right to a trial by jury or to participate in a class action, collective action, private attorney general action, or other representative proceeding of any kind.</p>
 
-                    <h2>Entire agreement</h2>
+                    <h2>24. Physical activity</h2>
+
+                    <p>Through the Platform, Experts may offer informative and/or educational services relating to physical activities. You should consider the risks and dangers involved in these activities and consult with your physician or a medical professional before engaging in any such activities. If you have, or if your family has, a history of medical conditions that may be impacted by exercise (e.g., heart disease, high blood pressure), you should not engage in such activities. The services provided by Experts through the Platform do not constitute, and should not be taken to be, the practice of medicine or that of a healthcare professional.</p>
+
+                    <h2>25. Payment</h2>
+
+                    <p>Smeeple does not process payments or handle User funds ("Fees"). Rather, the Platform provides for Fees to be made from Consumers to Experts ("Payments") through our payment processing partner, Stripe. Therefore, Consumers must review, accept and agree to be bound by the <NuxtLink to="https://stripe.com/legal/ssa" target="_blank">Stripe Services Agreement</NuxtLink>, and any other related terms and conditions provided by Stripe. Experts must review, accept, and agree to be bound by the <NuxtLink to="https://stripe.com/connect-account/legal" target="_blank">Stripe Connected Account Agreement</NuxtLink> and any other related terms and conditions provided by Stripe. By using the Platform, Consumers authorize Stripe to charge your credit/debit card, bank account or other payment method for Sessions purchased on the Platform. By using the Platform, Experts authorize Stripe to charge or disburse Fees to your bank account or other payment method for Sessions provided through the Platform. It is a Users obligation to keep Consumer payment or Expert disbursement information up to date, and the Company will not be responsible for any delays in payment resulting from your failure to do so.</p>
+
+                    <p>Should any disputes arise regarding payments made by Consumers or earned by Experts in connection with Platform, you agree to the following dispute resolution procedure. You may initiate a dispute in the Platform, or may submit any payment dispute by email to <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>. This includes all disputes relating to alleged charges and/or payment errors, refund requests, and any other disputes relating to payments by Consumers or earnings and disbursements to Experts. The Company will endeavor to review your claim and provide a written determination within thirty (30) days of receipt, unless otherwise required by law. Our review will be based on these Terms and the Stripe Services Agreement. For Consumers, we will attempt to cause Stripe to pay you any disputed amounts we determine you are owed using the method with which you made the disputed payment, but we cannot guarantee that we will be able to do so if your payment method information is inaccurate, incomplete, or has been cancelled. If as a Consumer you close or deactivate your account before we reach a final resolution of your claim, we will not be able to issue you any amounts you are owed and are not responsible for any resulting delays or non-payment. For Experts, we will attempt to cause Stripe to pay you any disputed amounts we determine you are owed using bank account or other disbursement information you provided to Stripe.</p>
+
+                    <h2>26. Entire agreement</h2>
 
                     <p>These Terms (including, solely as to Experts, the Expert Instructor Agreement entered into by the applicable Expert) constitute the entire agreement between you and Smeeple relating to their subject matter, and cancel and supersede any prior versions of the Terms. You may not assign or otherwise transfer the Terms or any right granted hereunder. You also may be subject to additional terms and conditions that may apply when you use the Site or third-party products or services. If any term in the Expert Instructor Agreement conflicts with a term in these Terms, the Expert Instructor Agreement shall control.</p>
 
