@@ -214,8 +214,6 @@
         &-primary,
         &-secondary,
         &-tertiary,
-        &-primary-outline,
-        &-secondary-outline,
         &-tertiary-outline {
             @apply rounded-lg border px-2 py-1 text-center transition-all duration-300;
         }
@@ -241,6 +239,14 @@
 
             &:hover {
                 @apply lg:border-orange-light lg:bg-orange-lighter;
+            }
+
+            &-outline {
+                @apply border-orange-light text-orange-light;
+
+                &:hover {
+                    @apply lg:border-orange-light lg:bg-orange-light lg:text-white;
+                }
             }
         }
 
@@ -323,6 +329,10 @@
             li {
                 @apply mb-0;
             }
+        }
+
+        &-alpha {
+            list-style-type: lower-alpha;
         }
 
         &-circle {
