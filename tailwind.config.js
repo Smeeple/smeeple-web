@@ -2,7 +2,7 @@
 
 module.exports = {
     content: [
-        'src/assets/**/*.{js,ts}',
+        'src/assets/**/*.{js,json,ts}',
         'src/components/**/*.vue',
         'src/layouts/**/*.vue',
         'src/pages/**/index.vue',
@@ -42,7 +42,10 @@ module.exports = {
             'blue-light'    : '#615af3',
             blue            : '#2d3287',
             'blue-dark'     : '#151943',
+            'gray-lighter'  : '#fafafa',
             'gray-light'    : '#f2f3f3',
+            gray            : '#e1e1e1',
+            'gray-dark'     : '#d1d1d1',
             'green-lighter' : '#6bce9d',
             'green-light'   : '#5ebf8f',
             green           : '#2d865a',
