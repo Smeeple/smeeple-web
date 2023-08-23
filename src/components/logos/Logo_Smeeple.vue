@@ -27,9 +27,9 @@
         <!-- e -->
         <path
             :class="{
-                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderBgBlue && !isMobileNavOpen,
-                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderBgBlue && !isMobileNavOpen) || (isHeaderBgBlue && isMobileNavOpen),
-                'fill-white duration-1000': !isHeaderBgBlue && isMobileNavOpen,
+                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderFixed && !isMobileNavOpen,
+                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderFixed && !isMobileNavOpen) || (isHeaderFixed && isMobileNavOpen),
+                'fill-white duration-1000': !isHeaderFixed && isMobileNavOpen,
             }"
             class="transition-all"
             d="m91.0499,25.9739c-.3178-.1895-.6845-.0733-.9779.1467-1.6012,1.1917-3.2697,2.0657-5.3048,2.0657-3.0374,0-5.3476-2.0779-6.6555-5.0115h18.0107c.2873,0,.5378-.2139.5806-.4951.1283-.8251.1283-1.5034.1283-2.2185,0-6.8755-5.4209-12.2658-12.3453-12.2658s-12.0213,5.6043-12.0213,12.7547c0,6.5515,5.6715,12.3025,12.1436,12.3025,3.7097,0,7.0771-1.6929,9.3567-4.4981.3056-.3789.1833-.9534-.2383-1.1979l-2.6829-1.5829h.0061,0Zm-6.4415-12.7181c3.2941,0,6.1237,2.3529,6.7043,5.4637h-13.3231c.6234-3.3919,3.8136-5.4637,6.6188-5.4637Z" />
@@ -37,9 +37,9 @@
         <!-- p -->
         <path
             :class="{
-                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderBgBlue && !isMobileNavOpen,
-                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderBgBlue && !isMobileNavOpen) || (isHeaderBgBlue && isMobileNavOpen),
-                'fill-white duration-1000': !isHeaderBgBlue && isMobileNavOpen,
+                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderFixed && !isMobileNavOpen,
+                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderFixed && !isMobileNavOpen) || (isHeaderFixed && isMobileNavOpen),
+                'fill-white duration-1000': !isHeaderFixed && isMobileNavOpen,
             }"
             class="transition-all"
             d="m111.9208,8.1894c-2.9152,0-5.4881,1.0389-7.4071,2.9641v-1.6745c0-.3789-.3056-.6845-.6845-.6845h-3.5325c-.5561,0-1.0084.4523-1.0084,1.0084v30.4353c0,.5561.4523,1.0084,1.0084,1.0084h3.5691c.5561,0,1.0084-.4523,1.0084-1.0084v-9.6562c1.7357,1.6868,4.3453,2.6585,7.3216,2.6585,6.7655,0,12.0641-5.372,12.0641-12.2291,0-7.3155-5.3109-12.8342-12.3453-12.8342l.0061.0122h0Zm6.7532,12.5897c0,4.0641-3.0374,7.2421-6.9183,7.2421s-6.9549-3.2147-6.9549-7.3216,3.1107-7.2849,6.796-7.2849c4.2353,0,7.0771,3.8075,7.0771,7.3644h0Z" />
@@ -47,9 +47,9 @@
         <!-- l -->
         <path
             :class="{
-                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderBgBlue && !isMobileNavOpen,
-                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderBgBlue && !isMobileNavOpen) || (isHeaderBgBlue && isMobileNavOpen),
-                'fill-white duration-1000': !isHeaderBgBlue && isMobileNavOpen,
+                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderFixed && !isMobileNavOpen,
+                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderFixed && !isMobileNavOpen) || (isHeaderFixed && isMobileNavOpen),
+                'fill-white duration-1000': !isHeaderFixed && isMobileNavOpen,
             }"
             class="transition-all"
             d="m131.7465,0h-3.5691c-.5561,0-1.0084.4523-1.0084,1.0084v30.6615c0,.5561.4523,1.0084,1.0084,1.0084h3.5691c.5623,0,1.0145-.4523,1.0145-1.0145V1.0084c0-.5561-.4523-1.0084-1.0084-1.0084h-.0061Z" />
@@ -57,9 +57,9 @@
         <!-- e -->
         <path
             :class="{
-                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderBgBlue && !isMobileNavOpen,
-                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderBgBlue && !isMobileNavOpen) || (isHeaderBgBlue && isMobileNavOpen),
-                'fill-white duration-1000': !isHeaderBgBlue && isMobileNavOpen,
+                'fill-blue duration-300': parentClass === 'logo-dark' && !isHeaderFixed && !isMobileNavOpen,
+                'fill-white duration-300': parentClass === 'logo-light' || (isHeaderFixed && !isMobileNavOpen) || (isHeaderFixed && isMobileNavOpen),
+                'fill-white duration-1000': !isHeaderFixed && isMobileNavOpen,
             }"
             class="transition-all"
             d="m154.2186,25.9739c-.3178-.1895-.6845-.0733-.9779.1467-1.6012,1.1917-3.2697,2.0657-5.3048,2.0657-3.0374,0-5.3476-2.0779-6.6555-5.0115h18.0106c.2873,0,.5378-.2139.5806-.4951.1283-.8251.1283-1.5034.1283-2.2185,0-6.8755-5.4209-12.2658-12.3453-12.2658s-12.0213,5.6043-12.0213,12.7547c0,6.5515,5.6715,12.3025,12.1436,12.3025,3.7097,0,7.0771-1.6929,9.3567-4.4981.3056-.3789.1833-.9534-.2383-1.1979l-2.6829-1.5829h.0061Zm-6.4415-12.7181c3.2941,0,6.1237,2.3529,6.7043,5.4637h-13.3231c.6234-3.3919,3.8136-5.4637,6.6188-5.4637Z" />
@@ -69,7 +69,7 @@
 <script>
     export default {
         props: {
-            isHeaderBgBlue: Boolean,
+            isHeaderFixed: Boolean,
             isMobileNavOpen: Boolean,
             parentClass: String,
         },

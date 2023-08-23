@@ -13,7 +13,7 @@
                 <NuxtLink to="/">
                     <Logo_Smeeple v-if="parentClass === 'header-light'" parentClass="logo-light" />
 
-                    <Logo_Smeeple v-else-if="parentClass === 'header-dark'" :isHeaderBgBlue="isHeaderBgBlue" :isMobileNavOpen="isMobileNavOpen" parentClass="logo-dark" />
+                    <Logo_Smeeple v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" parentClass="logo-dark" />
                 </NuxtLink>
 
                 <nav>
@@ -27,7 +27,7 @@
                 <div :class="{ 'nav-toggle-open': isMobileNavOpen }" class="nav-toggle lg:hidden">
                     <Icon_Menu v-if="parentClass === 'header-light'" @click="toggleMobileNav" parentClass="icon-light" />
 
-                    <Icon_Menu v-else-if="parentClass === 'header-dark'" :isHeaderBgBlue="isHeaderBgBlue" :isMobileNavOpen="isMobileNavOpen" @click="toggleMobileNav" parentClass="icon-dark" />
+                    <Icon_Menu v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" @click="toggleMobileNav" parentClass="icon-dark" />
                 </div>
             </div>
         </div>
