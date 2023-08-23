@@ -20,7 +20,7 @@ export default defineNuxtConfig({
                 // { src: 'https://code.jquery.com/jquery-3.6.0.min.js', tagPosition: 'head' },
                 // { src: 'assets/js/supabase.js', tagPosition: 'bodyClose' }
             ],
-            bodyAttrs: { class: 'sm-max:pt-[92px] md:pt-[141px]' }
+            bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' }
         }
     },
     css: [ 'assets/scss/styles.scss' ],
