@@ -1,13 +1,13 @@
 export default {
     data() {
         return {
-            isHeaderBgBlue: false,
+            isHeaderFixed: false,
             isMobileNavOpen: false,
         };
     },
     methods: {
-        checkHeaderBgBlue() {
-            this.isHeaderBgBlue = document.querySelector('header').classList.contains('bg-blue');
+        checkHeaderFixed() {
+            this.isHeaderFixed = document.querySelector('header').classList.contains('bg-blue');
         },
         toggleMobileNav() {
             this.isMobileNavOpen = !this.isMobileNavOpen;
@@ -20,10 +20,10 @@ export default {
         },
     },
     mounted() {
-        // isHeaderBgBlue
-        this.checkHeaderBgBlue();
+        // isHeaderFixed
+        this.checkHeaderFixed();
 
-        new MutationObserver(this.checkHeaderBgBlue).observe(document.querySelector('header'), {
+        new MutationObserver(this.checkHeaderFixed).observe(document.querySelector('header'), {
             attributeFilter: ['class'],
             attributes: true,
         });
