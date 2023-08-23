@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "question": "What does Smeeple mean?",
-        "answer": "<strong>SME + PEOPLE = SMEEPLE</strong><br /><br />A SME is a subject matter expert who has built competencies in their field of expertise, through years of learning and experience."
+        "question": "What is Smeeple?",
+        "answer": "Smeeple is a platform that connects people to subject matter experts (SMEs), through video conferencing, to gain knowledge, skills, and insight."
     },
     {
         "id": 2,
-        "question": "What is Smeeple?",
-        "answer": "Smeeple is a platform that connects people to subject matter experts (SMEs), through video conferencing, to gain knowledge, skills, and insight."
+        "question": "What does Smeeple mean?",
+        "answer": "A SME is a subject matter expert who has built competencies in their field of expertise, through years of learning and experience. <strong>SME + PEOPLE = SMEEPLE</strong>"
     },
     {
         "id": 3,
@@ -22,7 +22,7 @@
     {
         "id": 5,
         "question": "Can I communicate with the expert before a session?",
-        "answer": "Yes, it is important to ensure you are set up for your session. A few helpful hints:<ul><li>SMEs will leave up to 5 booking tips which appear during the checkout flow.</li><li>You can leave notes during the checkout to better prepare the type of questions you will be asking the SME.</li><li>You will be able to type in a chat box and share attachments with the SME during the call.</li><li>A history of the chat is available from the session once it has ended.</li></ul>"
+        "answer": "Yes, it is important to ensure you are set up for your session. A few helpful hints:<ul class='list-disc'><li class='mb-3 indent-0'>SMEs will leave up to 5 booking tips which appear during the checkout flow.</li><li class='mb-3 indent-0'>You can leave notes during the checkout to better prepare the type of questions you will be asking the SME.</li><li class='mb-3 indent-0'>You will be able to type in a chat box and share attachments with the SME during the call.</li><li class='indent-0'>A history of the chat is available from the session once it has ended.</li></ul>"
     },
     {
         "id": 6,
