@@ -1,14 +1,10 @@
-# 🧳 Introduction
-
-A starter repo for [Nuxt](https://nuxt.com/docs/getting-started/introduction), the free and open-source framework with an intuitive and extendable way to create type-safe, performant, and production-grade web projects with Vue.js.
-
 # 🛠 Installation
 
 ## Current versions
 
-- **NVM:** _0.39.3_
-- **Node:** _20.1.0_
-- **NPM:** _9.6.4_
+-   **NVM:** _0.39.3_
+-   **Node:** _20.1.0_
+-   **NPM:** _9.6.4_
 
 ## Clone the repository
 
@@ -22,7 +18,7 @@ git clone git@github.com:ryanaltvater/nuxt-starter.git
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh
 ```
 
-- `nvm` allows the installation and use of different versions of Node, via the command line.
+-   `nvm` allows the installation and use of different versions of Node, via the command line.
 
 ## Install [Node](https://nodejs.org/en/about)
 
@@ -38,7 +34,7 @@ Then, install Node.
 nvm install
 ```
 
-- Uses the version of Node that's specified in the `.nvmrc` file.
+-   Uses the version of Node that's specified in the `.nvmrc` file.
 
 ## Install [dependencies](https://docs.npmjs.com/about-packages-and-modules)
 
@@ -46,8 +42,8 @@ nvm install
 npm ci
 ```
 
-- [`ci`](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) stands for clean install, and is used to install exact versions of all dependencies from a `package-lock.json` file.
-- `npm i` (or `npm install`) is used to install all dependencies from a `package.json` file.
+-   [`ci`](https://blog.npmjs.org/post/171556855892/introducing-npm-ci-for-faster-more-reliable) stands for clean install, and is used to install exact versions of all dependencies from a `package-lock.json` file.
+-   `npm i` (or `npm install`) is used to install all dependencies from a `package.json` file.
 
 # 👟 Run commands
 
