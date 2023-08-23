@@ -2,6 +2,7 @@
     definePageMeta({
         layout: 'interior',
     });
+
     useHead({
         title: 'Contact us',
         meta: [
