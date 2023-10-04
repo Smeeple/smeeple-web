@@ -3,7 +3,7 @@
 // ========================================================================== //
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400&family=Karla:wght@300;500;700&family=Poppins:wght@300;400;500&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Caveat:wght@400&family=Karla:wght@300;500;700&family=Poppins:wght@300;400;500&display=swap';
 
 // Partials
 @import 'partials/animations';
@@ -19,14 +19,30 @@
 
 // Directives
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
 @tailwind variants;
+@tailwind components;
 
 // Layers
 @layer base {
     * {
         @apply font-karla font-light;
+    }
+
+    body:not(.home) {
+        h1 {
+            &::after {
+                @apply bg-green-light;
+
+                content: '';
+                position: absolute;
+                bottom: -4px;
+                left: 0;
+                width: 100%;
+                max-width: 60px;
+                height: 3px;
+            }
+        }
     }
 
     section {
@@ -49,7 +65,7 @@
     h5,
     h6,
     p {
-        @apply mb-3;
+        @apply mb-2;
     }
 
     h1,
@@ -59,22 +75,14 @@
     h5,
     h6 {
         @apply font-poppins;
+
+        span {
+            @apply font-poppins;
+        }
     }
 
     h1 {
-        @apply relative inline-block pb-1 font-medium uppercase text-blue-light sm-max:text-28 sm-max:leading-tight md:text-36;
-
-        &::after {
-            @apply bg-green-light;
-
-            content: '';
-            position: absolute;
-            bottom: -4px;
-            left: 0;
-            width: 100%;
-            max-width: 60px;
-            height: 3px;
-        }
+        @apply relative inline-block pb-1 font-medium text-blue-light sm-max:text-40 sm-max:leading-tight md:text-48;
     }
 
     h2,
@@ -86,34 +94,39 @@
     }
 
     h2 {
-        @apply text-green-light sm-max:text-24 md:text-28;
+        @apply text-green-light sm-max:text-36 md:text-40;
     }
 
     h3 {
-        @apply text-orange-light sm-max:text-20 md:text-24;
+        @apply text-32 text-orange-light;
     }
 
     h4 {
-        @apply text-20;
+        @apply text-30;
     }
 
     h5 {
-        @apply text-18;
+        @apply text-28;
     }
 
     h6 {
-        @apply text-16;
+        @apply text-26;
     }
 
     p,
     ul,
     ol,
+    label,
+    input[type='text'],
+    input[type='email'],
+    select,
+    textarea,
     [class*='cta'] {
         @apply text-20;
     }
 
     p,
-    ul:not(.nav-list):not(.app-list) li,
+    ul:not(.nav-list, .app-list) li,
     ol li {
         a {
             @apply font-bold text-blue-light underline underline-offset-2;
@@ -124,6 +137,10 @@
         &:last-of-type {
             @apply mb-0;
         }
+    }
+
+    a {
+        @apply inline-block;
     }
 
     ul,
@@ -167,32 +184,19 @@
         }
     }
 
-    a {
-        @apply inline-block;
-    }
-
-    input[type='email'],
     input[type='text'],
+    input[type='email'],
     select,
     textarea {
-        @apply block w-full rounded-lg text-18 text-blue-dark;
-
-        padding: 12px;
+        @apply block w-full rounded-lg border border-gray-dark px-2 py-1;
     }
 
-    input[type='checkbox'],
-    input[type='radio'] {
-        & + label {
-            @apply ml-1;
+    input[type='text'],
+    input[type='email'],
+    textarea {
+        &::placeholder {
+            @apply text-gray-dark;
         }
-    }
-
-    input[type='checkbox'] {
-        @apply rounded;
-    }
-
-    select {
-        @apply pr-4;
     }
 
     hr {
@@ -200,10 +204,41 @@
     }
 }
 
+// Extend pre-existing utility classes
+@layer utilities {
+    .container {
+        @apply mx-auto px-2;
+    }
+
+    .list {
+        &-none {
+            @apply mb-0 px-0;
+
+            li {
+                @apply mb-0;
+            }
+        }
+
+        &-alpha {
+            list-style-type: lower-alpha;
+        }
+
+        &-circle {
+            list-style-type: circle;
+        }
+    }
+}
+
+// Variants
+// @layer variants {
+// }
+
 // Components
 @layer components {
     .cta {
         &-group {
+            @apply mt-3;
+
             [class*='cta'] {
                 &:not(:first-of-type) {
                     @apply xs-max:mt-2 sm:ml-2;
@@ -215,7 +250,7 @@
         &-secondary,
         &-tertiary,
         &-tertiary-outline {
-            @apply rounded-lg border px-2 py-1 text-center transition-all duration-300;
+            @apply rounded-lg border px-2 py-1 transition-all duration-300 xs-max:flex xs-max:w-full xs-max:items-center xs-max:justify-center;
         }
 
         &-primary {
@@ -298,7 +333,7 @@
         }
 
         &-mouse {
-            @apply relative inline-block rounded-full border-2 border-white;
+            @apply relative inline-block rounded-full border-[3px] border-white;
 
             width: 34px;
             height: 54px;
@@ -308,41 +343,12 @@
             @apply rounded-full bg-white;
 
             top: 14px;
-            left: 13px;
+            left: 12px;
             width: 4px;
             height: 4px;
-            animation: scrollDown 2.5s infinite;
+            animation: scroll-down 2.5s infinite;
         }
     }
-}
-
-// Extend pre-existing utility classes
-@layer utilities {
-    .container {
-        @apply mx-auto px-2;
-    }
-
-    .list {
-        &-none {
-            @apply mb-0 px-0;
-
-            li {
-                @apply mb-0;
-            }
-        }
-
-        &-alpha {
-            list-style-type: lower-alpha;
-        }
-
-        &-circle {
-            list-style-type: circle;
-        }
-    }
-}
-
-// Variants
-@layer variants {
 }
 
 // ========================================================================== //
@@ -361,9 +367,11 @@
             &:first-child {
                 transform: rotate(45deg);
             }
+
             &:nth-child(2) {
                 opacity: 0;
             }
+
             &:last-child {
                 transform: rotate(-45deg);
             }
@@ -375,8 +383,4 @@
         width: 40px;
         height: 2px;
     }
-}
-
-.test {
-    animation: floating 2.5s infinite ease-in-out;
 }
