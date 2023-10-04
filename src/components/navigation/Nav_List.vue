@@ -15,9 +15,9 @@
         <NuxtLink :class="{ 'text-white': parentClass === 'nav-header-light' || isHeaderFixed, 'text-blue': parentClass === 'nav-header-dark' }" class="transition-all duration-150 lg:hover:text-orange-light" to="/faqs">FAQs</NuxtLink>
     </li>
 
-    <li :class="{ 'ml-4 md-max:hidden': parentClass.startsWith('nav-header'), 'mt-1': parentClass.startsWith('nav-footer') || parentClass === 'nav-mobile' }">
+    <!-- <li :class="{ 'ml-4 md-max:hidden': parentClass.startsWith('nav-header'), 'mt-1': parentClass.startsWith('nav-footer') || parentClass === 'nav-mobile' }">
         <NuxtLink :class="{ 'text-white': parentClass === 'nav-header-light' || isHeaderFixed, 'text-blue': parentClass === 'nav-header-dark' }" class="transition-all duration-150 lg:hover:text-orange-light" to="/support">Support</NuxtLink>
-    </li>
+    </li> -->
 
     <li :class="{ 'ml-4 md-max:hidden': parentClass.startsWith('nav-header'), 'mt-1': parentClass.startsWith('nav-footer') || parentClass === 'nav-mobile' }">
         <NuxtLink :class="{ 'text-white': parentClass === 'nav-header-light' || isHeaderFixed, 'text-blue': parentClass === 'nav-header-dark' }" class="transition-all duration-150 lg:hover:text-orange-light" to="/contact-us">Contact us</NuxtLink>
