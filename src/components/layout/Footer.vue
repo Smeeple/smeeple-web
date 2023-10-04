@@ -1,4 +1,6 @@
 <template>
+    <Newsletter_Signup />
+
     <footer class="bg-blue-dark text-white">
         <div class="bg-blue py-4">
             <div class="container">
@@ -47,7 +49,7 @@
             </div>
         </div>
 
-        <div class="bg-[url('/public/assets/img/bg-shapes-blue.png')] sm-max:py-4 md:py-2">
+        <div class="bg-[url('/assets/img/bg-shapes-blue.png')] sm-max:py-4 md:py-2">
             <div class="container md:flex md:items-center md:justify-between">
                 <p class="sm-max:mb-3">&copy; {{ new Date().getFullYear() }} Smeeple. <br class="sm-max:hidden xl:hidden" />All rights reserved.</p>
 
