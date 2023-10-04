@@ -64,7 +64,6 @@ module.exports = {
             cyan       : colors.cyan,
             emerald    : colors.emerald,
             fuchsia    : colors.fuchsia,
-            gray       : colors.gray,
             indigo     : colors.indigo,
             inherit    : colors.inherit,
             lime       : colors.lime,
