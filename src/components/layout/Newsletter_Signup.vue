@@ -1,17 +1,19 @@
 <template>
-    <section class="bg-gray-light">
+    <section class="border-t border-gray-dark bg-blue-light bg-[url('/assets/img/bg-dot.png')] bg-bottom sm-max:pb-5 sm-max:pt-4">
         <div class="container">
-            <div class="grid grid-cols-12">
-                <div class="col-span-12 text-center lg:col-span-8 lg:col-start-3">
-                    <h2 class="text-48 leading-tight">Get $10 off your first session with an expert when you sign up</h2>
+            <div class="sm:grid sm:grid-cols-12 sm:gap-3">
+                <div class="text-center text-white sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <h2 class="leading-tight text-white">Subscribe to our newsletter</h2>
 
-                    <div class="flex items-center justify-center">
+                    <div class="mb-3 flex items-center justify-center">
                         <form>
-                            <input type="email" placeholder="Email address" />
+                            <input class="w-[360px] border-white" type="email" placeholder="Enter your email address" />
                         </form>
 
                         <NuxtLink class="cta-tertiary ml-2" to="#">Sign up</NuxtLink>
                     </div>
+
+                    <p>Get the latest Smeeple news and updates delivered<br />directly to your inbox every month.</p>
                 </div>
             </div>
         </div>

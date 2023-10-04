@@ -3,8 +3,8 @@
         <div class="bg-blue py-4">
             <div class="container">
                 <!-- <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"> -->
-                <div class="grid grid-cols-12 sm:gap-3">
-                    <div class="order-1 col-span-12 xs-max:mb-3 sm:col-span-6 xl:col-span-3 2xl:col-span-3">
+                <div class="sm:grid sm:grid-cols-12 sm:gap-3">
+                    <div class="order-1 sm:col-span-6 xl:col-span-3 2xl:col-span-3">
                         <NuxtLink to="/">
                             <Logo_Smeeple parentClass="logo-light" />
                         </NuxtLink>
@@ -20,58 +20,28 @@
                         </ul>
                     </div>
 
-                    <nav class="col-span-12 xs-max:order-2 xs-max:mb-3 xs-max:mt-1 sm:order-3 sm:col-span-6 xl:order-2 xl:col-span-2">
-                        <h3 class="text-blue-light">Menu</h3>
+                    <nav class="xs-max:order-2 xs-max:mt-3 sm:order-3 sm:col-span-6 xl:order-2 xl:col-span-2">
+                        <h6 class="text-blue-light">Menu</h6>
 
                         <ul class="nav-list list-none">
                             <Nav_List parentClass="nav-footer" />
                         </ul>
                     </nav>
 
-                    <div class="col-span-12 xs-max:order-3 xs-max:mb-3 sm:order-2 sm:col-span-6 xl:order-3 xl:col-span-3 2xl:col-span-3">
-                        <h3 class="text-green-light">Join the community</h3>
+                    <div class="xs-max:order-3 xs-max:mt-3 sm:order-2 sm:col-span-6 xl:order-3 xl:col-span-3 2xl:col-span-3">
+                        <h6 class="text-green-light">Join the community</h6>
 
                         <p>Are you a subject matter expert? Looking for clients and visibility?</p>
 
-                        <NuxtLink class="cta-secondary mt-2 xs-max:block" to="/for-experts">Become an expert</NuxtLink>
+                        <NuxtLink class="cta-secondary mt-2" to="/for-experts">Become an expert</NuxtLink>
                     </div>
 
-                    <div class="order-4 col-span-12 sm:col-span-6 xl:col-span-4">
-                        <h3 class="text-orange-light">Smeeple</h3>
+                    <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-4">
+                        <h6 class="text-orange-light">Smeeple</h6>
 
                         <p>Connecting people to subject matter experts, through video conferencing, to gain knowledge, skills, and insight.</p>
 
-                        <ul class="mt-3 list-none">
-                            <li class="inline-block">
-                                <NuxtLink to="https://facebook.com/SmeepleApp" target="_blank">
-                                    <Icon_Facebook class="fill-orange-light transition-all duration-300 hover:fill-orange-lighter" />
-                                </NuxtLink>
-                            </li>
-
-                            <li class="inline-block sm-max:ml-2 md:ml-3">
-                                <NuxtLink to="https://twitter.com/SmeepleApp" target="_blank">
-                                    <Icon_Twitter class="fill-orange-light transition-all duration-300 hover:fill-orange-lighter" />
-                                </NuxtLink>
-                            </li>
-
-                            <li class="inline-block sm-max:ml-2 md:ml-3">
-                                <NuxtLink to="https://instagram.com/SmeepleApp" target="_blank">
-                                    <Icon_Instagram class="fill-orange-light transition-all duration-300 hover:fill-orange-lighter" />
-                                </NuxtLink>
-                            </li>
-
-                            <li class="inline-block sm-max:ml-2 md:ml-3">
-                                <NuxtLink to="https://youtube.com/@SmeepleApp" target="_blank">
-                                    <Icon_YouTube class="fill-orange-light transition-all duration-300 hover:fill-orange-lighter" />
-                                </NuxtLink>
-                            </li>
-
-                            <li class="inline-block sm-max:ml-2 md:ml-3">
-                                <NuxtLink to="https://linkedin.com/company/smeeple" target="_blank">
-                                    <Icon_LinkedIn class="fill-orange-light transition-all duration-300 hover:fill-orange-lighter" />
-                                </NuxtLink>
-                            </li>
-                        </ul>
+                        <Social_List parentClass="icons-orange" />
                     </div>
                 </div>
             </div>
@@ -98,11 +68,3 @@
         </div>
     </footer>
 </template>
-
-<script>
-    export default {
-        props: {
-            parentClass: String,
-        },
-    };
-</script>

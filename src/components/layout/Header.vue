@@ -1,11 +1,5 @@
-<script setup>
-    useHead({
-        script: [{ src: 'assets/js/components/Header.js', tagPosition: 'bodyClose' }],
-    });
-</script>
-
 <template>
-    <header class="fixed top-0 z-50 w-full transition-all duration-300">
+    <header :class="{ 'bg-blue': isPageScrolled }" class="fixed top-0 z-50 w-full transition-all duration-300">
         <Header_Banner />
 
         <div class="container py-2">
@@ -40,6 +34,24 @@
     import Header from '~/plugins/components/Header';
 
     export default {
+        data() {
+            return {
+                isPageScrolled: false,
+            };
+        },
+        methods: {
+            checkScrollPosition() {
+                let scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop;
+
+                this.isPageScrolled = scrollPosition > 0;
+            },
+        },
         mixins: [Header],
+        mounted() {
+            // isPageScrolled
+            this.checkScrollPosition();
+
+            window.addEventListener('scroll', this.checkScrollPosition);
+        },
     };
 </script>
