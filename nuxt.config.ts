@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            titleTemplate: '%s | Smeeple',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,10 +14,6 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', href: 'favicon.ico' },
                 // { rel: 'stylesheet', href: '', crossorigin: '' }
-            ],
-            script: [
-                // { src: 'https://code.jquery.com/jquery-3.6.0.min.js', tagPosition: 'head' },
-                // { src: 'assets/js/supabase.js', tagPosition: 'bodyClose' }
             ],
             bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' }
         }
