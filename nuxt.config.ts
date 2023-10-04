@@ -26,6 +26,12 @@ export default defineNuxtConfig({
         { path: '~/components/logos', pathPrefix: false },
         { path: '~/components/navigation', pathPrefix: false }
     ],
+    devtools: {
+        enabled: true,
+        timeline: {
+            enabled: true
+        }
+    },
     postcss: {
         plugins: {
             autoprefixer: {},
