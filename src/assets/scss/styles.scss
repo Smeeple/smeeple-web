@@ -277,7 +277,7 @@
             }
 
             &-outline {
-                @apply border-orange-light text-orange-light;
+                @apply border-orange-light bg-white text-orange-light;
 
                 &:hover {
                     @apply lg:border-orange-light lg:bg-orange-light lg:text-white;
