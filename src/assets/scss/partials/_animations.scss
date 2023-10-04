@@ -1,19 +1,5 @@
-@keyframes floating {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(15px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
 // Scroll down
-@keyframes scrollDown {
+@keyframes scroll-down {
     0% {
         top: 14px;
         opacity: 0;
