@@ -1,5 +1,5 @@
 <template>
-    <div class="relative -top-[12px] rotate-180 hover:cursor-pointer w-[40px] h-[40px]">
+    <div class="relative -top-[12px] h-[40px] w-[40px] rotate-180 hover:cursor-pointer">
         <span
             v-for="index in 3"
             :key="index"

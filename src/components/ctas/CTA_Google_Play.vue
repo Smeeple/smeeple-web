@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink class="cta-primary text-left leading-5 xs-max:block" to="https://play.google.com/store/apps/details?id=com.truefit.smeeple.android" target="_blank">
+    <NuxtLink class="cta-primary leading-5" to="https://play.google.com/store/apps/details?id=com.truefit.smeeple.android" target="_blank">
         <div class="flex items-center justify-center">
             <Icon_Google_Play class="mr-1 fill-white" />
 
