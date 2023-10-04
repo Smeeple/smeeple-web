@@ -62,13 +62,13 @@
                     </div>
 
                     <div :class="tab === 'consumers' ? '' : 'hidden'">
-                        <h2 class="text-center">What consumers have asked us...</h2>
+                        <h2 class="text-center text-32">What consumers have asked us...</h2>
 
                         <ul class="mt-3 list-none overflow-hidden rounded-lg border border-gray">
                             <li v-for="faq in faqsConsumers" :key="faq.id" :class="{ 'border-l-[3px] border-l-green-light bg-white': openAccordion === faq.id, 'bg-gray-lighter': openAccordion !== faq.id }" class="mb-0 cursor-pointer border-t border-gray first:border-t-0 md-max:py-2 md-max:pl-[44px] md-max:pr-2 lg:py-3 lg:pl-[54px] lg:pr-3" @click="toggleAccordion(faq.id)">
                                 <div class="grid grid-cols-12">
                                     <div class="col-span-11">
-                                        <h3 :class="{ '-ml-[3px]': openAccordion === faq.id }" class="mb-0 -indent-[24px] text-black"><span class="text-orange-light">Q:</span> {{ faq.question }}</h3>
+                                        <h3 :class="{ '-ml-[3px]': openAccordion === faq.id }" class="mb-0 -indent-[24px] font-poppins text-20 font-normal text-black"><span class="font-poppins text-orange-light">Q:</span> {{ faq.question }}</h3>
                                     </div>
 
                                     <div class="col-span-1 flex items-center justify-end">
@@ -86,13 +86,13 @@
                     </div>
 
                     <div :class="tab === 'experts' ? '' : 'hidden'">
-                        <h2 class="text-center">What experts have asked us...</h2>
+                        <h2 class="text-center text-32">What experts have asked us...</h2>
 
                         <ul class="mt-3 list-none overflow-hidden rounded-lg border border-gray">
                             <li v-for="faq in faqsExperts" :key="faq.id" :class="{ 'border-l-[3px] border-l-green-light bg-white': openAccordion === faq.id, 'bg-gray-lighter': openAccordion !== faq.id }" class="mb-0 cursor-pointer border-t border-gray first:border-t-0 md-max:py-2 md-max:pl-[44px] md-max:pr-2 lg:py-3 lg:pl-[54px] lg:pr-3" @click="toggleAccordion(faq.id)">
                                 <div class="grid grid-cols-12">
                                     <div class="col-span-11">
-                                        <h4 :class="{ '-ml-[3px]': openAccordion === faq.id }" class="mb-0 -indent-[24px] text-black"><span class="font-poppins text-20 text-orange-light">Q:</span> {{ faq.question }}</h4>
+                                        <h3 :class="{ '-ml-[3px]': openAccordion === faq.id }" class="mb-0 -indent-[24px] font-poppins text-20 font-normal text-black"><span class="font-poppins text-orange-light">Q:</span> {{ faq.question }}</h3>
                                     </div>
 
                                     <div class="col-span-1 flex items-center justify-end">
