@@ -1,6 +1,4 @@
 <script setup>
-    import How_It_Works from '~/components/layout/How_It_Works.vue';
-
     useHead({
         title: 'Connecting subject matter experts + people',
         meta: [
@@ -11,13 +9,13 @@
             { property: 'og:url', content: '' },
         ],
         bodyAttrs: {
-            class: 'home bg-[url("/public/assets/img/bg-dot.png")] bg-bottom',
+            class: 'home',
         },
     });
 </script>
 
 <template>
-    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/public/assets/img/bg-shapes-blue.png')] md-max:pb-0 lg:py-12">
+    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:pb-0 lg:py-12">
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
@@ -56,8 +54,6 @@
     <How_It_Works />
 
     <Expert_Spotlight />
-
-    <Newsletter_Signup />
 
     <Footer />
 </template>
