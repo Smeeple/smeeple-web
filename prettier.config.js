@@ -21,15 +21,15 @@ module.exports = {
     trailingComma             : 'es5',         // Default: 'es5' (es5|none|all)
     useTabs                   : false,         // Default: false (bool)
     overrides                 : [{
-        files  : '*.js',
+        files: '*.js',
         options: {
             parser: 'babel'  // Default: None (string)
         },
-        files  : '*.scss',
+        files: '*.scss',
         options: {
             parser: 'scss',  // Default: None (string)
         },
-        files  : '*.vue',
+        files: '*.vue',
         options: {
             parser                 : 'vue',      // Default: None (string)
             printWidth             : Infinity,   // Default: 80 (int)
