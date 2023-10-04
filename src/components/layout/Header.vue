@@ -1,5 +1,10 @@
 <template>
-    <header :class="{ 'bg-blue': isPageScrolled }" class="fixed top-0 z-50 w-full transition-all duration-300">
+    <header
+        :class="{
+            'bg-blue': isPageScrolled,
+            'bg-white': parentClass === 'header-dark' && !isPageScrolled && !isMobileNavOpen,
+        }"
+        class="fixed top-0 z-50 w-full transition-all duration-300">
         <Header_Banner />
 
         <div class="container py-2">
@@ -18,16 +23,24 @@
                     </ul>
                 </nav>
 
-                <div :class="{ 'nav-toggle-open': isMobileNavOpen }" class="nav-toggle lg:hidden">
-                    <Icon_Menu v-if="parentClass === 'header-light'" @click="toggleMobileNav" parentClass="icon-light" />
+                <div
+                    :class="{
+                        'nav-toggle-open': isMobileNavOpen,
+                    }"
+                    class="nav-toggle lg:hidden">
+                    <Icon_Menu @click="toggleMobileNav" v-if="parentClass === 'header-light'" parentClass="icon-light" />
 
-                    <Icon_Menu v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" @click="toggleMobileNav" parentClass="icon-dark" />
+                    <Icon_Menu @click="toggleMobileNav" v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" parentClass="icon-dark" />
                 </div>
             </div>
         </div>
     </header>
 
-    <Nav_Mobile :class="{ '-right-[991px]': !isMobileNavOpen, 'right-0': isMobileNavOpen }" />
+    <Nav_Mobile
+        :class="{
+            '-right-[991px]': !isMobileNavOpen,
+            'right-0': isMobileNavOpen,
+        }" />
 </template>
 
 <script>

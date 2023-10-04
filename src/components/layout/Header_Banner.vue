@@ -34,7 +34,7 @@
         <div class="container relative text-center">
             <p>Are you a subject matter expert? Looking for clients and visibility? <NuxtLink class="text-white" to="/for-experts">Become an expert</NuxtLink></p>
 
-            <NuxtLink class="absolute right-2 top-[7px] cursor-pointer" @click="hiddenBanner">
+            <NuxtLink @click="hiddenBanner" class="absolute right-2 top-[7px] cursor-pointer">
                 <Icon_Close />
             </NuxtLink>
         </div>
