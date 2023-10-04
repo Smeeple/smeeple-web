@@ -1,4 +1,6 @@
 <script setup>
+    import How_It_Works from '~/components/layout/How_It_Works.vue';
+
     useHead({
         title: 'Connecting subject matter experts + people',
         meta: [
@@ -8,240 +10,52 @@
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
         ],
-        bodyAttrs: { class: 'home' },
+        bodyAttrs: {
+            class: 'home bg-[url("/assets/img/bg-dot.png")] bg-bottom',
+        },
     });
 </script>
 
 <template>
-    <section class="relative -mt-[141px] flex h-[100vh] items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] py-0" data-speed="0.5">
-        <div class="container mt-[49px]">
-            <div class="grid grid-cols-12 items-center">
-                <div class="col-span-12 lg:col-span-6 lg:col-start-2">
-                    <h1 class="text-[72px]">Subject Matter Experts + People</h1>
+    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:pb-0 lg:py-12">
+        <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
+            <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
+                <div class="sm:col-span-12 xl:col-span-6">
+                    <h1 class="mb-0 pb-2 leading-none text-white sm-max:text-40 md:text-[60px] lg:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
 
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    <p class="mt-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 
-                    <div class="mt-3 flex items-start">
+                    <div class="cta-group mt-5 lg-max:hidden">
                         <CTA_App_Store />
 
-                        <CTA_Google_Play class="ml-2" />
+                        <CTA_Google_Play />
                     </div>
                 </div>
 
-                <div class="relative md-max:hidden lg:col-span-4">
-                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
+                <div class="sm:col-span-12 lg-max:mt-5 xl:col-span-6">
+                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%]">
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/uTDq7gLUxn0?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="cta-group mt-6 xl:hidden">
+                        <CTA_App_Store />
+
+                        <CTA_Google_Play />
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="scroll-indicator">
+        <div class="scroll-indicator lg-max:hidden">
             <span class="scroll-mouse">
                 <span class="scroll-wheel"></span>
             </span>
         </div>
     </section>
 
-    <section class="pb-0">
-        <div class="container">
-            <div class="grid grid-cols-12 gap-3">
-                <div class="col-span-12 lg:col-span-3 lg:col-start-3 lg:text-right">
-                    <div class="flex lg:justify-end">
-                        <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">1</span>
-                    </div>
+    <How_It_Works />
 
-                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">Find an expert</h2>
-
-                    <p class="font-caveat text-36 leading-10">Browse our community of vetted experts</p>
-                </div>
-
-                <div class="col-span-12 lg:col-span-5">
-                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pb-0">
-        <div class="container">
-            <div class="grid grid-cols-12 gap-3">
-                <div class="col-span-12 md-max:order-2 lg:col-span-5 lg:col-start-3">
-                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
-                </div>
-
-                <div class="col-span-12 md-max:order-1 lg:col-span-3">
-                    <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">2</span>
-
-                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">Book an appointment</h2>
-
-                    <p class="font-caveat text-36 leading-10">Pick the expert and time that work for you</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="pb-0">
-        <div class="container">
-            <div class="grid grid-cols-12 gap-3">
-                <div class="col-span-12 lg:col-span-3 lg:col-start-3 lg:text-right">
-                    <div class="flex lg:justify-end">
-                        <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">3</span>
-                    </div>
-
-                    <h2 class="mb-3 font-caveat text-48 leading-10 text-blue-light">1:1 virtual session</h2>
-
-                    <p class="font-caveat text-36 leading-10">Talk with your expert and gain expertise</p>
-                </div>
-
-                <div class="col-span-12 lg:col-span-5">
-                    <img class="test" src="~/assets/img/img-phone-app.png" alt="INSERT TEXT" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="grid gap-3 md:grid-cols-4">
-                <div class="sm-max:col-span-4 md:col-span-1">
-                    <h3 class="text-red-600">Headings</h3>
-
-                    <h1>Heading 1</h1>
-
-                    <h2>Heading 2</h2>
-
-                    <h3>Heading 3</h3>
-
-                    <h4>Heading 4</h4>
-
-                    <h5>Heading 5</h5>
-
-                    <h6 class="mb-0">Heading 6</h6>
-                </div>
-
-                <div class="sm-max:col-span-4 md:col-span-3">
-                    <h3 class="text-red-600">Paragraph</h3>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est <a href="#">laborum</a>.</p>
-
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <a href="#">veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-
-                <div class="col-span-4">
-                    <h3 class="text-red-600">Lists</h3>
-
-                    <div class="grid gap-3 md:grid-cols-4">
-                        <ul class="col-span-2 mb-0">
-                            <li>Lorem ipsum dolor sit amet, consectetur</li>
-
-                            <li>Excepteur sint occaecat cupidatat esse cillum</li>
-
-                            <li>Deserunt mollit anim id est laborum minim veniam</li>
-                        </ul>
-
-                        <ol class="col-span-2">
-                            <li>Sed do eiusmod tempor incididunt dolore</li>
-
-                            <li>Duis aute irure dolor in reprehenderit non proident</li>
-
-                            <li>Excepteur sint occaecat cupidatat occaecat</li>
-                        </ol>
-                    </div>
-                </div>
-
-                <div class="md-max:col-span-4 lg:col-span-2">
-                    <h3 class="text-red-600">Forms</h3>
-
-                    <form>
-                        <div>
-                            <input class="p-1" type="text" placeholder="First name" />
-                        </div>
-
-                        <div>
-                            <input class="p-1" type="text" placeholder="Last name" />
-                        </div>
-
-                        <div>
-                            <select class="p-1 pr-4">
-                                <option value="">Select an option</option>
-                            </select>
-                        </div>
-
-                        <div>
-                            <textarea class="p-1" name="" placeholder="Leave a comment"></textarea>
-                        </div>
-
-                        <div class="grid grid-cols-2 gap-3">
-                            <div class="col-span-1">
-                                <div class="flex items-center">
-                                    <input id="checkbox1" type="checkbox" name="checkboxes" />
-
-                                    <label for="checkbox1">Option 1</label>
-                                </div>
-
-                                <div class="flex items-center">
-                                    <input id="checkbox2" type="checkbox" name="checkboxes" />
-
-                                    <label for="checkbox2">Option 2</label>
-                                </div>
-
-                                <div class="flex items-center">
-                                    <input id="checkbox3" type="checkbox" name="checkboxes" />
-
-                                    <label for="checkbox3">Option 3</label>
-                                </div>
-                            </div>
-
-                            <div class="col-span-1">
-                                <div class="flex items-center">
-                                    <input id="radio1" type="radio" name="radios" />
-
-                                    <label for="radio1">Option 1</label>
-                                </div>
-
-                                <div class="flex items-center">
-                                    <input id="radio2" type="radio" name="radios" />
-
-                                    <label for="radio2">Option 2</label>
-                                </div>
-
-                                <div class="flex items-center">
-                                    <input id="radio3" type="radio" name="radios" />
-
-                                    <label for="radio3">Option 3</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-
-                <div class="md-max:col-span-4 lg:col-span-2">
-                    <h3 class="text-red-600">Buttons</h3>
-
-                    <div class="cta-group">
-                        <a class="cta-primary" href="#">Primary</a>
-
-                        <a class="cta-secondary" href="#">Secondary</a>
-
-                        <a class="cta-tertiary" href="#">Tertiary</a>
-                    </div>
-
-                    <div class="cta-group mt-3">
-                        <a class="cta-primary-outline" href="#">Primary</a>
-
-                        <a class="cta-secondary-outline" href="#">Secondary</a>
-
-                        <a class="cta-tertiary-outline" href="#">Tertiary</a>
-                    </div>
-
-                    <div class="cta-group mt-3 xs-max:text-center">
-                        <a class="cta-link-reverse" href="#">Prev</a>
-
-                        <a class="cta-link ml-2 border-l border-black pl-2" href="#">Next</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <Expert_Spotlight />
 
     <Newsletter_Signup />
 
