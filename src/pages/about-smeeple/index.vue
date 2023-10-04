@@ -16,7 +16,7 @@
 </script>
 
 <template>
-    <section class="bg-gray-light bg-[url('/assets/img/bg-shapes-gray.png')]">
+    <section class="bg-gray-light bg-[url('/public/assets/img/bg-shapes-gray.png')]">
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
@@ -33,7 +33,7 @@
                     <h2>Two college friends embarked on a mission, to create the #1 community of&nbsp;experts</h2>
 
                     <figure class="sm-max:mx-auto sm-max:mb-3 sm-max:w-auto md:float-left md:mb-2 md:mr-3 md:mt-1 lg:w-[300px] xl:w-[360px]">
-                        <img class="mb-1 rounded-lg" src="~/assets/img/photo-calvin-josh.jpg" alt="Photo of Calvin and Josh" />
+                        <img class="mb-1 rounded-lg" src="~/public/assets/img/photo-calvin-josh.jpg" alt="Photo of Calvin and Josh" />
 
                         <figcaption>
                             <cite>Calvin Holston (left) and Josh Mallalieu (right), graduating from Grove City College.</cite>
