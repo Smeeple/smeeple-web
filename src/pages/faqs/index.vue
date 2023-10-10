@@ -51,7 +51,7 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <div class="cta-group mb-3 flex justify-center">
+                    <div class="cta-group mb-3 mt-0 flex justify-center">
                         <button @click="tab = 'consumers'" :class="tab === 'consumers' ? 'cta-tertiary' : 'cta-tertiary-outline'" class="rounded-br-none rounded-tr-none">For consumers</button>
 
                         <button @click="tab = 'experts'" :class="tab === 'experts' ? 'cta-tertiary' : 'cta-tertiary-outline'" class="ml-0 mt-0 rounded-bl-none rounded-tl-none">For experts</button>
