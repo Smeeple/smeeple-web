@@ -2,7 +2,6 @@
     <header
         :class="{
             'bg-blue': isPageScrolled,
-            'bg-white': parentClass === 'header-dark' && !isPageScrolled && !isMobileNavOpen,
         }"
         class="fixed top-0 z-50 w-full transition-all duration-300">
         <Header_Banner />
@@ -10,16 +9,12 @@
         <div class="container py-2">
             <div class="flex min-h-[52px] items-center justify-between">
                 <NuxtLink to="/">
-                    <Logo_Smeeple v-if="parentClass === 'header-light'" parentClass="logo-light" />
-
-                    <Logo_Smeeple v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" parentClass="logo-dark" />
+                    <Logo_Smeeple parentClass="logo-light" />
                 </NuxtLink>
 
                 <nav>
                     <ul class="nav-list flex list-none items-center">
-                        <Nav_List v-if="parentClass === 'header-light'" parentClass="nav-header-light" />
-
-                        <Nav_List v-else-if="parentClass === 'header-dark'" parentClass="nav-header-dark" />
+                        <Nav_List parentClass="nav-header-light" />
                     </ul>
                 </nav>
 
@@ -28,9 +23,7 @@
                         'nav-toggle-open': isMobileNavOpen,
                     }"
                     class="nav-toggle lg:hidden">
-                    <Icon_Menu @click="toggleMobileNav" v-if="parentClass === 'header-light'" parentClass="icon-light" />
-
-                    <Icon_Menu @click="toggleMobileNav" v-else-if="parentClass === 'header-dark'" :isHeaderFixed="isHeaderFixed" :isMobileNavOpen="isMobileNavOpen" parentClass="icon-dark" />
+                    <Icon_Menu @click="toggleMobileNav" parentClass="icon-light" />
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <Header parentClass="header-light" />
+    <Header />
 
     <slot />
 </template>
