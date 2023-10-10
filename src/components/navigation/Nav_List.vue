@@ -55,6 +55,7 @@
         <NuxtLink
             :class="{
                 'border-0 bg-transparent p-0': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
+                'place-content-start': parentClass === 'nav-footer',
                 'justify-center text-32': parentClass === 'nav-mobile',
             }"
             class="cta-primary flex items-center"
