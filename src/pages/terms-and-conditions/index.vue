@@ -1,8 +1,4 @@
 <script setup>
-    definePageMeta({
-        layout: 'interior',
-    });
-
     useHead({
         title: 'Terms and conditions',
         meta: [
@@ -16,7 +12,7 @@
 </script>
 
 <template>
-    <section class="bg-gray-light bg-[url('/assets/img/bg-shapes-gray.png')]">
+    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:pb-0 lg:pt-[221px]">
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">

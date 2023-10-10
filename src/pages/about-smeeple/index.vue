@@ -1,8 +1,4 @@
 <script setup>
-    definePageMeta({
-        layout: 'interior',
-    });
-
     useHead({
         title: 'About Smeeple',
         meta: [
