@@ -4,7 +4,7 @@
             return titleChunk ? `${titleChunk} | Smeeple` : 'Smeeple';
         },
         bodyAttrs: {
-            class: 'bg-[url("/assets/img/bg-dot.png")]',
+            class: 'bg-white bg-[url("/assets/img/bg-dot.png")]',
         },
     });
 </script>
