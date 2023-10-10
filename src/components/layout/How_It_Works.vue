@@ -12,7 +12,9 @@
                     <div class="-rotate-2 sm:grid sm:grid-cols-12 sm:gap-3">
                         <div class="sm:col-span-6">
                             <div class="relative w-[360px]">
-                                <img class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/img/animation-find-experts.gif" alt="Find an expert animation" />
+                                <!-- <img class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/img/animation-find-experts.gif" alt="Find an expert animation" /> -->
+
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
 
                                 <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -44,7 +46,7 @@
 
                         <div class="sm:col-span-6">
                             <div class="relative w-[360px]">
-                                <img class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/img/animation-book-pay.gif" alt="Book & pay animation" />
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
 
                                 <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -56,7 +58,7 @@
                     <div class="-rotate-2 sm:grid sm:grid-cols-12 sm:gap-3">
                         <div class="sm:col-span-6">
                             <div class="relative w-[360px]">
-                                <img class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/img/animation-find-experts.gif" alt="Find experts animation" />
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
 
                                 <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
