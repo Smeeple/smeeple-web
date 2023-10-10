@@ -58,7 +58,7 @@
                     </div>
 
                     <div :class="tab === 'consumers' ? '' : 'hidden'">
-                        <h2 class="text-center text-32">What consumers have asked us...</h2>
+                        <h2 class="text-center">What consumers have asked us...</h2>
 
                         <ul class="mt-3 list-none overflow-hidden rounded-lg border border-gray">
                             <li
@@ -102,7 +102,7 @@
                     </div>
 
                     <div :class="tab === 'experts' ? '' : 'hidden'">
-                        <h2 class="text-center text-32">What experts have asked us...</h2>
+                        <h2 class="text-center">What experts have asked us...</h2>
 
                         <ul class="mt-3 list-none overflow-hidden rounded-lg border border-gray">
                             <li
@@ -145,7 +145,7 @@
                         </ul>
                     </div>
 
-                    <div class="cta-group mt-3 flex justify-center">
+                    <div class="cta-group mt-4 flex justify-center">
                         <button @click="tab = 'consumers'" :class="tab === 'consumers' ? 'cta-tertiary' : 'cta-tertiary-outline'" class="rounded-br-none rounded-tr-none">For consumers</button>
 
                         <button @click="tab = 'experts'" :class="tab === 'experts' ? 'cta-tertiary' : 'cta-tertiary-outline'" class="ml-0 mt-0 rounded-bl-none rounded-tl-none">For experts</button>
