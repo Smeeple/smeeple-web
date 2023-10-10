@@ -13,8 +13,8 @@
                 </NuxtLink>
 
                 <nav>
-                    <ul class="nav-list flex list-none items-center">
-                        <Nav_List parentClass="nav-header-light" />
+                    <ul class="nav-list flex list-none items-center text-white">
+                        <Nav_List parentClass="nav-header" />
                     </ul>
                 </nav>
 

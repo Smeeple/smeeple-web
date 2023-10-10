@@ -2,102 +2,54 @@
     <li
         v-if="$route.path !== '/for-experts'"
         :class="{
-            'md-max:hidden': parentClass.startsWith('nav-header'),
+            'md-max:hidden': parentClass === 'nav-header',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/for-experts">
-            For experts
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/for-experts"> For experts </NuxtLink>
     </li>
 
     <li
         v-if="$route.path === '/for-experts'"
         :class="{
-            'md-max:hidden': parentClass.startsWith('nav-header'),
+            'md-max:hidden': parentClass === 'nav-header',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/">
-            For consumers
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/"> For consumers </NuxtLink>
     </li>
 
     <li
         :class="{
-            'ml-4 md-max:hidden': parentClass.startsWith('nav-header'),
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/about-smeeple">
-            About Smeeple
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/about-smeeple"> About Smeeple </NuxtLink>
     </li>
 
     <li
         :class="{
-            'ml-4 md-max:hidden': parentClass.startsWith('nav-header'),
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/faqs">
-            FAQs
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/faqs"> FAQs </NuxtLink>
     </li>
 
     <!-- <li
         :class="{
-            'ml-4 md-max:hidden': parentClass.startsWith('nav-header'),
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/support">
-            Support
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/support"> Support </NuxtLink>
     </li> -->
 
     <li
         :class="{
-            'ml-4 md-max:hidden': parentClass.startsWith('nav-header'),
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink
-            :class="{
-                'text-white': parentClass === 'nav-header-light' || isHeaderFixed,
-                'text-blue': parentClass === 'nav-header-dark',
-            }"
-            class="transition-all duration-150 lg:hover:text-orange-light"
-            to="/contact-us">
-            Contact us
-        </NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/contact-us"> Contact us </NuxtLink>
     </li>
 
     <li
         :class="{
-            'ml-4 md-max:hidden': parentClass.startsWith('nav-header'),
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
         <NuxtLink
