@@ -8,70 +8,66 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
 
-                <div class="bg-[url('/assets/img/bg-step-1.png')] bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <div class="-rotate-2 sm:grid sm:grid-cols-12 sm:gap-3">
-                        <div class="sm:col-span-6">
-                            <div class="relative w-[360px]">
-                                <!-- <img class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/img/animation-find-experts.gif" alt="Find an expert animation" /> -->
-
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-1.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="sm-max:order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
                                 <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
 
-                                <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
                         </div>
 
-                        <div class="pt-4 sm:col-span-6">
-                            <div class="-ml-6 mb-3 flex items-end">
-                                <Icon_Arrow_Left class="-rotate-12" />
+                        <div class="sm-max:order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:pt-4">
+                            <div class="mb-3 md:-ml-6 md:flex md:items-end">
+                                <Icon_Arrow_Left class="-rotate-12 sm-max:hidden" />
 
                                 <h3 class="mb-0 ml-2 font-caveat text-48 leading-10 text-orange-light">Find an expert</h3>
                             </div>
 
-                            <p class="rotate-6 font-caveat text-40 leading-10">Browse our community of vetted experts, to get the help you seek.</p>
+                            <p class="rotate-6 font-caveat text-40 leading-10 sm-max:ml-2">Browse our community of vetted experts, to get the help you seek.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-[url('/assets/img/bg-step-2.png')] bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <div class="rotate-2 sm:grid sm:grid-cols-12 sm:gap-3">
-                        <div class="mt-4 flex flex-col items-end sm:col-span-6">
-                            <!-- <span class="mb-3 flex h-6 w-6 items-center justify-center rounded-full bg-orange-light text-36 text-white">2</span> -->
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-2.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
 
-                            <h3 class="rotate-4 mb-0 mr-4 font-caveat text-48 leading-10 text-orange-light">Book & pay</h3>
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                            </div>
+                        </div>
+
+                        <div class="order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:flex md:flex-col md:items-end md:pt-4 md:text-right">
+                            <h3 class="rotate-4 mb-0 font-caveat text-48 leading-10 text-orange-light md:mr-4">Book & pay</h3>
 
                             <p class="mt-4 -rotate-6 font-caveat text-40 leading-10">Check an expert's availability, and book what works for you.</p>
 
-                            <Icon_Arrow_Right class="-rotate-6" />
-                        </div>
-
-                        <div class="sm:col-span-6">
-                            <div class="relative w-[360px]">
-                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
-
-                                <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
-                            </div>
+                            <Icon_Arrow_Right class="-rotate-6 sm-max:hidden" />
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-[url('/assets/img/bg-step-3.png')] bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <div class="-rotate-2 sm:grid sm:grid-cols-12 sm:gap-3">
-                        <div class="sm:col-span-6">
-                            <div class="relative w-[360px]">
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-3.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="sm-max:order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
                                 <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
 
-                                <img class="w-[640px]" src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
                         </div>
 
-                        <div class="pt-4 sm:col-span-6">
-                            <div class="-ml-6 mb-3 flex items-end">
-                                <Icon_Arrow_Left class="-rotate-12" />
+                        <div class="sm-max:order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:pt-4">
+                            <div class="mb-3 md:-ml-6 md:flex md:items-end">
+                                <Icon_Arrow_Left class="-rotate-12 sm-max:hidden" />
 
                                 <h3 class="mb-0 ml-2 font-caveat text-48 leading-10 text-orange-light">Meet virtually</h3>
                             </div>
 
-                            <p class="rotate-6 font-caveat text-40 leading-10">Connect with your expert in a one-on-one video session.</p>
+                            <p class="rotate-6 font-caveat text-40 leading-10 sm-max:ml-2">Connect with your expert in a one-on-one video session.</p>
                         </div>
                     </div>
                 </div>
