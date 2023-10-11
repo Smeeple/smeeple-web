@@ -13,7 +13,7 @@
                         <NuxtLink class="cta-tertiary sm:ml-2" to="#">Sign up</NuxtLink>
                     </div>
 
-                    <p class="text-white">Get the latest Smeeple news and updates delivered <br class="sm-max:hidden" />directly to your inbox every month.</p>
+                    <p class="text-white">Get the latest Smeeple news and updates delivered <br class="sm-max:hidden" />directly to your inbox.</p>
                 </div>
             </div>
         </div>
