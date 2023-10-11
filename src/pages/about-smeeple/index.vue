@@ -28,7 +28,7 @@
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <h2>Two college friends embarked on a mission, to create the #1 community of&nbsp;experts</h2>
 
-                    <figure class="sm-max:mx-auto sm-max:mb-3 sm-max:w-auto md:float-left md:mb-2 md:mr-3 md:mt-1 lg:w-[300px] xl:w-[360px]">
+                    <figure class="sm-max:mx-auto sm-max:mb-3 sm-max:w-auto md:float-left md:mb-3 md:mr-3 md:mt-1 lg:w-[300px] xl:w-[360px]">
                         <img class="mb-1 rounded-lg" src="/assets/img/photo-calvin-josh.jpg" alt="Photo of Calvin and Josh" />
 
                         <figcaption>
