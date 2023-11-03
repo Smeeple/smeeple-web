@@ -35,7 +35,7 @@
 
                         <p>Are you a subject matter expert? Looking for clients and visibility?</p>
 
-                        <NuxtLink class="cta-secondary mt-2" to="/for-experts">Become an expert</NuxtLink>
+                        <NuxtLink class="cta-secondary mt-3" to="/for-experts">Become an expert</NuxtLink>
                     </div>
 
                     <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-4">
