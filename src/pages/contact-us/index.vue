@@ -115,7 +115,7 @@
         <div v-if="isNotDev" class="h-captcha mb-3" data-captcha="true"></div>
 
         <button @click="submitForms" class="cta-tertiary" type="submit">
-            <div class="flex items-center justify-center"><Icon_Send class="mr-1" />Send</div>
+            <div class="flex items-center justify-center">Send</div>
         </button>
     </form>
 

@@ -60,8 +60,6 @@
             }"
             class="cta-primary flex items-center"
             to="https://app.smeeple.com/sign-in">
-            <Icon_Locked class="mr-1 fill-white" />
-
             Expert login
         </NuxtLink>
     </li>
