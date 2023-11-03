@@ -29,22 +29,6 @@
         @apply font-karla font-light;
     }
 
-    body:not(.home) {
-        h1 {
-            &::after {
-                @apply bg-green-light;
-
-                content: '';
-                position: absolute;
-                bottom: -4px;
-                left: 0;
-                width: 100%;
-                max-width: 60px;
-                height: 3px;
-            }
-        }
-    }
-
     section {
         @screen md-max {
             @apply py-4;
@@ -83,6 +67,18 @@
 
     h1 {
         @apply relative inline-block pb-1 font-medium text-white sm-max:text-40 sm-max:leading-tight md:text-48;
+
+        &::after {
+            @apply bg-green-light;
+
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 100%;
+            max-width: 60px;
+            height: 3px;
+        }
     }
 
     h2,
