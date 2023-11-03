@@ -51,36 +51,41 @@
     },
     {
         "id": "c11",
+        "question": "How do I watch a previous session's recording?",
+        "answer": "For the best experience, you should download the video recording from the Smeeple App to your device."
+    },
+    {
+        "id": "c12",
         "question": "What if I'm dissatisfied with a session?",
         "answer": "You'll have the opportunity to review the expert after the call. We hope that each expert receives 5 stars, but we know that won't always be the case. Always be honest and fair, so that both Smeeple and consumers know more about the expert. You can also reach out to Smeeple at <a class='inline' href='mailto:support@smeeple.com'>support@smeeple.com</a>."
     },
     {
-        "id": "c12",
+        "id": "c13",
         "question": "How are the experts verified?",
         "answer": "Every expert goes through a vetting process, designed by Smeeple. We want to ensure the right experts are selected that can help you the best."
     },
     {
-        "id": "c13",
+        "id": "c14",
         "question": "How do I refer an expert to Smeeple?",
         "answer": "Send them to our <a class='inline' href='https://app.smeeple.com/experts/create-account'>expert sign-up</a> page, to create an account."
     },
     {
-        "id": "c14",
+        "id": "c15",
         "question": "Can I be an expert if I live outside the United States?",
         "answer": "Currently, we're not available outside the United States, but will expand platform availability to other countries in the future."
     },
     {
-        "id": "c15",
+        "id": "c16",
         "question": "What payment types are accepted?",
         "answer": "All standard forms of payment are accepted and processed through <a class='inline' href='https://www.stripe.com'>Stripe</a>, one of the largest online payment processing companies in the world. If an expert asks you to pay for future appointments via cash, check, or another website, please decline and let us know by emailing <a class='inline' href='mailto:support@smeeple.com'>support@smeeple.com</a>. We want to protect your privacy, and will contact the expert to resolve any confusion."
     },
     {
-        "id": "c16",
+        "id": "c17",
         "question": "How is my privacy protected?",
         "answer": "No private information, other than name, is shared between either party. Phone number, address, and credit card information is concealed from both sides. Our payment process is handled through <a class='inline' href='https://www.stripe.com'>Stripe</a>, one of the largest online payment processing companies in the world."
     },
     {
-        "id": "c17",
+        "id": "c18",
         "question": "What are the safety guidelines?",
         "answer": "Your safety is important to us, and so we ask our experts to be professional at all times. If anything makes you feel uncomfortable, email us right away at <a class='inline' href='support@smeeple.com'>support@smeeple.com</a>. We take safety very seriously, and have the ability to review all recorded sessions and written communication."
     }
