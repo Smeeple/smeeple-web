@@ -85,7 +85,7 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="col-span-12 text-center">
-                    <h2 class="mb-0 inline-block rounded-lg bg-green-light px-2 text-white">How it works</h2>
+                    <h2 class="mb-0 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-white">How it works</h2>
                 </div>
 
                 <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-1.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">

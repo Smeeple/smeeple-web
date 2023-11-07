@@ -78,7 +78,7 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="col-span-12 text-center">
-                    <h2 class="mb-8 inline-block rounded-lg bg-green-light px-2 text-white">How it works</h2>
+                    <h2 class="mb-8 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-white">How it works</h2>
                 </div>
             </div>
 
