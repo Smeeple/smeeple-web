@@ -19,7 +19,7 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 leading-none text-white sm-max:text-40 md:text-[60px] lg:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
+                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
 
                     <p class="mt-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 
@@ -51,9 +51,109 @@
         </div>
     </section>
 
-    <How_It_Works />
+    <section class="pb-0 sm-max:pt-6">
+        <div class="container">
+            <div class="text-center sm:grid sm:grid-cols-12 sm:gap-12">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+
+                    <h3 class="mb-3">Over 200 experts</h3>
+
+                    <p>Discover experts from a wide range of categories, book appointments, and conduct virtual meetings &mdash; all right from within the <strong>Smeeple</strong> app.</p>
+                </div>
+
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_Calendar class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+
+                    <h3 class="mb-3">Your schedule</h3>
+
+                    <p>Whether as soon as possible, or a Friday evening with a glass of wine in-hand, select an availability that works best for you and your schedule.</p>
+                </div>
+
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_Chat class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+
+                    <h3 class="mb-3">Get expertise</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sm-max:pb-3 sm-max:pt-6 md:pb-3">
+        <div class="container">
+            <div class="sm:grid sm:grid-cols-12 sm:gap-3">
+                <div class="col-span-12 text-center">
+                    <h2 class="mb-0 inline-block rounded-lg bg-green-light px-2 text-white">How it works</h2>
+                </div>
+
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-1.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="sm-max:order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
+
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                            </div>
+                        </div>
+
+                        <div class="sm-max:order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:pt-4">
+                            <div class="mb-3 md:-ml-6 md:flex md:items-end">
+                                <Icon_Arrow_Left class="-rotate-12 sm-max:hidden" />
+
+                                <h3 class="mb-0 ml-2 font-caveat text-48 leading-10 text-orange-light">Find an expert</h3>
+                            </div>
+
+                            <p class="rotate-6 font-caveat text-40 leading-10 sm-max:ml-2">Browse our community of vetted experts, to get the help you seek.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-2.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
+
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                            </div>
+                        </div>
+
+                        <div class="order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:flex md:flex-col md:items-end md:pt-4 md:text-right">
+                            <h3 class="rotate-4 mb-0 font-caveat text-48 leading-10 text-orange-light md:mr-4">Book and pay</h3>
+
+                            <p class="mt-4 -rotate-6 font-caveat text-40 leading-10">Check an expert's availability, and book what works for you.</p>
+
+                            <Icon_Arrow_Right class="-rotate-6 sm-max:hidden" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-3.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
+                        <div class="sm-max:order-2 md:col-span-6">
+                            <div class="relative w-[360px] sm-max:mx-auto">
+                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/meet-virtually.mp4" autoplay loop muted></video>
+
+                                <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
+                            </div>
+                        </div>
+
+                        <div class="sm-max:order-1 sm-max:mb-4 sm-max:text-center md:col-span-5 md:pt-4">
+                            <div class="mb-3 md:-ml-6 md:flex md:items-end">
+                                <Icon_Arrow_Left class="-rotate-12 sm-max:hidden" />
+
+                                <h3 class="mb-0 ml-2 font-caveat text-48 leading-10 text-orange-light">Meet virtually</h3>
+                            </div>
+
+                            <p class="rotate-6 font-caveat text-40 leading-10 sm-max:ml-2">Connect with your expert in a 1:1 video session.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <Expert_Spotlight />
-
-    <Footer />
 </template>

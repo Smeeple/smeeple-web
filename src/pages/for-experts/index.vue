@@ -16,11 +16,13 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 leading-none text-white sm-max:text-40 md:text-[60px] lg:text-[72px]">Join the community of <span class="font-medium text-blue-light">over</span> <span class="font-medium text-green-light">200</span> <span class="font-medium text-orange-light">experts</span></h1>
+                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Join the community of <span class="font-medium text-blue-light">over</span> <span class="font-medium text-green-light">200</span> <span class="font-medium text-orange-light">experts</span></h1>
 
                     <p class="mt-3 text-white">Connect with clients from anywhere. Earn extra income and grow your network, all while saving time and travel expenses. Experience the convenience of virtual meetings when you unlock a world of opportunity with Smeeple.</p>
 
-                    <NuxtLink class="cta-primary mt-5" to="https://app.smeeple.com/sign-up" target="_blank">Sign up</NuxtLink>
+                    <div class="mt-5 lg-max:hidden">
+                        <CTA_Expert_Signup />
+                    </div>
                 </div>
 
                 <div class="sm:col-span-12 lg-max:mt-5 xl:col-span-6">
@@ -28,10 +30,8 @@
                         <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/A2z_zUy9ats?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
                     </div>
 
-                    <div class="cta-group mt-6 xl:hidden">
-                        <CTA_App_Store />
-
-                        <CTA_Google_Play />
+                    <div class="mt-6 xl:hidden">
+                        <CTA_Expert_Signup />
                     </div>
                 </div>
             </div>
@@ -44,29 +44,78 @@
         </div>
     </section>
 
-    <section class="sm-max:pb-3 sm-max:pt-6">
+    <section class="pb-0 sm-max:pt-6">
         <div class="container">
-            <div class="sm:grid sm:grid-cols-12 sm:gap-3">
-                <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <h2 class="mb-3">The platform</h2>
+            <div class="text-center sm:grid sm:grid-cols-12 sm:gap-12">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_Stack class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <p>We put everything together in one place so you don't have to juggle different apps, payment systems, and calendars &mdash; to save you time and effort. You can share your expertise and start earning with ease.</p>
+                    <h3 class="mb-3">The platform</h3>
+                    <p>Everything built into one platform, eliminating the need for multiple apps, payment systems, and calendars &mdash; allowing you to focus on sharing your expertise and earning, with ease.</p>
                 </div>
 
-                <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <h2 class="mb-3">The community</h2>
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <p>You might be a Division 1 athlete, a retired plumber, or a small business owner. Together we can bring expertise to people who need it. Right to their fingertips.</p>
+                    <h3 class="mb-3">The community</h3>
+
+                    <p>Maybe you're a Division 1 athlete, a retired plumber, or even a small business owner. With Smeeple, we can bring expertise to the consumers who need it &mdash; within reach of their mobile device.</p>
                 </div>
 
-                <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <h2 class="mb-3">Your hours, your rates</h2>
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                    <Icon_Clock class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <p>Smeeple will never dictate what you charge or when you meet with people. All we ask is you do your best. We're focused on building a community, not just a business.</p>
+                    <h3 class="mb-3">Your hours and&nbsp;rates</h3>
+
+                    <p>Smeeple will never impose on your pricing or schedules with consumers. We ask that you maintain professionalism, and give your best effort. We aim to build a community, not just a business.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <Footer />
+    <section class="sm-max:pb-3 sm-max:pt-6 md:pb-3">
+        <div class="container">
+            <div class="sm:grid sm:grid-cols-12 sm:gap-3">
+                <div class="col-span-12 text-center">
+                    <h2 class="mb-8 inline-block rounded-lg bg-green-light px-2 text-white">How it works</h2>
+                </div>
+            </div>
+
+            <div class="mb-8 items-center sm:grid sm:grid-cols-12 sm:gap-12">
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <img class="shadow-lg shadow-black/30" src="/assets/img/img-create-profile.png" alt="Expert signup page" />
+                </div>
+
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <h3 class="mb-3">Create a profile</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+
+            <div class="mb-8 items-center sm:grid sm:grid-cols-12 sm:gap-12">
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <h3 class="mb-3">Download the app</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <img class="shadow-lg shadow-black/30" src="/assets/img/img-download-app.png" alt="Smeeple app on the Apple App Store" />
+                </div>
+            </div>
+
+            <div class="mb-8 items-center sm:grid sm:grid-cols-12 sm:gap-12">
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <img class="shadow-lg shadow-black/30" src="/assets/img/img-expert-preview.png" alt="Expert profile preview" />
+                </div>
+
+                <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-6">
+                    <h3 class="mb-3">Share your profile</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </template>
