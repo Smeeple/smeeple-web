@@ -22,7 +22,7 @@
         </div>
     </section>
 
-    <section class="bg-white">
+    <section>
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
