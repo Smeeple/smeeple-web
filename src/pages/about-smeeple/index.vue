@@ -26,6 +26,12 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                    <h2>Introduction</h2>
+
+                    <div class="embed-responsive embed-responsive-16by9 relative mb-6 w-full overflow-hidden rounded-lg pt-[56.25%]">
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/k6UZPlgQg84?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Signing up as an Expert is easy!" allowfullscreen></iframe>
+                    </div>
+
                     <h2>Two college friends embarked on a mission, to create the #1 community of&nbsp;experts</h2>
 
                     <figure class="sm-max:mx-auto sm-max:mb-3 sm-max:w-auto md:float-left md:mb-3 md:mr-3 md:mt-1 lg:w-[300px] xl:w-[360px]">
