@@ -43,6 +43,4 @@
             </div>
         </div>
     </section>
-
-    <Footer />
 </template>
