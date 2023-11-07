@@ -54,31 +54,6 @@ module.exports = {
             'orange-light'  : '#f8961f',
             orange          : '#865e2d',
             'orange-dark'   : '#422e15',
-
-
-
-
-
-            amber      : colors.amber,
-            current    : colors.current,
-            cyan       : colors.cyan,
-            emerald    : colors.emerald,
-            fuchsia    : colors.fuchsia,
-            indigo     : colors.indigo,
-            inherit    : colors.inherit,
-            lime       : colors.lime,
-            neutral    : colors.neutral,
-            pink       : colors.pink,
-            purple     : colors.purple,
-            red        : colors.red,
-            rose       : colors.rose,
-            sky        : colors.sky,
-            slate      : colors.slate,
-            stone      : colors.stone,
-            teal       : colors.teal,
-            violet     : colors.violet,
-            yellow     : colors.yellow,
-            zinc       : colors.zinc,
         }),
         spacing: {
             px: '1px',
