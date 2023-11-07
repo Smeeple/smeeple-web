@@ -27,7 +27,7 @@
 
                 <div class="sm:col-span-12 lg-max:mt-5 xl:col-span-6">
                     <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%]">
-                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/A2z_zUy9ats?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/A2z_zUy9ats?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Signing up as an Expert is easy!" allowfullscreen></iframe>
                     </div>
 
                     <div class="mt-6 xl:hidden">
@@ -51,6 +51,7 @@
                     <Icon_Stack class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">The platform</h3>
+
                     <p>Everything built into one platform, eliminating the need for multiple apps, payment systems, and calendars &mdash; allowing you to focus on sharing your expertise and earning, with ease.</p>
                 </div>
 
