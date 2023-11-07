@@ -1,5 +1,5 @@
 <template>
-    <section class="border-t bg-blue-light bg-[url('/assets/img/bg-dot.png')] bg-bottom py-4">
+    <section class="bg-blue-light bg-[url('/assets/img/bg-dot.png')] bg-bottom py-4">
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
