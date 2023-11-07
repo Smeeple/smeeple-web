@@ -3,14 +3,14 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <h2 class="mb-3 inline-block rotate-3 skew-x-6 rounded-lg bg-green-light px-2 text-white">Expert spotlight</h2>
+                    <h2 class="mb-8 inline-block rounded-lg bg-green-light px-2 text-white">Expert spotlight</h2>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
             </div>
         </div>
 
-        <div class="marquee mt-4 lg:mb-3">
+        <div class="marquee mt-8 lg:mb-3">
             <ul class="marquee-content list-none">
                 <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] scale-100 transition-all lg:hover:scale-105">
                     <NuxtLink :to="expert.profile" class="relative flex-1 text-white no-underline" target="_blank">
