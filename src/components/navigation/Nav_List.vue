@@ -25,7 +25,7 @@
 
     <li
         :class="{
-            hidden: parentClass === 'nav-header',
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
         <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/about-smeeple">About Smeeple</NuxtLink>
@@ -49,7 +49,7 @@
 
     <li
         :class="{
-            'ml-4 md-max:hidden': parentClass === 'nav-header',
+            hidden: parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
         <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/contact-us">Contact us</NuxtLink>
