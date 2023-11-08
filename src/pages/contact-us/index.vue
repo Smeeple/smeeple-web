@@ -93,7 +93,7 @@
 
         <div class="mb-3">
             <label class="mb-1 inline-block" for="email">Email<span class="text-orange-light">*</span></label>
-            <input v-model="supabaseFormData.email" id="email" type="email" name="email" placeholder="user@domain.com" required />
+            <input v-model="supabaseFormData.email" id="email" type="email" name="email" placeholder="john.smith@domain.com" required />
         </div>
 
         <div class="mb-3">
