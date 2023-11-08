@@ -6,11 +6,22 @@
                     <h2 class="leading-tight text-white">Subscribe to our newsletter</h2>
 
                     <div class="mb-3 sm:flex sm:items-center sm:justify-center">
-                        <form>
-                            <input class="border-white xs-max:mb-2 sm:w-[360px]" type="email" placeholder="Enter your email address" />
-                        </form>
+                        <form action="https://smeeple.us21.list-manage.com/subscribe/post?u=d80d185e796d0394c7aedcb86&amp;id=be6c5ed361&amp;f_id=003be1e6f0" method="post" target="_blank" novalidate>
+                            <div class="flex">
+                                <input class="border-white xs-max:mb-2 sm:w-[360px]" type="email" name="EMAIL" placeholder="Enter your email address" required />
+                                <input class="cta-tertiary sm:ml-2" type="submit" name="subscribe" value="Sign up" />
+                            </div>
 
-                        <NuxtLink class="cta-tertiary sm:ml-2" to="#">Sign up</NuxtLink>
+                            <!-- Hidden fields -->
+
+                            <div hidden>
+                                <input type="hidden" name="tags" value="2964930,2969893" />
+                            </div>
+
+                            <div class="absolute -left-[5000px]" aria-hidden="true">
+                                <input type="text" name="b_d80d185e796d0394c7aedcb86_be6c5ed361" tabindex="-1" />
+                            </div>
+                        </form>
                     </div>
 
                     <p class="text-white">Get the latest Smeeple news and updates delivered <br class="sm-max:hidden" />directly to your inbox.</p>
