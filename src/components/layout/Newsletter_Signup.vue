@@ -7,7 +7,7 @@
 
                     <div class="mb-3 sm:flex sm:items-center sm:justify-center">
                         <form action="https://smeeple.us21.list-manage.com/subscribe/post?u=d80d185e796d0394c7aedcb86&amp;id=be6c5ed361&amp;f_id=003be1e6f0" method="post" target="_blank" novalidate>
-                            <div class="flex">
+                            <div class="sm:flex">
                                 <input class="border-white xs-max:mb-2 sm:w-[360px]" type="email" name="EMAIL" placeholder="Enter your email address" required />
                                 <input class="cta-tertiary sm:ml-2" type="submit" name="subscribe" value="Sign up" />
                             </div>
