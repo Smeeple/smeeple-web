@@ -47,12 +47,17 @@
         <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/support">Support</NuxtLink>
     </li> -->
 
+    <!-- <li
+        :class="{
+            'ml-4 md-max:hidden': parentClass === 'nav-header',
+            'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
+        }"> -->
     <li
         :class="{
             hidden: parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/contact-us">Contact us</NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64" target="_blank">Contact us</NuxtLink>
     </li>
 
     <li
