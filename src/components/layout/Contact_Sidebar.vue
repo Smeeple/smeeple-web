@@ -43,7 +43,7 @@
                 <h3 class="mb-0">Phone</h3>
             </div>
 
-            <p>+1 (301) XXX-XXXX</p>
+            <p>+1 (240) 652-2991</p>
         </div>
 
         <div class="xs-max:mt-3 sm:col-span-12 md:order-4 md:col-span-6 2xl:col-span-12">
@@ -56,9 +56,9 @@
             <p>
                 Smeeple, Inc.
                 <br />
-                P.O. Box 1234
+                P.O. Box 17
                 <br />
-                California, MD 20659
+                Great Mills, MD 20634
             </p>
         </div>
     </div>
