@@ -51,18 +51,18 @@
         </div>
     </section>
 
-    <section class="pb-0 sm-max:pt-6">
+    <section class="sm-max:pb-2 sm:md-max:pt-6 lg:pb-0">
         <div class="container">
-            <div class="text-center sm:grid sm:grid-cols-12 sm:gap-12">
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+            <div class="grid text-center xs-max:gap-y-4 sm:grid-cols-12 sm:gap-y-6 lg:gap-6 2xl:gap-12">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">Over 200 experts</h3>
 
-                    <p>Discover experts from a wide range of categories, book appointments, and conduct virtual meetings &mdash; all right from within the <strong>Smeeple</strong> app.</p>
+                    <p>Discover experts from a wide range of categories, book appointments, and conduct virtual meetings &mdash; all right from within the Smeeple app.</p>
                 </div>
 
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_Calendar class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">Your schedule</h3>
@@ -70,7 +70,7 @@
                     <p>Whether as soon as possible, or a Friday evening with a glass of wine in-hand, select an availability that works best for you and your schedule.</p>
                 </div>
 
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_Chat class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">Get expertise</h3>
@@ -85,7 +85,7 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="col-span-12 text-center">
-                    <h2 class="mb-0 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-white">How it works</h2>
+                    <h2 class="inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-white xs-max:mb-4 sm:mb-0">How it works</h2>
                 </div>
 
                 <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-1.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
@@ -120,7 +120,7 @@
                             </div>
                         </div>
 
-                        <div class="order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:flex md:flex-col md:items-end md:pt-4 md:text-right">
+                        <div class="order-1 sm-max:mb-4 sm-max:text-center md:col-span-6 md:flex md:flex-col md:items-end md:text-right xl:pt-4">
                             <h3 class="rotate-4 mb-0 font-caveat text-48 leading-10 text-orange-light md:mr-4">Book and pay</h3>
 
                             <p class="mt-4 -rotate-6 font-caveat text-40 leading-10">Check an expert's availability, and book what works for you.</p>
