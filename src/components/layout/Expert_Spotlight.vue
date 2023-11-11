@@ -10,7 +10,7 @@
             </div>
         </div>
 
-        <div class="marquee mt-8 lg:mb-3">
+        <div class="marquee mt-8 md-max:mb-3 lg:mb-0">
             <ul class="marquee-content list-none">
                 <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] scale-100 transition-all lg:hover:scale-105">
                     <NuxtLink :to="expert.profile" class="relative flex-1 text-white no-underline" target="_blank">
