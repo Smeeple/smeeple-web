@@ -15,18 +15,26 @@
 </script>
 
 <template>
-    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:pb-0 lg:py-12">
+    <section class="relative -mt-[141px] flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] text-white md-max:pb-0 lg:py-12">
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
+                    <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
 
-                    <p class="mt-3 text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 
-                    <div class="cta-group mt-5 lg-max:hidden">
-                        <CTA_App_Store />
+                    <div class="mt-5 flex items-center lg-max:hidden">
+                        <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
 
-                        <CTA_Google_Play />
+                        <div class="ml-3">
+                            <p>Scan the QR code, with your camera, <br />to download the Smeeple app.</p>
+
+                            <div class="mt-1 flex">
+                                <Icon_Apple />
+
+                                <Icon_Google_Play class="ml-2" />
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -35,16 +43,30 @@
                         <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/uTDq7gLUxn0?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
                     </div>
 
-                    <div class="cta-group mt-6 xl:hidden">
+                    <div class="cta-group mt-6 lg:hidden">
                         <CTA_App_Store />
 
                         <CTA_Google_Play />
+                    </div>
+
+                    <div class="mt-6 md-max:hidden lg:lg-max:flex lg:lg-max:flex-col lg:lg-max:items-center xl:hidden">
+                        <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
+
+                        <div class="mt-3 text-center">
+                            <p>Scan the QR code, with your camera, <br />to download the Smeeple app.</p>
+
+                            <div class="mt-1 flex justify-center">
+                                <Icon_Apple />
+
+                                <Icon_Google_Play class="ml-2" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="scroll-indicator lg-max:hidden">
+        <div class="scroll-indicator md-max:hidden">
             <span class="scroll-mouse">
                 <span class="scroll-wheel"></span>
             </span>
