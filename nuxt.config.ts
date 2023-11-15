@@ -14,6 +14,7 @@ export default defineNuxtConfig({
             link: [
                 { rel: 'icon', href: 'favicon.ico' }
             ],
+            htmlAttrs: { lang: 'en' },
             bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' }
         }
     },
