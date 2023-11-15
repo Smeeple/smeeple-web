@@ -12,9 +12,6 @@ module.exports = {
     ],
     darkMode: 'media', // or 'class'
     important: true,
-    plugins: [
-        require('@tailwindcss/forms'),
-    ],
     prefix: '',
     presets: [],
     theme: {
