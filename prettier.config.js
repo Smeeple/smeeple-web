@@ -35,5 +35,8 @@ module.exports = {
             printWidth             : Infinity,   // Default: 80 (int)
             vueIndentScriptAndStyle: true        // Default: false (bool)
         }
-    }]
+    }],
+    plugins                   : [
+        'prettier-plugin-tailwindcss'
+    ]
 }
