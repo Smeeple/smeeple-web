@@ -22,7 +22,7 @@
         <p>Your message has been received. We will review and respond to it shortly. Your feedback is important to us, as it helps us improve.</p>
 
         <div class="mt-3 flex justify-start">
-            <NuxtLink class="cta-tertiary flex items-center" to="/contact-us"><Icon_Chevron_Left class="mr-1" />Go back</NuxtLink>
+            <a class="cta-tertiary flex items-center" href="/contact-us"><Icon_Chevron_Left class="mr-1" />Go back</a>
         </div>
     </div>
 </template>

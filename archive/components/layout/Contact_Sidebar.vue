@@ -19,20 +19,26 @@
 
             <p class="mb-2">
                 General:
+
                 <br class="sm-max:inline-block md:hidden 2xl:inline-block" />
-                <NuxtLink to="mailto:info@smeeple.com">info@smeeple.com</NuxtLink>
+
+                <a href="mailto:info@smeeple.com">info@smeeple.com</a>
             </p>
 
             <p class="mb-2">
                 Support:
+
                 <br class="md:hidden 2xl:inline-block" />
-                <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>
+
+                <a href="mailto:support@smeeple.com">support@smeeple.com</a>
             </p>
 
             <p>
                 Technical:
+
                 <br class="sm-max:inline-block md:hidden 2xl:inline-block" />
-                <NuxtLink to="mailto:support@smeeple.com">admin@smeeple.com</NuxtLink>
+
+                <a href="mailto:support@smeeple.com">admin@smeeple.com</a>
             </p>
         </div>
 
