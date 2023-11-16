@@ -6,12 +6,26 @@
             <div class="container">
                 <!-- <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"> -->
                 <div class="sm:grid sm:grid-cols-12 sm:gap-3">
-                    <div class="order-1 sm:col-span-6 xl:col-span-3 2xl:col-span-3">
+                    <div class="order-1 sm:col-span-6 xl:col-span-3 2xl:col-span-4">
                         <a href="/">
                             <Logo_Smeeple parentClass="logo-light" />
                         </a>
 
-                        <ul class="app-list mt-3 list-none">
+                        <div class="mt-2 md-max:hidden lg:lg-max:flex lg:lg-max:items-center 2xl:flex 2xl:items-center">
+                            <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
+
+                            <div class="lg:lg-max:ml-3 xl:xl-max:mt-3 2xl:ml-3">
+                                <p>Scan the QR code,<br />to download Smeeple.</p>
+
+                                <div class="mt-1 flex">
+                                    <Icon_Apple />
+
+                                    <Icon_Google_Play class="ml-2" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="app-list mt-3 list-none lg:hidden">
                             <li>
                                 <CTA_App_Store />
                             </li>
@@ -38,7 +52,7 @@
                         <a class="cta-secondary mt-3" href="/for-experts">Become an expert</a>
                     </div>
 
-                    <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-4">
+                    <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-3">
                         <h6 class="text-orange-light">Smeeple</h6>
 
                         <p>Connecting people to subject matter experts, through video conferencing, to gain knowledge, skills, and insight.</p>
