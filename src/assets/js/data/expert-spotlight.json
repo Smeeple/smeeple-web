@@ -6,7 +6,7 @@
         "rating": "4.98",
         "reviews": "12",
         "rate": "$30",
-        "photo": "assets/img/photo-jeff-demassari.jpg",
+        "photo": "/assets/img/photo-jeff-demassari.jpg",
         "profile": "https://app.smeeple.com/experts/1qp3es"
     },
     {
@@ -16,7 +16,7 @@
         "rating": "5.0",
         "reviews": "1",
         "rate": "$30",
-        "photo": "assets/img/photo-katie-krejci.jpg",
+        "photo": "/assets/img/photo-katie-krejci.jpg",
         "profile": "https://app.smeeple.com/experts/6rueat"
     },
     {
@@ -26,7 +26,7 @@
         "rating": "4.76",
         "reviews": "1283",
         "rate": "$30",
-        "photo": "assets/img/photo-ian-gunther.jpg",
+        "photo": "/assets/img/photo-ian-gunther.jpg",
         "profile": "https://app.smeeple.com/experts/bdb345"
     },
     {
@@ -36,7 +36,7 @@
         "rating": "4.91",
         "reviews": "31",
         "rate": "$20",
-        "photo": "assets/img/photo-discovery-daisy.jpg",
+        "photo": "/assets/img/photo-discovery-daisy.jpg",
         "profile": "https://app.smeeple.com/experts/DiscoveryDaisy"
     },
     {
@@ -46,7 +46,7 @@
         "rating": "4.84",
         "reviews": "53",
         "rate": "$15",
-        "photo": "assets/img/photo-jake-fullington.jpg",
+        "photo": "/assets/img/photo-jake-fullington.jpg",
         "profile": "https://app.smeeple.com/experts/a0ed01"
     },
     {
@@ -56,7 +56,7 @@
         "rating": "4.90",
         "reviews": "5",
         "rate": "$50",
-        "photo": "assets/img/photo-erin-costa.jpg",
+        "photo": "/assets/img/photo-erin-costa.jpg",
         "profile": "https://app.smeeple.com/experts/4klo69"
     },
     {
@@ -66,7 +66,7 @@
         "rating": "4.53",
         "reviews": "138",
         "rate": "$100",
-        "photo": "assets/img/photo-daniel-sydnor.jpg",
+        "photo": "/assets/img/photo-daniel-sydnor.jpg",
         "profile": "https://app.smeeple.com/experts/pjuj7f"
     }
 ]
