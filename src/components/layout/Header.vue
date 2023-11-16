@@ -8,9 +8,9 @@
 
         <div class="container py-2">
             <div class="flex min-h-[52px] items-center justify-between">
-                <NuxtLink to="/">
+                <a href="/">
                     <Logo_Smeeple parentClass="logo-light" />
-                </NuxtLink>
+                </a>
 
                 <nav>
                     <ul class="nav-list flex list-none items-center text-white">

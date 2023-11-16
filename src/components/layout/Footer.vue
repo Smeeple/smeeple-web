@@ -7,9 +7,9 @@
                 <!-- <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"> -->
                 <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                     <div class="order-1 sm:col-span-6 xl:col-span-3 2xl:col-span-3">
-                        <NuxtLink to="/">
+                        <a href="/">
                             <Logo_Smeeple parentClass="logo-light" />
-                        </NuxtLink>
+                        </a>
 
                         <ul class="app-list mt-3 list-none">
                             <li>
@@ -35,7 +35,7 @@
 
                         <p>Are you a subject matter expert? Looking for clients and visibility?</p>
 
-                        <NuxtLink class="cta-secondary mt-3" to="/for-experts">Become an expert</NuxtLink>
+                        <a class="cta-secondary mt-3" href="/for-experts">Become an expert</a>
                     </div>
 
                     <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-4">
@@ -55,15 +55,15 @@
 
                 <ul class="nav-list list-none md:flex md:items-center md-max:justify-center">
                     <li>
-                        <NuxtLink to="/terms-and-conditions">Terms & conditions</NuxtLink>
+                        <a href="/terms-and-conditions">Terms & conditions</a>
                     </li>
 
                     <li class="sm-max:mt-1 md:ml-4">
-                        <NuxtLink to="/privacy-policy">Privacy policy</NuxtLink>
+                        <a href="/privacy-policy">Privacy policy</a>
                     </li>
 
                     <li class="sm-max:mt-1 md:ml-4">
-                        <NuxtLink to="/booking-policy-and-expert-agreement">Booking policy & <br class="sm-max:hidden lg:hidden" />expert agreement</NuxtLink>
+                        <a href="/booking-policy-and-expert-agreement">Booking policy & <br class="sm-max:hidden lg:hidden" />expert agreement</a>
                     </li>
                 </ul>
             </div>

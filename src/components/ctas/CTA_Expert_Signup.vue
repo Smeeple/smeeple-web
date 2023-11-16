@@ -1,3 +1,3 @@
 <template>
-    <NuxtLink class="cta-primary" to="https://app.smeeple.com/experts/create-account" target="_blank">Expert signup</NuxtLink>
+    <a class="cta-primary" href="https://app.smeeple.com/experts/create-account" target="_blank">Expert signup</a>
 </template>

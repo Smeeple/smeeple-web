@@ -13,7 +13,7 @@
         <div class="marquee mt-8 md-max:mb-3 lg:mb-0">
             <ul class="marquee-content list-none">
                 <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] scale-100 transition-all lg:hover:scale-105">
-                    <NuxtLink :to="expert.profile" class="relative flex-1 text-white no-underline" target="_blank">
+                    <a :href="expert.profile" class="relative flex-1 text-white no-underline" target="_blank">
                         <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-white shadow-md">{{ expert.category }}</div>
 
                         <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative h-[480px] overflow-hidden rounded-lg bg-gray-light shadow-lg shadow-black/60 duration-300">
@@ -35,7 +35,7 @@
                                 </div>
                             </div>
                         </div>
-                    </NuxtLink>
+                    </a>
                 </li>
             </ul>
         </div>

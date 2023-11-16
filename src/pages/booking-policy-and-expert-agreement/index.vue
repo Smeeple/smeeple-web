@@ -37,9 +37,9 @@
 
                         <li><strong>Reschedule appointments</strong> - Reschedule appointments outside of the four-hour appointment window at no charge.</li>
 
-                        <li>If technical issues occur in the call, the SME can reach out to Smeeple and recommend a refund. All payments go through Stripe and Smeeple will be able to work with Stripe on a refund, if deemed necessary. If technical issues occur on the expert side, a refund can be given. If there are further issues please reach <NuxtLink to="mailto:support@smeeple.com">support@smeeple.com</NuxtLink>.</li>
+                        <li>If technical issues occur in the call, the SME can reach out to Smeeple and recommend a refund. All payments go through Stripe and Smeeple will be able to work with Stripe on a refund, if deemed necessary. If technical issues occur on the expert side, a refund can be given. If there are further issues please reach <a href="mailto:support@smeeple.com">support@smeeple.com</a>.</li>
 
-                        <li><strong>Payment system</strong> - Smeeple shall employ Stripe as their third-party payment processor. Experts and Consumers shall make themselves familiar with the <NuxtLink to="https://stripe.com/legal/ssa" target="_blank">Stripe Services Agreement</NuxtLink>.</li>
+                        <li><strong>Payment system</strong> - Smeeple shall employ Stripe as their third-party payment processor. Experts and Consumers shall make themselves familiar with the <a href="https://stripe.com/legal/ssa" target="_blank">Stripe Services Agreement</a>.</li>
 
                         <li><strong>Assignment</strong> - Expert may not assign or transfer this Agreement without the express prior written consent of Smeeple.</li>
 
@@ -69,7 +69,7 @@
 
                         <li><strong>Platform fee</strong> - Expert shall exclusively determine Expert's own fees. Expert shall pay a fee for the use of the Smeeple Marketplace ("Platform Fee") and authorizes Smeeple to deduct the Platform Fee directly from the payments collected from Customers by Stripe. Any deficient amounts for the Platform Fee shall be invoiced to Expert by Smeeple each month. The Platform Fee shall be 10% of each Customer session. In using Smeeple Marketplace, Expert shall only receive fees directly from Smeeple, and Expert agrees that under no circumstances will Expert attempt to seek or receive compensation for services provided hereunder directly from Customers.</li>
 
-                        <li><strong>Payment system</strong> - Smeeple shall employ Stripe as their third-party payment processor. Experts shall make themselves familiar with the <NuxtLink to="https://stripe.com/legal/ssa" target="_blank">Stripe Services Agreement</NuxtLink>.</li>
+                        <li><strong>Payment system</strong> - Smeeple shall employ Stripe as their third-party payment processor. Experts shall make themselves familiar with the <a href="https://stripe.com/legal/ssa" target="_blank">Stripe Services Agreement</a>.</li>
 
                         <li><strong>Expenses</strong> - Expert acknowledges that Smeeple will not reimburse Expert for any expenses incurred by Expert related to Expert's rendering of services hereunder, including, without limitation, expenses associated with preparing for and administering sessions, educational and other materials, and transportation.</li>
 
