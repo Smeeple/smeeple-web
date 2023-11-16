@@ -24,7 +24,7 @@
             </a>
         </li>
 
-        <li class="inline-block sm-max:mr-2 md:mr-2">
+        <!-- <li class="inline-block sm-max:mr-2 md:mr-2">
             <a href="https://x.com/SmeepleApp" target="_blank">
                 <Icon_X
                     :class="{
@@ -34,9 +34,9 @@
                     }"
                     class="transition-all duration-300" />
             </a>
-        </li>
+        </li> -->
 
-        <li class="inline-block sm-max:mr-2 md:mr-2">
+        <!-- <li class="inline-block sm-max:mr-2 md:mr-2">
             <a href="https://tiktok.com/@SmeepleApp" target="_blank">
                 <Icon_TikTok
                     :class="{
@@ -46,7 +46,7 @@
                     }"
                     class="transition-all duration-300" />
             </a>
-        </li>
+        </li> -->
 
         <li class="inline-block sm-max:mr-2 md:mr-2">
             <a href="https://youtube.com/@SmeepleApp" target="_blank">
