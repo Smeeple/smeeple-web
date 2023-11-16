@@ -5,7 +5,7 @@
                 <div class="text-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <h2 class="mb-8 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-white">Expert spotlight</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p>Check out some of our top experts, from industry leaders to social media giants. With Smeeple, you'll get personalized one-on-one assistance tailored to your needs, when you need it the most.</p>
                 </div>
             </div>
         </div>

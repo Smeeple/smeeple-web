@@ -21,7 +21,7 @@
                 <div class="sm:col-span-12 xl:col-span-6">
                     <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
 
-                    <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <p class="mt-3">Smeeple brings you face-to-face with experts from a wide variety of fields such as interior design, fitness, HVAC, gardening, and more. Don't settle for generic online tutorials. Connect with knowledgeable experts, to get the tailored answers you deserve.</p>
 
                     <div class="mt-5 flex items-center lg-max:hidden">
                         <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
@@ -81,7 +81,7 @@
 
                     <h3 class="mb-3">Over 200 experts</h3>
 
-                    <p>Discover experts from a wide range of categories, book appointments, and conduct virtual meetings &mdash; all right from within the Smeeple app.</p>
+                    <p>Discover experts from a wide variety of fields, book appointments, and conduct virtual meetings &mdash; all right from within the Smeeple app.</p>
                 </div>
 
                 <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
