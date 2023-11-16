@@ -40,7 +40,8 @@ export default defineNuxtConfig({
             'tailwindcss/nesting': {}
         }
     },
-    spaLoadingTemplate: false,
+    // spaLoadingTemplate: false,
     srcDir: 'src/',
-    ssr: false
+    ssr: true
+    // ssr: false
 });
