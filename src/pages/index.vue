@@ -38,18 +38,18 @@
                     </div>
                 </div>
 
-                <div class="mt-3 sm:col-span-12 lg-max:mt-5 xl:col-span-6">
+                <div class="mt-3 sm:col-span-12 lg-max:mt-5 lg:lg-max:flex lg:lg-max:flex-col lg:lg-max:justify-center xl:col-span-6">
                     <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%]">
                         <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/uTDq7gLUxn0?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
                     </div>
 
-                    <div class="mt-6 md-max:hidden lg:lg-max:flex lg:lg-max:flex-col lg:lg-max:items-center xl:hidden">
+                    <div class="mx-auto mt-6 flex items-center md-max:hidden xl:hidden">
                         <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
 
-                        <div class="mt-3 text-center">
-                            <p>Scan the QR code, with your camera, <br />to download the Smeeple app.</p>
+                        <div class="ml-3">
+                            <p>Scan the QR code,<br />to download Smeeple.</p>
 
-                            <div class="mt-1 flex justify-center">
+                            <div class="mt-1 flex">
                                 <Icon_Apple />
 
                                 <Icon_Google_Play class="ml-2" />
