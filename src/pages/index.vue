@@ -21,7 +21,7 @@
                 <div class="sm:col-span-12 xl:col-span-6">
                     <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
 
-                    <p class="mt-3">Smeeple brings you face-to-face with experts from a wide variety of fields such as interior design, fitness, HVAC, gardening, and more. Don't settle for generic online tutorials. Connect with knowledgeable experts, to get the tailored answers you deserve.</p>
+                    <p class="mt-3">Smeeple brings you face-to-face with experts from a wide variety of fields such as interior design, fitness, HVAC, gardening, and more. Don't settle for generic online tutorials. Connect with knowledgeable experts, to get the tailored answers you&nbsp;deserve.</p>
 
                     <div class="mt-5 flex items-center lg-max:hidden">
                         <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
@@ -103,7 +103,7 @@
         </div>
     </section>
 
-    <section class="sm-max:pb-3 sm-max:pt-6 md:pb-3">
+    <section class="sm-max:pb-0 sm-max:pt-6 md:pb-3">
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="col-span-12 text-center">
@@ -152,7 +152,7 @@
                     </div>
                 </div>
 
-                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-3.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
+                <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:pb-1 sm-max:pt-4 md:bg-[url('/assets/img/bg-step-3.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
                         <div class="sm-max:order-2 md:col-span-6">
                             <div class="relative w-[360px] sm-max:mx-auto">

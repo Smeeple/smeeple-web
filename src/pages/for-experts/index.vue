@@ -44,29 +44,29 @@
         </div>
     </section>
 
-    <section class="pb-0 sm-max:pt-6">
+    <section class="sm-max:pb-2 sm:md-max:pt-6 lg:pb-0">
         <div class="container">
-            <div class="text-center sm:grid sm:grid-cols-12 sm:gap-12">
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <Icon_Stack class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+            <div class="grid text-center xs-max:gap-y-4 sm:grid-cols-12 sm:gap-y-6 lg:gap-6 2xl:gap-12">
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
+                    <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">The platform</h3>
 
                     <p>Everything built into one platform, eliminating the need for multiple apps, payment systems, and calendars &mdash; allowing you to focus on sharing your expertise and earning, with ease.</p>
                 </div>
 
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
+                    <Icon_Calendar class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
                     <h3 class="mb-3">The community</h3>
 
                     <p>Maybe you're a Division 1 athlete, a retired plumber, or even a small business owner. With Smeeple, we can bring expertise to the consumers who need it &mdash; within reach of their mobile device.</p>
                 </div>
 
-                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-4">
-                    <Icon_Clock class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
+                <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
+                    <Icon_Chat class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <h3 class="mb-3">Your hours and&nbsp;rates</h3>
+                    <h3 class="mb-3">Your schedule</h3>
 
                     <p>Smeeple will never impose on your pricing or schedules with consumers. We ask that you maintain professionalism, and give your best effort. We aim to build a community, not just a business.</p>
                 </div>
