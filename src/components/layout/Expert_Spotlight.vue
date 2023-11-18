@@ -13,25 +13,21 @@
         <div class="marquee mt-8 md-max:mb-3 lg:mb-0">
             <ul class="marquee-content list-none">
                 <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] scale-100 transition-all lg:hover:scale-105">
-                    <a :href="expert.profile" class="relative flex-1 text-white no-underline" target="_blank">
-                        <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-white shadow-md">{{ expert.category }}</div>
+                    <a :href="expert.profile" class="relative flex-1 no-underline" target="_blank">
+                        <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-16 text-white shadow-md">{{ expert.category }}</div>
 
-                        <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative h-[480px] overflow-hidden rounded-lg bg-gray-light shadow-lg shadow-black/60 duration-300">
-                            <div class="card-wrapper h-full p-2" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(10, 12, 33, 0) 50%, rgba(21, 25, 67, 1) 100%)">
-                                <div class="card-container h-full rounded-lg border-[3px] border-white border-opacity-60">
-                                    <div class="card-body absolute bottom-4 left-4">
-                                        <div class="block font-poppins">{{ expert.name }}</div>
+                        <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative h-[480px] overflow-hidden rounded-lg bg-gray-light shadow-lg shadow-black/30 duration-300">
+                            <div class="card-body absolute bottom-0 w-full bg-white/90 px-3 py-2">
+                                <span class="block font-poppins text-18 text-black">{{ expert.name }}</span>
 
-                                        <div class="mt-[5px] flex items-center">
-                                            <div class="inline-block rounded-md bg-green-light px-1 text-white">{{ expert.rate }}</div>
+                                <div class="mt-[5px] flex items-center">
+                                    <span class="inline-block rounded-md bg-green-light px-2 font-poppins text-16 text-white">{{ expert.rate }}</span>
 
-                                            <Icon_Star class="-mt-[4px] ml-1" />
+                                    <Icon_Star class="-mt-[4px] ml-1" />
 
-                                            <div class="ml-[5px]">{{ expert.rating }}</div>
+                                    <span class="ml-[5px] font-poppins text-16">{{ expert.rating }}</span>
 
-                                            <div class="ml-[5px]">({{ expert.reviews }})</div>
-                                        </div>
-                                    </div>
+                                    <span class="ml-[5px] font-poppins text-16">({{ expert.reviews }})</span>
                                 </div>
                             </div>
                         </div>
@@ -104,11 +100,6 @@
         display: flex;
         flex-shrink: 0;
         width: var(--marquee-element-width);
-    }
-
-    .marquee-content li img {
-        width: 100%;
-        border: 2px solid #eee;
     }
 
     @media (max-width: 600px) {
