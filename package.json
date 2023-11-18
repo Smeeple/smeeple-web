@@ -28,7 +28,6 @@
         "tailwind": "nuxi dev -o & tailwind-config-viewer -o -p 3000"
     },
     "devDependencies": {
-        "@nuxt/devtools": "^1.0.2",
         "@supabase/supabase-js": "^2.38.4",
         "@types/node": "^20.9.0",
         "autoprefixer": "^10.4.16",
