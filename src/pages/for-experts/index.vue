@@ -87,7 +87,7 @@
                     <img class="shadow-lg shadow-black/30 lg-max:mt-4" src="/assets/img/img-create-profile.png" alt="Expert signup page" />
                 </div>
 
-                <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2 2xl:col-span-5">
+                <div class="sm:col-span-12 lg-max:text-center xl:col-span-10 xl:col-start-2 2xl:col-span-5">
                     <h3 class="mb-3">Create a profile</h3>
 
                     <p>Our process to become an expert is streamlined and guides you through each step. We've made the process straightforward, to facilitate a swift onboarding of our experts onto the Smeeple platform, integrating them promptly into our expert community.</p>
@@ -95,7 +95,7 @@
             </div>
 
             <div class="mb-8 grid sm:grid-cols-12 xl:items-center xl:gap-12">
-                <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2 2xl:col-span-5">
+                <div class="sm:col-span-12 lg-max:text-center xl:col-span-10 xl:col-start-2 2xl:col-span-5">
                     <h3 class="mb-3">Download the app</h3>
 
                     <p>Download Smeeple from either app store, to explore the wide variety of experts in our community. Share your profile and engage in video sessions without the need for additional software. Enjoy direct video connections with consumers right within the app.</p>
@@ -111,7 +111,7 @@
                     <img class="shadow-lg shadow-black/30 lg-max:mt-4" src="/assets/img/img-expert-preview.png" alt="Expert profile preview" />
                 </div>
 
-                <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2 2xl:col-span-5">
+                <div class="sm:col-span-12 lg-max:text-center xl:col-span-10 xl:col-start-2 2xl:col-span-5">
                     <h3 class="mb-3">Share your profile</h3>
 
                     <p>Amplify the reach of your services by sharing your profile and our platform within your network. Join us in promoting Smeeple, to help extend our collective expertise across the world.</p>
