@@ -113,8 +113,8 @@
                 <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-1.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
                         <div class="sm-max:order-2 md:col-span-6">
-                            <div class="relative w-[360px] sm-max:mx-auto">
-                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
+                            <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
+                                <video class="absolute -z-10 shadow-2xl shadow-black xs-max:left-[19px] xs-max:top-[14px] xs-max:w-[279px] sm:left-[20px] sm:top-[15px]" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -135,8 +135,8 @@
                 <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:py-4 md:bg-[url('/assets/img/bg-step-2.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <div class="grid rotate-2 md:grid-cols-12 md:gap-3">
                         <div class="order-2 md:col-span-6">
-                            <div class="relative w-[360px] sm-max:mx-auto">
-                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
+                            <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
+                                <video class="absolute -z-10 shadow-2xl shadow-black xs-max:left-[19px] xs-max:top-[14px] xs-max:w-[279px] sm:left-[20px] sm:top-[15px]" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -155,8 +155,8 @@
                 <div class="bg-bottom bg-no-repeat sm:col-span-12 sm-max:pb-1 sm-max:pt-4 md:bg-[url('/assets/img/bg-step-3.png')] md:py-8 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
                     <div class="grid -rotate-2 md:grid-cols-12 md:gap-3">
                         <div class="sm-max:order-2 md:col-span-6">
-                            <div class="relative w-[360px] sm-max:mx-auto">
-                                <video class="absolute left-[20px] top-[15px] -z-10 shadow-2xl shadow-black" src="/assets/video/meet-virtually.mp4" autoplay loop muted></video>
+                            <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
+                                <video class="absolute -z-10 shadow-2xl shadow-black xs-max:left-[19px] xs-max:top-[14px] xs-max:w-[279px] sm:left-[20px] sm:top-[15px]" src="/assets/video/meet-virtually.mp4" autoplay loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
