@@ -25,7 +25,7 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 lg:col-span-10 lg:col-start-2 xl:col-span-8 xl:col-start-3">
-                    <h4 class="mb-0 text-orange-light">Browse experts</h4>
+                    <h4 class="mb-0 text-blue-light">Browse experts</h4>
 
                     <h1 class="mb-0">{{ toSentenceCase(slug.replace(/and/g, '&').replace(/-/g, ' ')) }}</h1>
                 </div>
