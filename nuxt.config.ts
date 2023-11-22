@@ -9,32 +9,36 @@ export default defineNuxtConfig({
                 { name: 'copyright', content: 'Site copyright' },
                 { property: 'og:locale', content: 'en_US' },
                 { property: 'og:type', content: 'website' },
-                { property: 'og:image', content: '' }
+                { property: 'og:image', content: '' },
             ],
-            link: [
-                { rel: 'icon', href: '/favicon.ico' }
-            ],
+            link: [{ rel: 'icon', href: '/favicon.ico' }],
             htmlAttrs: { lang: 'en' },
-            bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' }
-        }
+            bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' },
+        },
     },
-    css: [ 'assets/scss/styles.scss' ],
+    css: ['assets/scss/styles.scss'],
     components: [
         '~/components',
         { path: '~/components/ctas', pathPrefix: false },
         { path: '~/components/icons', pathPrefix: false },
         { path: '~/components/layout', pathPrefix: false },
         { path: '~/components/logos', pathPrefix: false },
-        { path: '~/components/navigation', pathPrefix: false }
+        { path: '~/components/navigation', pathPrefix: false },
     ],
+    devtools: {
+        enabled: false,
+        timeline: {
+            enabled: true,
+        },
+    },
     postcss: {
         plugins: {
             autoprefixer: {},
             tailwindcss: {},
-            'tailwindcss/nesting': {}
-        }
+            'tailwindcss/nesting': {},
+        },
     },
     // spaLoadingTemplate: false,
     srcDir: 'src/',
-    ssr: true
+    ssr: true,
 });
