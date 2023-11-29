@@ -5,7 +5,7 @@ module.exports = {
         'src/assets/**/*.{js,json,ts}',
         'src/components/**/*.vue',
         'src/layouts/**/*.vue',
-        'src/pages/**/index.vue',
+        'src/pages/**/*.vue',
         'src/plugins/**/*.{js,ts}',
         'src/public/**/*.{js,ts}',
         'nuxt.config.ts',
