@@ -1,6 +1,7 @@
 <script setup>
     import { useRoute } from 'vue-router';
 
+    const { data: categories } = await useFetch('https://app.smeeple.com/api/v1.1/categories/mobile');
     const { data: experts } = await useFetch('https://app.smeeple.com/api/v1.1/experts/mobile');
 
     const sentenceCase = (str) => {
