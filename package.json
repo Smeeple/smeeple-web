@@ -1,23 +1,13 @@
 {
-    "name": "nuxt-starter",
+    "name": "smeeple-web",
     "version": "",
-    "title": "Nuxt Starter",
-    "description": "A starter repo for Nuxt, the free and open-source framework with an intuitive and extendable way to create type-safe, performant, and production-grade web projects with Vue.js.",
-    "homepage": "https://github.com/ryanaltvater/nuxt-starter",
+    "title": "Smeeple (Web)",
+    "description": "Connecting people to subject matter experts, through video conferencing, to gain knowledge, skills, and insight.",
+    "homepage": "https://www.smeeple.com",
     "license": "ISC",
-    "author": {
-        "name": "Ryan Altvater",
-        "url": "http://www.ryanaltvater.com"
-    },
-    "contributors": [
-        {
-            "name": "Ryan Altvater",
-            "email": "ryan@ryanaltvater.com"
-        }
-    ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/ryanaltvater/nuxt-starter.git"
+        "url": "https://github.com/Smeeple/smeeple-web.git"
     },
     "scripts": {
         "build": "nuxt build",
