@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
     app: {
         head: {
+            htmlAttrs: { lang: 'en' },
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +13,6 @@ export default defineNuxtConfig({
                 { property: 'og:image', content: '' },
             ],
             link: [{ rel: 'icon', href: '/favicon.ico' }],
-            htmlAttrs: { lang: 'en' },
             bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' },
         },
     },
@@ -38,7 +38,6 @@ export default defineNuxtConfig({
             'tailwindcss/nesting': {},
         },
     },
-    // spaLoadingTemplate: false,
     srcDir: 'src/',
     ssr: true,
 });
