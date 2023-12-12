@@ -17,14 +17,14 @@
                         <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-16 text-white shadow-md">{{ expert.category }}</div>
 
                         <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative h-[480px] overflow-hidden rounded-lg bg-gray-light shadow-lg shadow-black/30 duration-300">
-                            <div class="card-body absolute bottom-0 grid w-full grid-cols-2 bg-white/90 px-3 py-2">
-                                <div>
+                            <div class="card-body absolute bottom-0 grid w-full grid-cols-12 bg-white/90 px-3 py-2">
+                                <div class="col-span-9">
                                     <span class="block font-poppins text-18 text-black">{{ expert.name }}</span>
 
-                                    <span class="block font-poppins text-16 text-blue-light">{{ expert.specialty }}</span>
+                                    <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-16 text-blue-light">{{ expert.specialty }}</span>
                                 </div>
 
-                                <div class="flex items-center justify-end">
+                                <div class="col-span-3 text-right">
                                     <span class="inline-block rounded-md bg-green-light px-2 font-poppins text-16 text-white">{{ expert.rate }}</span>
 
                                     <!-- <Icon_Star class="-mt-[4px] ml-1" />

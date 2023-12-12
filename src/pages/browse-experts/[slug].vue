@@ -55,7 +55,7 @@
                                                 <div class="card-body absolute bottom-0 w-full bg-white/90 px-3 py-2">
                                                     <span class="block font-poppins text-18 text-black">{{ expert.firstName }} {{ expert.lastName }}</span>
 
-                                                    <span class="block font-poppins text-16 text-blue-light">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
+                                                    <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-16 text-blue-light">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
                                                 </div>
                                             </div>
                                         </a>
