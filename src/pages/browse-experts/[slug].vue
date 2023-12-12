@@ -53,9 +53,9 @@
                                         <a class="xs:col-span-12 overflow-hidden rounded-lg shadow-lg shadow-black/30 sm:col-span-6 lg:col-span-4 2xl:col-span-3" :href="'https://app.smeeple.com/experts/' + expert.profileLinkId" target="_blank">
                                             <div :style="{ backgroundImage: `url('${expert.photoUrl}')` }" class="card relative h-[360px] bg-cover bg-center shadow-lg shadow-black/30 duration-300">
                                                 <div class="card-body absolute bottom-0 w-full bg-white/90 px-3 py-2">
-                                                    <span class="block font-poppins text-18">{{ expert.firstName }} {{ expert.lastName }}</span>
+                                                    <span class="block font-poppins text-18 text-black">{{ expert.firstName }} {{ expert.lastName }}</span>
 
-                                                    <!-- <span class="font-poppins text-16 text-blue-light">{{ sentenceCase(expert.specialties[0].specialty) }}</span> -->
+                                                    <span class="block font-poppins text-16 text-blue-light">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
                                                 </div>
                                             </div>
                                         </a>
