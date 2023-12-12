@@ -45,11 +45,11 @@
                     </nav>
 
                     <div class="xs-max:order-3 xs-max:mt-3 sm:order-2 sm:col-span-6 xl:order-3 xl:col-span-3 2xl:col-span-3">
-                        <h6 class="text-green-light">Join the community</h6>
+                        <h6 class="text-green-light">Join our community</h6>
 
-                        <p>Are you a subject matter expert? Looking for clients and visibility?</p>
+                        <p>Want to share your expertise, assist others remotely, and connect with your network?</p>
 
-                        <a class="cta-secondary mt-3" href="/for-experts">Become an expert</a>
+                        <a class="cta-secondary mt-3" href="/for-experts">Expert signup</a>
                     </div>
 
                     <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-3">

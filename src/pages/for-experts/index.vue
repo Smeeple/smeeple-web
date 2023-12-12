@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: 'Join the community of over 200 experts',
+        title: 'Join our community of 250+ vetted experts',
         meta: [
             { name: 'description', content: '' },
             { name: 'keywords', content: '' },
@@ -16,7 +16,7 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Join the community of <span class="font-medium text-blue-light">over</span> <span class="font-medium text-green-light">250</span> <span class="font-medium text-orange-light">experts</span></h1>
+                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Join our community of <span class="font-medium text-blue-light">250+</span> <span class="font-medium text-green-light">vetted</span> <span class="font-medium text-orange-light">experts</span></h1>
 
                     <p class="mt-3 text-white">Connect with clients from anywhere. Earn extra income and grow your network, all while saving time and travel expenses. Experience the convenience of virtual meetings when you unlock a world of opportunity with Smeeple.</p>
 
@@ -58,7 +58,7 @@
                 <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_Calendar class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <h3 class="mb-3">The community</h3>
+                    <h3 class="mb-3">Our community</h3>
 
                     <p>Maybe you're a Division 1 athlete, a retired plumber, or even a small business owner. With Smeeple, we can bring expertise to the consumers who need it &mdash; within reach of their mobile device.</p>
                 </div>

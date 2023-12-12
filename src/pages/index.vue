@@ -79,9 +79,9 @@
                 <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <h3 class="mb-3">Over 200 experts</h3>
+                    <h3 class="mb-3">250+ vetted experts</h3>
 
-                    <p>Discover experts from a wide variety of fields, book appointments, and conduct virtual meetings &mdash; all right from within the Smeeple app.</p>
+                    <p>Discover experts from a wide variety of fields, book and pay for appointments, and conduct 1:1 video sessions &mdash; all right from within the Smeeple app.</p>
                 </div>
 
                 <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
@@ -97,7 +97,7 @@
 
                     <h3 class="mb-3">Get expertise</h3>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    <p>Enhance your skills, master a craft, and gain the support you need. Cultivate your abilities with over 20 categories offering personalized assistance, mentorship, mastery, and guidance.</p>
                 </div>
             </div>
         </div>

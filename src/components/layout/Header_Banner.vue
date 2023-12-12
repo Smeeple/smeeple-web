@@ -41,7 +41,7 @@
 <template>
     <div v-if="showBanner" class="bg-blue-light py-1 text-white md-max:hidden">
         <div class="container relative text-center">
-            <p>Are you a subject matter expert? Looking for clients and visibility? <a class="text-white" href="/for-experts">Become an expert</a></p>
+            <p>Download the app today for a chance to win a $100 Smeeple gift card.</p>
 
             <a @click="hiddenBanner" class="absolute right-2 top-[7px] cursor-pointer">
                 <Icon_Close />
