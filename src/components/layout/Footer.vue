@@ -49,7 +49,7 @@
 
                         <p>Want to share your expertise, assist others remotely, and connect with your network?</p>
 
-                        <a class="cta-secondary mt-3" href="/for-experts">Expert signup</a>
+                        <a class="cta-secondary mt-3" href="/for-experts">Become an expert</a>
                     </div>
 
                     <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-3">
