@@ -97,7 +97,7 @@
 
                     <h3 class="mb-3">Get expertise</h3>
 
-                    <p>Enhance your skills, master a craft, and gain the support you need. Cultivate your abilities with over 20 categories offering personalized assistance, mentorship, mastery, and guidance.</p>
+                    <p>Enhance your skills and master your craft with personalized expertise across 20+ categories, offering mentorship and guidance.</p>
                 </div>
             </div>
         </div>
