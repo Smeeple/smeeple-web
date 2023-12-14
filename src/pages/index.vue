@@ -2,7 +2,7 @@
     useHead({
         title: 'Connecting subject matter experts + people',
         meta: [
-            { name: 'description', content: '' },
+            { name: 'description', content: 'Connecting people to subject matter experts, through 1:1 video sessions, to gain knowledge, skills, and insight.' },
             { name: 'keywords', content: '' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
