@@ -39,8 +39,8 @@
 </script>
 
 <template>
-    <div v-if="showBanner" class="bg-blue-light py-1 text-white">
-        <div class="container relative text-center md-max:px-6">
+    <div v-if="showBanner" class="bg-blue-light py-1 text-white md-max:hidden">
+        <div class="container relative text-center">
             <p>Download the app today for a chance to win a $100 Smeeple gift card.</p>
 
             <a @click="hiddenBanner" class="absolute right-2 top-[7px] cursor-pointer">
