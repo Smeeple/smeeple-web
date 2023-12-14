@@ -113,7 +113,7 @@
                             <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
                                 <img class="absolute -z-10 xs-max:left-[14px] xs-max:w-[285px] md:hidden sm:md-max:left-[16px] sm:md-max:top-[1px] sm:md-max:w-[331px]" src="/assets/img/video-find-an-expert.png" alt="Find an expert" />
 
-                                <video class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/find-an-expert.mp4" autoplay loop muted></video>
+                                <video :autoplay="autoplay" class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/find-an-expert.mp4" loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -137,7 +137,7 @@
                             <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
                                 <img class="absolute -z-10 xs-max:left-[16px] xs-max:top-[11px] xs-max:w-[280px] md:hidden sm:md-max:left-[18px] sm:md-max:top-[12px] sm:md-max:w-[326px]" src="/assets/img/video-book-and-pay.png" alt="Book and pay" />
 
-                                <video class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/book-and-pay.mp4" autoplay loop muted></video>
+                                <video :autoplay="autoplay" class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/book-and-pay.mp4" loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -159,7 +159,7 @@
                             <div class="relative xs-max:w-[310px] sm:w-[360px] sm-max:mx-auto">
                                 <img class="absolute -z-10 xs-max:left-[16px] xs-max:top-[10px] xs-max:w-[280px] md:hidden sm:md-max:left-[18px] sm:md-max:top-[12px] sm:md-max:w-[327px]" src="/assets/img/video-meet-virtually.png" alt="Meet virtually" />
 
-                                <video class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/meet-virtually.mp4" autoplay loop muted></video>
+                                <video :autoplay="autoplay" class="absolute -z-10 shadow-2xl shadow-black sm:left-[20px] sm:top-[15px] sm-max:hidden" src="/assets/video/meet-virtually.mp4" loop muted></video>
 
                                 <img src="/assets/img/img-iphone-frame.png" alt="iPhone frame" />
                             </div>
@@ -182,3 +182,30 @@
 
     <Expert_Spotlight />
 </template>
+
+<script>
+    export default {
+        data() {
+            return {
+                autoplay: false,
+            };
+        },
+        mounted() {
+            // Autoplay if the viewport width is greater than 768px
+            this.autoplay = window.innerWidth > 768;
+
+            // Update autoplay on resize
+            window.addEventListener('resize', this.updateAutoplay);
+        },
+        beforeDestroy() {
+            // Remove autoplay on resize
+            window.removeEventListener('resize', this.updateAutoplay);
+        },
+        methods: {
+            updateAutoplay() {
+                // Autoplay if the viewport width is greater than 768px
+                this.autoplay = window.innerWidth > 768;
+            },
+        },
+    };
+</script>
