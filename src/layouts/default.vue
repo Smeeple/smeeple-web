@@ -4,7 +4,7 @@
             return titleChunk ? `${titleChunk} | Smeeple` : 'Smeeple';
         },
         bodyAttrs: {
-            class: 'bg-blue-dark',
+            class: 'bg-blue-dark hidden',
         },
     });
 </script>

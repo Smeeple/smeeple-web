@@ -13,6 +13,7 @@ export default defineNuxtConfig({
                 { property: 'og:image', content: '' },
             ],
             link: [{ rel: 'icon', href: '/favicon.ico' }],
+            script: [{ src: '/assets/js/global.js' }],
             bodyAttrs: { class: 'md-max:pt-[92px] lg:pt-[141px]' },
         },
     },
