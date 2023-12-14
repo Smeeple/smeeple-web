@@ -1,7 +1,7 @@
 # Redirects from what the browser requests to what we serve
 
 /about-us /about-smeeple
-/contact /contact-us
+/contact https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64
 /faq /faqs
 /find-an-expert /
 /im-an-expert /for-experts
