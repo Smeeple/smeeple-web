@@ -16,7 +16,6 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2">
-                    <h1 class="mb-0">Browse experts</h1>
                     <h1 class="mb-0">Privacy policy</h1>
                 </div>
             </div>
