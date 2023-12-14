@@ -4,7 +4,7 @@
             return titleChunk ? `${titleChunk} | Smeeple` : 'Smeeple';
         },
         bodyAttrs: {
-            class: 'bg-[url("/assets/img/bg-dot.png")]',
+            class: 'bg-blue-dark',
         },
     });
 </script>
@@ -12,7 +12,9 @@
 <template>
     <Header />
 
-    <slot />
+    <main class="bg-white bg-[url('/assets/img/bg-dot.png')]">
+        <slot />
+    </main>
 
     <Footer />
 </template>

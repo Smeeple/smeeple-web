@@ -8,9 +8,6 @@
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
         ],
-        bodyAttrs: {
-            class: 'home',
-        },
     });
 </script>
 

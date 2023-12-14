@@ -8,6 +8,9 @@
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
         ],
+        bodyAttrs: {
+            class: 'bg-gray-darker',
+        },
     });
 </script>
 
