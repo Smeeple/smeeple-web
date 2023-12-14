@@ -1,5 +1,7 @@
 # Redirects from what the browser requests to what we serve
 
-/im-an-expert /for-experts
 /about-us /about-smeeple
+/contact /contact-us
 /faq /faqs
+/find-an-expert /
+/im-an-expert /for-experts
