@@ -1,8 +1,22 @@
 # Redirects from what the browser requests to what we serve
 
+/%22https://fonts.googleapis.com/css2 /
+/.well-known/ /
 /about-us /about-smeeple
+/admin/plugins/plupload/examples/upload.php /
+/app-ads.txt /
+/apple-touch-icon.png /
+/assets/filemanager/dialog.php /
 /contact https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64
 /contact-us https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64
 /faq /faqs
+/faqs/%22https://fonts.googleapis.com/css2 /faqs
+/filemanager/dialog.php /
 /find-an-expert /
+/for-experts/%22https://fonts.googleapis.com/css2 /for-experts
 /im-an-expert /for-experts
+/style.php /
+/uploads/ /
+//wp-content/plugins/fix/up.php /
+/wp-admin/css/ /
+/wp-content/plugins/td-composer/license.txt /
