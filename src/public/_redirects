@@ -3,6 +3,7 @@
 /%22https://fonts.googleapis.com/css2 /
 /.well-known/ /
 /about-us /about-smeeple
+/admin/controller/extension/extension/ /
 /admin/plugins/plupload/examples/upload.php /
 /app-ads.txt /
 /apple-touch-icon.png /
@@ -15,6 +16,8 @@
 /find-an-expert /
 /for-experts/%22https://fonts.googleapis.com/css2 /for-experts
 /im-an-expert /for-experts
+/policy /privacy-policy
+/sites/default/files/ /
 /style.php /
 /uploads/ /
 //wp-content/plugins/fix/up.php /
