@@ -4,7 +4,7 @@
             <Nav_List parentClass="nav-mobile" />
         </ul>
 
-        <ul class="app-list mt-2 w-full scale-90 list-none text-center text-white transition-all duration-300">
+        <ul class="app-list mt-2 w-full scale-90 list-none text-white transition-all duration-300">
             <li>
                 <CTA_App_Store />
             </li>
