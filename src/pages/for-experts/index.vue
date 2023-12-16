@@ -19,7 +19,7 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-12 md-max:mt-5 lg:mt-8">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Join our community of <span class="font-medium text-blue-light">250+</span> <span class="font-medium text-green-light">vetted</span> <span class="font-medium text-orange-light">experts</span></h1>
+                    <h1 class="mb-0 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Join our community of <span class="font-medium text-blue-light">250+</span> <span class="font-medium text-green-light">vetted</span> <span class="font-medium text-orange-light">experts</span></h1>
 
                     <p class="mt-3 text-white">Connect with clients from anywhere. Earn extra income and grow your network, all while saving time and travel expenses. Experience the convenience of virtual meetings when you unlock a world of opportunity with Smeeple.</p>
 

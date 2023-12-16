@@ -66,7 +66,7 @@
     }
 
     h1 {
-        @apply relative inline-block pb-1 font-medium text-white sm-max:text-40 sm-max:leading-tight md:text-48;
+        @apply relative inline-block pb-2 font-medium text-white sm-max:text-40 sm-max:leading-tight md:text-48;
 
         &::after {
             @apply bg-green-light;
@@ -76,7 +76,7 @@
             bottom: -4px;
             left: 0;
             width: 100%;
-            max-width: 60px;
+            max-width: 70px;
             height: 3px;
         }
     }
