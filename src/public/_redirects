@@ -5,6 +5,7 @@
 /about-us /about-smeeple
 /admin/controller/extension/extension/ /
 /admin/plugins/plupload/examples/upload.php /
+/ads.txt /
 /app-ads.txt /
 /apple-touch-icon.png /
 /assets/filemanager/dialog.php /
@@ -15,6 +16,7 @@
 /filemanager/dialog.php /
 /find-an-expert /
 /for-experts/%22https://fonts.googleapis.com/css2 /for-experts
+/humans.txt /
 /im-an-expert /for-experts
 /images/ /
 /policy /
