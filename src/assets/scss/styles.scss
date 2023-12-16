@@ -198,6 +198,10 @@
     hr {
         @apply mb-3 border-b-[1px] border-t-2 border-green-light;
     }
+
+    span {
+        @apply font-normal;
+    }
 }
 
 // Extend pre-existing utility classes
