@@ -8,6 +8,7 @@ module.exports = {
         'src/pages/**/*.vue',
         'src/plugins/**/*.{js,ts}',
         'src/public/**/*.{js,ts}',
+        'src/error.vue',
         'nuxt.config.ts',
     ],
     darkMode: 'media', // or 'class'
