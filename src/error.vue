@@ -6,7 +6,7 @@
     const handleError = () => clearError({ redirect: '/' });
 
     useHead({
-        title: 'Terms and conditions',
+        title: `${props.error.statusCode} - ${props.error.statusMessage.split(':')[0]} | Smeeple`,
         meta: [
             { name: 'description', content: '' },
             { name: 'keywords', content: '' },
