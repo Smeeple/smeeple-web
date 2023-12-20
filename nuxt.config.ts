@@ -31,6 +31,10 @@ export default defineNuxtConfig({
             enabled: true,
         },
     },
+    gtag: {
+        id: 'G-PZL4579RVJ',
+    },
+    modules: ['nuxt-gtag'],
     postcss: {
         plugins: {
             autoprefixer: {},
