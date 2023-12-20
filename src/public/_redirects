@@ -2,12 +2,14 @@
 
 /%22https://fonts.googleapis.com/css2 /
 /.well-known/ /
+/_api/v2/dynamicmodel /
 /about-us /about-smeeple
 /admin/controller/extension/extension/ /
 /admin/plugins/plupload/examples/upload.php /
 /ads.txt /
 /app-ads.txt /
 /apple-touch-icon.png /
+/apple-touch-icon-precomposed.png /
 /assets/filemanager/dialog.php /
 /contact https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64
 /contact-us https://us21.list-manage.com/contact-form?u=d80d185e796d0394c7aedcb86&form_id=c8ff58847bc83c0cb9b8335ee32bfa64
@@ -20,9 +22,12 @@
 /im-an-expert /for-experts
 /images/ /
 /policy /
+/sitemap.xml /
 /sites/default/files/ /
 /style.php /
 /uploads/ /
 //wp-content/plugins/fix/up.php /
 /wp-admin/css/ /
+/wp-content/plugins/mw-wp-form/css/admin-common.css /
 /wp-content/plugins/td-composer/license.txt /
+/wp-login.php /
