@@ -40,5 +40,8 @@
         "last 2 versions",
         "not dead",
         "> 0.2%"
-    ]
+    ],
+    "dependencies": {
+        "@nuxtjs/robots": "^3.0.0"
+    }
 }
