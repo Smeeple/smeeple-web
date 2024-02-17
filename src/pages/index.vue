@@ -1,9 +1,9 @@
 <script setup>
     useHead({
-        title: 'Connecting subject matter experts + people',
+        title: 'Connecting Subject Matter Experts + People | Smeeple',
         meta: [
-            { name: 'description', content: 'Connecting people to subject matter experts, through 1:1 video sessions, to gain knowledge, skills, and insight.' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'Smeeple is Connecting people to subject matter experts, through 1:1 video sessions, to gain knowledge, skills, and insight.' },
+            { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills,  insight, download, expert, book' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
