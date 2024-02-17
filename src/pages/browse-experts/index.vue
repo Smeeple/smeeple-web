@@ -1,9 +1,9 @@
 <script setup>
     useHead({
-        title: 'Browse experts',
+        title: 'Browse Experts',
         meta: [
-            { name: 'description', content: '' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'Meet Our Top Experts: Get Personalized Assistance Tailored to Your Needs with Smeeple!' },
+            { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills,  insight, download, expert, book' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },

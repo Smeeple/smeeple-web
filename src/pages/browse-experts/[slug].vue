@@ -13,7 +13,7 @@
     const categoryName = sentenceCase(slug.replace(/and/g, '&').replace(/-/g, ' '));
 
     useHead({
-        title: categoryName + ' | Browse experts',
+        title: categoryName + ' | Browse Experts',
         meta: [
             { name: 'description', content: '' },
             { name: 'keywords', content: '' },

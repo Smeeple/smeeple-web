@@ -1,9 +1,9 @@
 <script setup>
     useHead({
-        title: 'Join our community of 250+ vetted experts',
+        title: 'Join Our Community of 250+ Vetted Experts',
         meta: [
-            { name: 'description', content: '' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'Unlock a World of Opportunity with Smeeple: Connect with Clients Anywhere, Earn Extra Income, and Expand Your Network, All While Saving Time and Travel Expenses Through the Convenience of Virtual Meetings.' },
+            { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills, insight, download, expert, book' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },

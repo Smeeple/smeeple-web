@@ -2,8 +2,8 @@
     useHead({
         title: 'FAQs',
         meta: [
-            { name: 'description', content: '' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'What Smeeple consumers and experts have asked us? | Your Personalized Solution Hub with Expert Guidance for Every Challenge | FAQs' },
+            { name: 'keywords', content: 'FAQ, FAQs, Expert advice, Personalized solutions, Tailored guidance, Live connection, Customized solutions, Human expert, Specific situation, Dependable advice, Wide variety of fields, User-friendly platform' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
