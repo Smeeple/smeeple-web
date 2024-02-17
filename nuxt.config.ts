@@ -35,6 +35,12 @@ export default defineNuxtConfig({
         id: 'G-PZL4579RVJ',
     },
     modules: ['nuxt-gtag', '@nuxtjs/robots', '@nuxtjs/sitemap'],
+    runtimeConfig: {
+        public: {
+            appleLink: 'https://apps.apple.com/us/app/smeeple/id6444046958',
+            googlePlayLink: 'https://play.google.com/store/apps/details?id=com.truefit.smeeple.android',
+        },
+    },
     postcss: {
         plugins: {
             autoprefixer: {},

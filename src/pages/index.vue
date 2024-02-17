@@ -1,4 +1,8 @@
 <script setup>
+    const runtimeConfig = useRuntimeConfig();
+    const googlePlayLink = runtimeConfig.public.googlePlayLink;
+    const appleLink = runtimeConfig.public.appleLink;
+
     useHead({
         title: 'Connecting Subject Matter Experts + People | Smeeple',
         meta: [
@@ -27,9 +31,13 @@
                             <p>Scan the QR code,<br />to download Smeeple.</p>
 
                             <div class="mt-1 flex">
-                                <Icon_Apple />
+                                <a :href="appleLink" target="_blank" rel="noopener noreferrer">
+                                    <Icon_Apple />
+                                </a>
 
-                                <Icon_Google_Play class="ml-2" />
+                                <a :href="googlePlayLink" target="_blank" rel="noopener noreferrer">
+                                    <Icon_Google_Play class="ml-2" />
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -47,9 +55,13 @@
                             <p>Scan the QR code,<br />to download Smeeple.</p>
 
                             <div class="mt-1 flex">
-                                <Icon_Apple />
+                                <a :href="appleLink" target="_blank" rel="noopener noreferrer">
+                                    <Icon_Apple />
+                                </a>
 
-                                <Icon_Google_Play class="ml-2" />
+                                <a :href="googlePlayLink" target="_blank" rel="noopener noreferrer">
+                                    <Icon_Google_Play class="ml-2" />
+                                </a>
                             </div>
                         </div>
                     </div>
