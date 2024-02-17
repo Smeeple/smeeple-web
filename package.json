@@ -42,6 +42,7 @@
         "> 0.2%"
     ],
     "dependencies": {
-        "@nuxtjs/robots": "^3.0.0"
+        "@nuxtjs/robots": "^3.0.0",
+        "@nuxtjs/sitemap": "^5.1.0"
     }
 }

@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     gtag: {
         id: 'G-PZL4579RVJ',
     },
-    modules: ['nuxt-gtag', '@nuxtjs/robots'],
+    modules: ['nuxt-gtag', '@nuxtjs/robots', '@nuxtjs/sitemap'],
     postcss: {
         plugins: {
             autoprefixer: {},
