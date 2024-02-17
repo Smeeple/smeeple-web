@@ -2,8 +2,8 @@
     useHead({
         title: 'About Smeeple',
         meta: [
-            { name: 'description', content: '' },
-            { name: 'keywords', content: '' },
+            { name: 'description', content: 'Unlock Expertise: Say Goodbye to Generic Tutorials, Hello to Tailored Solutions with Smeeple!' },
+            { name: 'keywords', content: 'about us, about smeeple, smeeple, experts, people, expert, book' },
             { property: 'og:title', content: '' },
             { property: 'og:description', content: '' },
             { property: 'og:url', content: '' },
@@ -50,11 +50,11 @@
 
                     <p>At Smeeple, we believe everyone is entitled to dependable, personalized solutions for their distinct challenges. This is why we are dedicated to creating a community of experts, enabling you to find the assistance that best suits your needs. Our platform is user-friendly and accessible from any location, providing you with the answers you require at your convenience. Irrespective of your current knowledge level on the subject, our experts are ready to guide you through every stage. Become a part of Smeeple today and begin resolving your issues with the support of our exceptional community of experts.</p>
 
-                    <p>
+                    <h4 class="mt-2">
                         Thank you for being part of our story,
                         <br />
                         Calvin & Josh
-                    </p>
+                    </h4>
                 </div>
             </div>
         </div>

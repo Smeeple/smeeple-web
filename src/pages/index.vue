@@ -4,7 +4,7 @@
     const appleLink = runtimeConfig.public.appleLink;
 
     useHead({
-        title: 'Connecting Subject Matter Experts + People | Smeeple',
+        title: 'Connecting Subject Matter Experts + People',
         meta: [
             { name: 'description', content: 'Smeeple is Connecting people to subject matter experts, through 1:1 video sessions, to gain knowledge, skills, and insight.' },
             { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills,  insight, download, expert, book' },
