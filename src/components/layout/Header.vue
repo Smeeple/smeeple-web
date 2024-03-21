@@ -4,8 +4,6 @@
             'bg-blue': isPageScrolled,
         }"
         class="fixed top-0 z-50 w-full transition-all duration-300">
-        <Header_Banner />
-
         <div class="container py-2">
             <div class="flex min-h-[52px] items-center justify-between">
                 <a href="/">
