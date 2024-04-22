@@ -12,7 +12,7 @@
 <template>
     <Header />
 
-    <section class="flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:-mt-[92px] md-max:pt-[132px] lg:-mt-[141px] lg:pt-[221px]">
+    <section class="flex items-center bg-blue-dark bg-[url('/assets/img/bg-shapes-blue.png')] md-max:-mt-[92px] md-max:pt-[132px] lg:-mt-[141px] lg:pt-[150px]">
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2">
