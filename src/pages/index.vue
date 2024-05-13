@@ -4,7 +4,7 @@
     const appleLink = runtimeConfig.public.appleLink;
 
     useHead({
-        title: 'Connecting Subject Matter Experts + People',
+        title: 'Get advice from Experts',
         meta: [
             { name: 'description', content: 'Smeeple is Connecting people to subject matter experts, through 1:1 video sessions, to gain knowledge, skills, and insight.' },
             { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills,  insight, download, expert, book' },
@@ -20,26 +20,13 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-8 md-max:mt-6">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Connecting <span class="font-medium text-blue-light">subject</span> <span class="font-medium text-green-light">matter</span> <span class="font-medium text-orange-light">experts</span> + people</h1>
+                    <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Get advice from Experts</h1>
 
-                    <p class="mt-3">Smeeple brings you face-to-face with experts from a wide variety of fields such as interior design, fitness, HVAC, gardening, and more. Don't settle for generic online tutorials. Connect with knowledgeable experts, to get the tailored answers you&nbsp;deserve.</p>
+                    <p class="mt-3">Connect 1:1 with top professionals in sports, HVAC, gardening, fitness, and more through live video calls. Skip the generic online videos - get personalized, expert advice with Smeeple.</p>
 
-                    <div class="mt-5 flex items-center lg-max:hidden">
-                        <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
-
-                        <div class="ml-3">
-                            <p>Scan the QR code,<br />to download Smeeple.</p>
-
-                            <div class="mt-1 flex">
-                                <a :href="appleLink" target="_blank" rel="noopener noreferrer">
-                                    <Icon_Apple />
-                                </a>
-
-                                <a :href="googlePlayLink" target="_blank" rel="noopener noreferrer">
-                                    <Icon_Google_Play class="ml-2" />
-                                </a>
-                            </div>
-                        </div>
+                    <div class="my-2 flex flex-col gap-2 sm:flex-row">
+                        <a class="cta-tertiary bg-transparent" href="https://app.smeeple.com/sign-in">Become an expert</a>
+                        <a class="cta-secondary" href="https://app.smeeple.com/sign-in">Find an expert</a>
                     </div>
                 </div>
 
@@ -48,25 +35,7 @@
                         <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/uTDq7gLUxn0?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
                     </div>
 
-                    <div class="mx-auto mt-6 flex items-center md-max:hidden xl:hidden">
-                        <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
-
-                        <div class="ml-3">
-                            <p>Scan the QR code,<br />to download Smeeple.</p>
-
-                            <div class="mt-1 flex">
-                                <a :href="appleLink" target="_blank" rel="noopener noreferrer">
-                                    <Icon_Apple />
-                                </a>
-
-                                <a :href="googlePlayLink" target="_blank" rel="noopener noreferrer">
-                                    <Icon_Google_Play class="ml-2" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="cta-group mt-6 lg:hidden">
+                    <div class="mt-4 flex flex-col items-center justify-center gap-1 sm:flex-row">
                         <CTA_App_Store />
 
                         <CTA_Google_Play />

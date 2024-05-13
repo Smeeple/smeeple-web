@@ -17,25 +17,7 @@
                             <Logo_Smeeple parentClass="logo-light" />
                         </a>
 
-                        <div class="mt-2 md-max:hidden lg:lg-max:flex lg:lg-max:items-center 2xl:flex 2xl:items-center">
-                            <img src="/assets/img/qr-smeeple-app.png" alt="QR code to download the Smeeple app" />
-
-                            <div class="lg:lg-max:ml-3 xl:xl-max:mt-3 2xl:ml-3">
-                                <p>Scan the QR code,<br />to download Smeeple.</p>
-
-                                <div class="mt-1 flex">
-                                    <a :href="appleLink" target="_blank" rel="noopener noreferrer">
-                                        <Icon_Apple />
-                                    </a>
-
-                                    <a :href="googlePlayLink" target="_blank" rel="noopener noreferrer">
-                                        <Icon_Google_Play class="ml-2" />
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <ul class="app-list mt-3 list-none lg:hidden">
+                        <ul class="app-list mt-3 list-none">
                             <li>
                                 <CTA_App_Store />
                             </li>
