@@ -25,8 +25,8 @@
                     <p class="mt-3">Connect 1:1 with top professionals in sports, HVAC, gardening, fitness, and more through live video calls. Skip the generic online videos - get personalized, expert advice with Smeeple.</p>
 
                     <div class="my-2 flex flex-col gap-2 sm:flex-row">
-                        <a class="cta-tertiary bg-transparent" href="https://app.smeeple.com/sign-in">Become an expert</a>
-                        <a class="cta-secondary" href="https://app.smeeple.com/sign-in">Find an expert</a>
+                        <NuxtLink class="cta-primary bg-transparent" to="/for-experts">Become an Expert</NuxtLink>
+                        <a class="cta-secondary" href="/browse-experts">Find an Expert</a>
                     </div>
                 </div>
 

@@ -6,9 +6,9 @@
         class="fixed top-0 z-50 w-full transition-all duration-300">
         <div class="container py-2">
             <div class="flex min-h-[52px] items-center justify-between">
-                <a href="/">
+                <NuxtLink to="/">
                     <Logo_Smeeple parentClass="logo-light" />
-                </a>
+                </NuxtLink>
 
                 <nav>
                     <ul class="nav-list flex list-none items-center text-white">

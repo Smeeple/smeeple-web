@@ -4,7 +4,7 @@
         :class="{
             'md-max:hidden': parentClass === 'nav-header',
         }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/for-experts">For experts</a>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/for-experts">For experts</NuxtLink>
     </li>
 
     <li
@@ -12,7 +12,7 @@
         :class="{
             'md-max:hidden': parentClass === 'nav-header',
         }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/">For consumers</a>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/">For consumers</NuxtLink>
     </li>
 
     <li
@@ -20,7 +20,7 @@
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/browse-experts">Browse experts</a>
+        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/browse-experts">Find an Expert</a>
     </li>
 
     <li
@@ -28,7 +28,7 @@
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/about-smeeple">About Smeeple</a>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/about-smeeple">About Smeeple</NuxtLink>
     </li>
 
     <li
@@ -36,22 +36,9 @@
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/faqs">FAQs</a>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/faqs">FAQs</NuxtLink>
     </li>
 
-    <!-- <li
-        :class="{
-            'ml-4 md-max:hidden': parentClass === 'nav-header',
-            'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
-        }">
-        <a class="transition-all duration-150 lg:hover:text-orange-light" href="/support">Support</a>
-    </li> -->
-
-    <!-- <li
-        :class="{
-            'ml-4 md-max:hidden': parentClass === 'nav-header',
-            'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
-        }"> -->
     <li
         :class="{
             hidden: parentClass === 'nav-header',
@@ -71,7 +58,10 @@
                 'place-content-start': parentClass === 'nav-footer',
                 'justify-center text-32': parentClass === 'nav-mobile',
             }"
-            class="cta-primary flex items-center" href="https://app.smeeple.com/sign-in">Expert login</a>
+            class="cta-primary flex items-center"
+            href="https://app.smeeple.com/sign-in"
+            >Expert login</a
+        >
     </li>
 </template>
 

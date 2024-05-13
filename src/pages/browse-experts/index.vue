@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: 'Browse Experts',
+        title: 'Find an Expert',
         meta: [
             { name: 'description', content: 'Meet Our Top Experts: Get Personalized Assistance Tailored to Your Needs with Smeeple!' },
             { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills,  insight, download, expert, book' },
@@ -16,13 +16,11 @@
         <div class="container">
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2">
-                    <h1 class="mb-0">Browse experts</h1>
+                    <h1 class="mb-0">Find an Expert</h1>
                 </div>
             </div>
         </div>
     </section>
-
-    <Expert_Spotlight />
 
     <Categories />
 </template>

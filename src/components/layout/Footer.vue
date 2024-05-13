@@ -10,12 +10,11 @@
     <footer class="bg-blue-dark text-white">
         <div class="bg-blue py-4">
             <div class="container">
-                <!-- <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4"> -->
                 <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                     <div class="order-1 sm:col-span-6 xl:col-span-3 2xl:col-span-4">
-                        <a href="/">
+                        <NuxtLink to="/">
                             <Logo_Smeeple parentClass="logo-light" />
-                        </a>
+                        </NuxtLink>
 
                         <ul class="app-list mt-3 list-none">
                             <li>
@@ -41,7 +40,7 @@
 
                         <p>Want to share your expertise, assist others remotely, and connect with your network?</p>
 
-                        <a class="cta-secondary mt-3" href="/for-experts">Become an expert</a>
+                        <NuxtLink class="cta-secondary mt-3" to="/for-experts">Become an expert</NuxtLink>
                     </div>
 
                     <div class="order-4 xs-max:mt-3 sm:col-span-6 xl:col-span-3">
@@ -61,15 +60,15 @@
 
                 <ul class="nav-list list-none md:flex md:items-center md-max:justify-center">
                     <li>
-                        <a href="/terms-and-conditions">Terms & conditions</a>
+                        <NuxtLink href="/terms-and-conditions">Terms & conditions</NuxtLink>
                     </li>
 
                     <li class="sm-max:mt-1 md:ml-4">
-                        <a href="/privacy-policy">Privacy policy</a>
+                        <NuxtLink to="/privacy-policy">Privacy policy</NuxtLink>
                     </li>
 
                     <li class="sm-max:mt-1 md:ml-4">
-                        <a href="/booking-policy-and-expert-agreement">Booking policy & <br class="sm-max:hidden lg:hidden" />expert agreement</a>
+                        <NuxtLink to="/booking-policy-and-expert-agreement">Booking policy & <br class="sm-max:hidden lg:hidden" />expert agreement</NuxtLink>
                     </li>
                 </ul>
             </div>

@@ -12,7 +12,7 @@
             <div class="sm:grid sm:grid-cols-12 sm:gap-3">
                 <div class="sm:col-span-12 xl:col-span-10 xl:col-start-2">
                     <div class="text-center">
-                        <h2 class="mb-8 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-center text-white">Categories</h2>
+                        <h2 class="my-6 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-center text-white">Categories</h2>
                     </div>
 
                     <div class="grid gap-3 sm:grid-cols-12">
