@@ -70,5 +70,6 @@
 
     export default {
         mixins: [Header],
+        emits: ['nav-click'],
     };
 </script>
