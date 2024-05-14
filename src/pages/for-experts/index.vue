@@ -81,7 +81,9 @@
 
             <div class="mb-8 grid sm:grid-cols-12 lg:items-center lg:gap-6 2xl:gap-12">
                 <div class="sm:col-span-12 md-max:order-2 lg:col-span-6 2xl:col-span-7">
-                    <img class="shadow-lg shadow-black/30 md-max:mt-4" src="/assets/img/img-create-profile.png" alt="Expert signup page" />
+                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%] md-max:mt-4">
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/_3YOyhBFbqs?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Signing up as an Expert is easy!" allowfullscreen></iframe>
+                    </div>
                 </div>
 
                 <div class="sm:col-span-12 md-max:text-center lg:col-span-6 2xl:col-span-5">
@@ -95,17 +97,20 @@
                 <div class="sm:col-span-12 md-max:text-center lg:col-span-6 2xl:col-span-5">
                     <h3 class="mb-3">You got an Appointment! Now what?</h3>
 
-                    <p>Download Smeeple from either app store, to explore the wide variety of experts in our community. Share your profile and engage in video sessions without the need for additional software. Enjoy direct video connections with consumers right within the app.</p>
                 </div>
 
                 <div class="sm:col-span-12 md-max:order-2 lg:col-span-6 2xl:col-span-7">
-                    <img class="shadow-lg shadow-black/30 md-max:mt-4" src="/assets/img/img-download-app.png" alt="Smeeple app on the Apple App Store" />
+                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%] md-max:mt-4">
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/9u3kVuyZ0Xg?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Signing up as an Expert is easy!" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
 
             <div class="mb-8 grid sm:grid-cols-12 lg:items-center lg:gap-6 2xl:gap-12">
                 <div class="sm:col-span-12 md-max:order-2 lg:col-span-6 2xl:col-span-7">
-                    <img class="shadow-lg shadow-black/30 md-max:mt-4" src="/assets/img/img-expert-preview.png" alt="Expert profile preview" />
+                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%] md-max:mt-4">
+                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/PxLXplKxqUE?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Signing up as an Expert is easy!" allowfullscreen></iframe>
+                    </div>
                 </div>
 
                 <div class="sm:col-span-12 md-max:text-center lg:col-span-6 2xl:col-span-5">
