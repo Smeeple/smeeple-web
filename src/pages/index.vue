@@ -20,9 +20,9 @@
         <div class="container sm-max:pb-6 sm-max:pt-10 md:py-8 md-max:mt-6">
             <div class="sm:grid sm:grid-cols-12 xl:items-center xl:gap-9 2xl:gap-12">
                 <div class="sm:col-span-12 xl:col-span-6">
-                    <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Get advice from Experts</h1>
+                    <h1 class="mb-0 pb-2 sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Get advice<br />from Experts</h1>
 
-                    <p class="mt-3">Connect 1:1 with top professionals in sports, HVAC, gardening, fitness, and more through live video calls. Skip the generic online videos - get personalized, expert advice with Smeeple.</p>
+                    <p class="mt-3">Skip the generic online videos &mdash; get personalized, expert advice. Connect 1:1 with top professionals in sports, HVAC, gardening, fitness, and more through live video calls.</p>
 
                     <div class="my-2 flex flex-col gap-2 sm:flex-row">
                         <NuxtLink class="cta-primary bg-transparent" to="/for-experts">Become an Expert</NuxtLink>
