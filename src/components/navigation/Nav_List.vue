@@ -4,7 +4,7 @@
         :class="{
             'md-max:hidden': parentClass === 'nav-header',
         }">
-        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/for-experts">For experts</NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/for-experts" @click.native="$emit('nav-click')">Become an Expert</NuxtLink>
     </li>
 
     <li
@@ -12,7 +12,7 @@
         :class="{
             'md-max:hidden': parentClass === 'nav-header',
         }">
-        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/">For consumers</NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/" @click.native="$emit('nav-click')">For consumers</NuxtLink>
     </li>
 
     <li
@@ -28,7 +28,7 @@
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/about-smeeple">About Smeeple</NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/about-smeeple" @click.native="$emit('nav-click')">About Smeeple</NuxtLink>
     </li>
 
     <li
@@ -36,7 +36,7 @@
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
-        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/faqs">FAQs</NuxtLink>
+        <NuxtLink class="transition-all duration-150 lg:hover:text-orange-light" to="/faqs" @click.native="$emit('nav-click')">FAQs</NuxtLink>
     </li>
 
     <li

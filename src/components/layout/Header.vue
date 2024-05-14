@@ -28,6 +28,7 @@
     </header>
 
     <Nav_Mobile
+        @nav-click="closeMobileNav"
         :class="{
             '-right-[991px]': !isMobileNavOpen,
             'right-0': isMobileNavOpen,
@@ -56,6 +57,11 @@
             this.checkScrollPosition();
 
             window.addEventListener('scroll', this.checkScrollPosition);
+        },
+        watch: {
+            $route() {
+                this.closeMobileNav();
+            },
         },
     };
 </script>

@@ -18,6 +18,11 @@ export default {
                 document.body.classList.remove('overflow-hidden');
             }
         },
+
+        closeMobileNav() {
+            this.isMobileNavOpen = false;
+            document.body.classList.remove('overflow-hidden');
+        },
     },
     mounted() {
         // isHeaderFixed
