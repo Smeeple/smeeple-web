@@ -12,27 +12,19 @@
 
         <div class="marquee mt-8 md-max:mb-3 lg:mb-0">
             <ul class="marquee-content list-none">
-                <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] scale-100 transition-all lg:hover:scale-105">
-                    <a :href="expert.profile" class="relative flex-1 no-underline" target="_blank">
-                        <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-16 text-white shadow-md">{{ expert.category }}</div>
+                <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] flex scale-100 items-center justify-center rounded-lg shadow-md transition-all lg:hover:scale-105">
+                    <a :href="expert.profile" class="flex flex-1 flex-col no-underline" target="_blank">
+                        <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-16 text-white">{{ expert.category }}</div>
 
-                        <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative h-[480px] overflow-hidden rounded-lg bg-gray-light shadow-lg shadow-black/30 duration-300">
-                            <div class="card-body absolute bottom-0 grid w-full grid-cols-12 bg-white/90 px-3 py-2">
-                                <div class="col-span-9">
-                                    <span class="block font-poppins text-18 text-black">{{ expert.name }}</span>
+                        <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative aspect-square h-full overflow-hidden rounded-tl-lg rounded-tr-lg bg-gray-light bg-cover duration-300"></div>
+                        <div class="card-body grid w-full grid-cols-12 rounded-lg bg-white p-1">
+                            <div class="col-span-9">
+                                <span class="block font-poppins text-18 text-black">{{ expert.name }}</span>
+                                <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-14 text-blue-light">{{ expert.specialty }}</span>
+                            </div>
 
-                                    <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-16 text-blue-light">{{ expert.specialty }}</span>
-                                </div>
-
-                                <div class="col-span-3 text-right">
-                                    <span class="inline-block rounded-md bg-green-light px-2 font-poppins text-16 text-white">{{ expert.rate }}</span>
-
-                                    <!-- <Icon_Star class="-mt-[4px] ml-1" />
-
-                                    <span class="ml-[5px] font-poppins text-16">{{ expert.rating }}</span>
-
-                                    <span class="ml-[5px] font-poppins text-16">({{ expert.reviews }})</span> -->
-                                </div>
+                            <div class="col-span-3 text-right">
+                                <span class="inline-block rounded-md bg-green-light px-2 font-poppins text-16 text-white">{{ expert.rate }}</span>
                             </div>
                         </div>
                     </a>
@@ -73,7 +65,7 @@
     :root {
         --marquee-width: 100vw;
         --marquee-elements-displayed: 7;
-        --marquee-element-width: 365px;
+        --marquee-element-width: 300px;
         --marquee-animation-duration: calc(var(--marquee-elements) * 5s);
     }
 
