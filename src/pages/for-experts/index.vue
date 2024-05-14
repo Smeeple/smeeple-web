@@ -97,6 +97,7 @@
                 <div class="sm:col-span-12 md-max:text-center lg:col-span-6 2xl:col-span-5">
                     <h3 class="mb-3">You got an Appointment! Now what?</h3>
 
+                    <p>Ensure you have the Smeeple app downloaded. To join your appointment, simply open the app and tap the "Meet" tab located at the bottom right. Your appointment will be listed there. Just tap on your appointment to join the session. It's that simple!</p>
                 </div>
 
                 <div class="sm:col-span-12 md-max:order-2 lg:col-span-6 2xl:col-span-7">
