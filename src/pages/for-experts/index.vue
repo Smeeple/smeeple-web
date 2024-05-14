@@ -93,7 +93,7 @@
 
             <div class="mb-8 grid sm:grid-cols-12 lg:items-center lg:gap-6 2xl:gap-12">
                 <div class="sm:col-span-12 md-max:text-center lg:col-span-6 2xl:col-span-5">
-                    <h3 class="mb-3">Download the app</h3>
+                    <h3 class="mb-3">You got an Appointment! Now what?</h3>
 
                     <p>Download Smeeple from either app store, to explore the wide variety of experts in our community. Share your profile and engage in video sessions without the need for additional software. Enjoy direct video connections with consumers right within the app.</p>
                 </div>
