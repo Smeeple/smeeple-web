@@ -45,18 +45,16 @@
                         <h2 class="mb-8 inline-block -rotate-3 -skew-x-6 rounded-lg bg-green-light px-2 text-center text-white">Meet the experts</h2>
                     </div>
 
-                    <div class="grid gap-3 sm:grid-cols-12">
+                    <div class="grid grid-cols-2 gap-2 md:grid-cols-3 md:gap-3 lg:grid-cols-4">
                         <template :key="index" v-for="(category, index) in categories">
                             <template v-if="sentenceCase(category.name) === categoryName"
                                 ><template :key="index" v-for="(expert, index) in experts">
                                     <template v-if="expert.categoryId === category.id">
-                                        <a class="xs:col-span-12 overflow-hidden rounded-lg shadow-lg shadow-black/30 sm:col-span-6 lg:col-span-4 2xl:col-span-3" :href="'https://app.smeeple.com/experts/' + expert.profileLinkId" target="_blank">
-                                            <div :style="{ backgroundImage: `url('${expert.photoUrl}')` }" class="card relative h-[360px] bg-cover bg-center shadow-lg shadow-black/30 duration-300">
-                                                <div class="card-body absolute bottom-0 w-full bg-white/90 px-3 py-2">
-                                                    <span class="block font-poppins text-18 text-black">{{ sentenceCase(expert.firstName) }} {{ sentenceCase(expert.lastName) }}</span>
-
-                                                    <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-16 text-blue-light">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
-                                                </div>
+                                        <a :href="'https://app.smeeple.com/experts/' + expert.profileLinkId" target="_blank" class="overflow-hidden rounded-lg shadow-lg">
+                                            <div :style="{ backgroundImage: `url('${expert.photoUrl}')` }" class="card aspect-square rounded-tl-lg rounded-tr-lg bg-cover bg-center duration-300"></div>
+                                            <div class="card-body w-full rounded-bl-lg rounded-br-lg bg-white px-2 py-1">
+                                                <span class="block font-poppins text-14 leading-tight text-black sm:text-16 md:text-18">{{ sentenceCase(expert.firstName) }} {{ sentenceCase(expert.lastName) }}</span>
+                                                <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-12 text-blue-light sm:text-14">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
                                             </div>
                                         </a>
                                     </template>
