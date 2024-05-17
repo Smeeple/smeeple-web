@@ -31,8 +31,8 @@
                 </div>
 
                 <div class="mt-3 sm:col-span-12 lg-max:mt-5 lg:lg-max:flex lg:lg-max:flex-col lg:lg-max:justify-center xl:col-span-6">
-                    <div class="embed-responsive embed-responsive-16by9 relative w-full overflow-hidden rounded-lg pt-[56.25%]">
-                        <iframe class="embed-responsive-item absolute bottom-0 left-0 right-0 top-0 h-full w-full" src="https://www.youtube-nocookie.com/embed/uTDq7gLUxn0?mode=opaque&rel=0&autohide=1&showinfo=0&wmode=transparent" title="Where can I get personalized help on any subject?" allowfullscreen></iframe>
+                    <div>
+                        <img src="/assets/img/expert-grid-final.png" alt="Smeeple Experts" class="mx-auto h-auto w-full max-w-[750px]" />
                     </div>
 
                     <div class="mt-4 flex flex-col items-center justify-center gap-1 sm:flex-row">
