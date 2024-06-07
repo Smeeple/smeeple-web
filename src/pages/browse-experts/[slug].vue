@@ -9,7 +9,7 @@
     };
 
     const getCategoryName = (categoryId) => {
-        return categories.value.find((c) => c.id === categoryId)?.name;
+        return categories?.value?.find((c) => c.id === categoryId)?.name;
     };
 
     const route = useRoute();
