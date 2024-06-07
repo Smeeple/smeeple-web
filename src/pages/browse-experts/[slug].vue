@@ -8,6 +8,10 @@
         return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
     };
 
+    const getCategoryName = (categoryId) => {
+        return categories.value.find((c) => c.id === categoryId)?.name;
+    };
+
     const route = useRoute();
     const slug = route.params.slug;
     const categoryName = sentenceCase(slug.replace(/and/g, '&').replace(/-/g, ' '));
@@ -54,7 +58,8 @@
                                             <div :style="{ backgroundImage: `url('${expert.photoUrl}')` }" class="card aspect-square rounded-tl-lg rounded-tr-lg bg-cover bg-center duration-300"></div>
                                             <div class="card-body w-full rounded-bl-lg rounded-br-lg bg-white px-2 py-1">
                                                 <span class="block font-poppins text-14 leading-tight text-black sm:text-16 md:text-18">{{ sentenceCase(expert.firstName) }} {{ sentenceCase(expert.lastName) }}</span>
-                                                <span class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-12 text-blue-light sm:text-14">{{ sentenceCase(expert.specialties[0].specialty) }}</span>
+                                                <span v-if="expert.subCategoryIds.length > 0" class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-12 text-blue-light sm:text-14">{{ getCategoryName(expert.subCategoryIds[0]) }}</span>
+                                                <span v-if="expert.subCategoryIds.length > 1" class="block overflow-hidden text-ellipsis whitespace-nowrap font-poppins text-12 text-blue-light sm:text-14">{{ getCategoryName(expert.subCategoryIds[1]) }}</span>
                                             </div>
                                         </a>
                                     </template>
