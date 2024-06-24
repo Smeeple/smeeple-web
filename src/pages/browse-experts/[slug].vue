@@ -54,7 +54,7 @@
                             <template v-if="sentenceCase(category.name) === categoryName"
                                 ><template :key="index" v-for="(expert, index) in experts">
                                     <template v-if="expert.categoryId === category.id">
-                                        <a :href="'https://app.smeeple.com/experts/' + expert.profileLinkId" target="_blank" class="overflow-hidden rounded-lg shadow-lg">
+                                        <a :href="'https://devsmeepleapp.netlify.app/experts/' + expert.profileLinkId" target="_blank" class="overflow-hidden rounded-lg shadow-lg">
                                             <div :style="{ backgroundImage: `url('${expert.photoUrl}')` }" class="card aspect-square rounded-tl-lg rounded-tr-lg bg-cover bg-center duration-300"></div>
                                             <div class="card-body w-full rounded-bl-lg rounded-br-lg bg-white px-2 py-1">
                                                 <span class="block font-poppins text-14 leading-tight text-black sm:text-16 md:text-18">{{ sentenceCase(expert.firstName) }} {{ sentenceCase(expert.lastName) }}</span>

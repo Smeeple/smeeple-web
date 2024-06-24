@@ -51,7 +51,8 @@
         :class="{
             'ml-4 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
-        }">
+        }"
+        v-if="!userId">
         <a
             :class="{
                 'border-0 bg-transparent p-0': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
@@ -59,9 +60,36 @@
                 'justify-center text-32': parentClass === 'nav-mobile',
             }"
             class="cta-primary flex items-center"
-            href="https://app.smeeple.com/sign-in"
+            href="https://devsmeepleapp.netlify.app/sign-in"
             >Expert login</a
         >
+    </li>
+
+    <li
+        :class="{
+            'ml-1 md-max:hidden': parentClass === 'nav-header',
+            'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
+        }">
+        <template v-if="userId">
+            <button class="cta-tertiary" type="submit" style="border-radius: 30px; margin-left: 20px">
+                <div style="text-transform: uppercase; font-size: larger">
+                    {{ userInitials }}
+                </div>
+            </button>
+        </template>
+        <template v-else>
+            <a
+                :class="{
+                    'border-0 bg-transparent p-0': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
+                    'place-content-start': parentClass === 'nav-footer',
+                    'justify-center text-32': parentClass === 'nav-mobile',
+                }"
+                style="margin-left: 10px"
+                class="cta-primary flex items-center"
+                href="https://devsmeepleapp.netlify.app/sign-in/user">
+                User login
+            </a>
+        </template>
     </li>
 </template>
 
@@ -70,6 +98,68 @@
 
     export default {
         mixins: [Header],
-        emits: ['nav-click'],
+        name: 'Loader',
+        props: {
+            active: Boolean,
+            text: String,
+        },
+        data() {
+            return {
+                userId: null,
+                currentUser: null,
+            };
+        },
+        mounted() {
+            const userId = this.$route.query.id;
+            if (userId) {
+                sessionStorage.setItem('userId', userId);
+                this.userId = userId;
+
+                // Remove the 'id' parameter from the URL
+                const { id, ...query } = this.$route.query; // Destructure to remove 'id' from query
+                this.$router.replace({ query });
+            }
+
+            const getUserId = sessionStorage.getItem('userId');
+            if (getUserId) {
+                this.userId = getUserId;
+
+                const cachedUser = sessionStorage.getItem('currentUser');
+                if (cachedUser) {
+                    this.currentUser = JSON.parse(cachedUser);
+                } else {
+                    this.fetchCurrentUser(getUserId);
+                }
+            }
+        },
+        methods: {
+            async fetchCurrentUser(token) {
+                try {
+                    const headers = {
+                        Authorization: `Bearer ${token}`,
+                    };
+
+                    const response = await fetch('https://smeeple-dev.azurewebsites.net/api/v1.1/authentication/current-user/identity', { headers });
+                    const data = await response.json();
+                    this.currentUser = data;
+                    // Cache the user data in sessionStorage
+                    sessionStorage.setItem('currentUser', JSON.stringify(data));
+                } catch (error) {
+                    console.error('Error fetching current user:', error);
+                }
+            },
+        },
+        computed: {
+            userInitials() {
+                if (this.currentUser && this.currentUser.firstName && this.currentUser.lastName) {
+                    return this.currentUser.firstName[0] + this.currentUser.lastName[0];
+                }
+                return 'user';
+            },
+        },
     };
 </script>
+
+<style scoped>
+    /* Your scoped styles here */
+</style>
