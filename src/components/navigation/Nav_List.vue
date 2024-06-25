@@ -60,7 +60,7 @@
                 'justify-center text-32': parentClass === 'nav-mobile',
             }"
             class="cta-primary flex items-center"
-            href="https://devsmeepleapp.netlify.app/sign-in"
+            href="https://devsmeepleapp.netlify.app/sign-in?click=expert"
             >Expert login</a
         >
     </li>
@@ -86,7 +86,7 @@
                 }"
                 style="margin-left: 10px"
                 class="cta-primary flex items-center"
-                href="https://devsmeepleapp.netlify.app/sign-in/user">
+                href="https://devsmeepleapp.netlify.app/sign-in/user?click=user">
                 User login
             </a>
         </template>
