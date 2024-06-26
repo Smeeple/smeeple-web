@@ -25,7 +25,6 @@
                     <p class="mt-3">Skip the generic online videos &mdash; get personalized, expert advice. Connect 1:1 with top professionals in sports, HVAC, gardening, fitness, and more through live video calls.</p>
 
                     <div class="my-2 flex flex-col gap-2 sm:flex-row">
-                        <NuxtLink class="cta-primary bg-transparent" to="/for-experts">Become an Expert</NuxtLink>
                         <a class="cta-secondary" href="/browse-experts">Find an Expert</a>
                     </div>
                 </div>
