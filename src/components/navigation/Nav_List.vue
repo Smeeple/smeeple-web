@@ -60,6 +60,7 @@
                 'justify-center text-32': parentClass === 'nav-mobile',
             }"
             class="cta-primary flex items-center"
+            style="margin-right: 5px"
             href="https://devsmeepleapp.netlify.app/sign-in?click=expert"
             >Expert login</a
         >
@@ -67,15 +68,28 @@
 
     <li
         :class="{
-            'ml-1 md-max:hidden': parentClass === 'nav-header',
+            'ml-2 md-max:hidden': parentClass === 'nav-header',
             'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
         }">
         <template v-if="userId">
-            <button class="cta-tertiary" type="submit" style="border-radius: 30px; margin-left: 20px">
-                <div style="text-transform: uppercase; font-size: larger">
-                    {{ userInitials }}
-                </div>
-            </button>
+            <div class="relative inline-block">
+                <button class="cta-tertiary" type="submit" style="border-radius: 30px">
+                    <div style="text-transform: uppercase; font-size: larger">
+                        {{ userInitials }}
+                    </div>
+                </button>
+                <button
+                    :class="{
+                        'ml-2 md-max:hidden': parentClass === 'nav-header',
+                        'mt-1': parentClass === 'nav-footer' || parentClass === 'nav-mobile',
+                    }"
+                    class="cta-primary"
+                    type="submit"
+                    style="border-radius: 30px"
+                    @click="handleSignOut">
+                    <div>Sign Out</div>
+                </button>
+            </div>
         </template>
         <template v-else>
             <a
@@ -84,7 +98,6 @@
                     'place-content-start': parentClass === 'nav-footer',
                     'justify-center text-32': parentClass === 'nav-mobile',
                 }"
-                style="margin-left: 10px"
                 class="cta-primary flex items-center"
                 href="https://devsmeepleapp.netlify.app/sign-in/user?click=user">
                 User login
@@ -147,6 +160,11 @@
                 } catch (error) {
                     console.error('Error fetching current user:', error);
                 }
+            },
+
+            handleSignOut() {
+                sessionStorage.clear();
+                window.location.href = 'https://devsmeepleapp.netlify.app/sign-out/user';
             },
         },
         computed: {
