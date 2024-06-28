@@ -61,7 +61,7 @@
             }"
             class="cta-primary flex items-center"
             style="margin-right: 5px"
-            href="https://devsmeepleapp.netlify.app/sign-in?click=expert"
+            :href="`https://${baseURL}/sign-in?click=expert`"
             >Expert login</a
         >
     </li>
@@ -99,7 +99,7 @@
                     'justify-center text-32': parentClass === 'nav-mobile',
                 }"
                 class="cta-primary flex items-center"
-                href="https://devsmeepleapp.netlify.app/sign-in/user?click=user">
+                :href="`https://${baseURL}/sign-in/user?click=user`">
                 User login
             </a>
         </template>
@@ -108,6 +108,8 @@
 
 <script>
     import Header from '~/plugins/components/Header';
+    import { BASE_URL } from '~/config';
+    import { API_URL } from '~/config';
 
     export default {
         mixins: [Header],
@@ -120,6 +122,8 @@
             return {
                 userId: null,
                 currentUser: null,
+                baseURL: BASE_URL,
+                apiURL: API_URL,
             };
         },
         mounted() {
@@ -152,7 +156,7 @@
                         Authorization: `Bearer ${token}`,
                     };
 
-                    const response = await fetch('https://smeeple-dev.azurewebsites.net/api/v1.1/authentication/current-user/identity', { headers });
+                    const response = await fetch(`https://${API_URL}/api/v1.1/authentication/current-user/identity`, { headers });
                     const data = await response.json();
                     this.currentUser = data;
                     // Cache the user data in sessionStorage
@@ -164,7 +168,7 @@
 
             handleSignOut() {
                 sessionStorage.clear();
-                window.location.href = 'https://devsmeepleapp.netlify.app/sign-out/user';
+                window.location.href = `https://${BASE_URL}/sign-out/user`;
             },
         },
         computed: {
