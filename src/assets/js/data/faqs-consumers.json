@@ -67,7 +67,7 @@
     {
         "id": "c14",
         "question": "How do I refer an expert to Smeeple?",
-        "answer": "Send them to our <a class='inline' href='https://vuejs-devsmeeple.netlify.app/experts/create-account'>expert sign-up</a> page, to create an account."
+        "answer": "Send them to our <a class='inline' href='https://app.smeeple.com/experts/create-account'>expert sign-up</a> page, to create an account."
     },
     {
         "id": "c15",
