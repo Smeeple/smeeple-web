@@ -75,8 +75,8 @@
         <!-- Hidden fields -->
         <input type="hidden" name="access_key" value="80840c5c-b34e-45ab-bb16-d7029c4f532a" />
         <input type="hidden" name="from_name" value="Support" />
-        <input type="hidden" name="redirect" value="http://localhost:3000/contact-us/thank-you" />
-        <!-- <input type="hidden" name="redirect" value="https://smeeple.com/contact-us/thank-you" /> -->
+        <!-- <input type="hidden" name="redirect" value="http://localhost:3000/contact-us/thank-you" /> -->
+        <input type="hidden" name="redirect" value="https://smeeple.com/contact-us/thank-you" />
 
         <!-- Input fields -->
         <div class="sm:grid sm:grid-cols-12 sm:gap-3">
