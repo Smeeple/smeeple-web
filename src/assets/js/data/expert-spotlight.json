@@ -8,7 +8,7 @@
         "reviews": "12",
         "rate": "$30",
         "photo": "/assets/img/photo-jeff-demassari.jpg",
-        "profile": "https://app.smeeple.com/experts/jeffjdemhvac"
+        "profile": "https://dev-reactapp.netlify.app/experts/jeffjdemhvac"
     },
     {
         "id": "2",
@@ -19,7 +19,7 @@
         "reviews": "1",
         "rate": "$30",
         "photo": "/assets/img/photo-katie-krejci.jpg",
-        "profile": "https://app.smeeple.com/experts/theHomesteadingRD"
+        "profile": "https://dev-reactapp.netlify.app/experts/theHomesteadingRD"
     },
     {
         "id": "3",
@@ -30,7 +30,7 @@
         "reviews": "1283",
         "rate": "$30",
         "photo": "/assets/img/photo-ian-gunther.jpg",
-        "profile": "https://app.smeeple.com/experts/IanGunther"
+        "profile": "https://dev-reactapp.netlify.app/experts/IanGunther"
     },
     {
         "id": "4",
@@ -41,7 +41,7 @@
         "reviews": "31",
         "rate": "$20",
         "photo": "/assets/img/photo-discovery-daisy.jpg",
-        "profile": "https://app.smeeple.com/experts/DiscoveryDaisy"
+        "profile": "https://dev-reactapp.netlify.app/experts/DiscoveryDaisy"
     },
     {
         "id": "5",
@@ -52,7 +52,7 @@
         "reviews": "53",
         "rate": "$15",
         "photo": "/assets/img/photo-jake-fullington.jpg",
-        "profile": "https://app.smeeple.com/experts/BBQwithBigJake"
+        "profile": "https://dev-reactapp.netlify.app/experts/BBQwithBigJake"
     },
     {
         "id": "6",
@@ -63,7 +63,7 @@
         "reviews": "5",
         "rate": "$50",
         "photo": "/assets/img/photo-erin-costa.jpg",
-        "profile": "https://app.smeeple.com/experts/HouseofDutton"
+        "profile": "https://dev-reactapp.netlify.app/experts/HouseofDutton"
     },
     {
         "id": "7",
@@ -74,6 +74,6 @@
         "reviews": "138",
         "rate": "$60",
         "photo": "/assets/img/photo-daniel-sydnor.jpg",
-        "profile": "https://app.smeeple.com/experts/DanSydnor"
+        "profile": "https://dev-reactapp.netlify.app/experts/DanSydnor"
     }
 ]
