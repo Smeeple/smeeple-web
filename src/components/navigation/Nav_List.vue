@@ -175,6 +175,8 @@
             userInitials() {
                 if (this.currentUser && this.currentUser.firstName && this.currentUser.lastName) {
                     return this.currentUser.firstName[0] + this.currentUser.lastName[0];
+                } else if (this.currentUser && this.currentUser.firstName && this.currentUser.lastName === null) {
+                    return this.currentUser.firstName[0];
                 }
                 return 'user';
             },

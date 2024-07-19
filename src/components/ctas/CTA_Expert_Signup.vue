@@ -3,5 +3,5 @@
 </script>
 
 <template>
-    <a class="cta-primary" :href="`https://${BASE_URL}/experts/create-account`" target="_blank">Expert signup</a>
+    <a class="cta-primary" :href="`https://${BASE_URL}/sign-in`" target="_blank">Expert signup</a>
 </template>
