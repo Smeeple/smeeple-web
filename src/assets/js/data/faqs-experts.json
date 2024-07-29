@@ -7,7 +7,7 @@
     {
         "id": "e2",
         "question": "How do I sign up as an expert?",
-        "answer": "Becoming an expert is very simple. We built a program that takes you step-by-step through the process. We'll only ask for details that are relevant to the platform, and ask you to agree to our <a class='inline' href='/terms-and-conditions'>terms & conditions</a>, and <a class='inline' href='/booking-policy-and-agreement'>expert agreement</a>. You'll be able to preview your profile once you build it, to ensure it's to your liking."
+        "answer": "Becoming an expert is very simple. We built a program that takes you step-by-step through the process. We'll only ask for details that are relevant to the platform, and ask you to agree to our <a class='inline' href='/terms-and-conditions'>terms & conditions</a>, and <a class='inline' href='/booking-policy-and-expert-agreement'>expert agreement</a>. You'll be able to preview your profile once you build it, to ensure it's to your liking."
     },
     {
         "id": "e3",
