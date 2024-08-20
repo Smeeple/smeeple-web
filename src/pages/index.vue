@@ -68,7 +68,7 @@
 
                     <h3 class="mb-3">Get expertise</h3>
 
-                    <p>Get direct guidance from top experts in over 20+ categories. With tailored mentorship and help, you and your loved ones can get the backup you need to accomplish your goals or learn something new.</p>
+                    <p>Get direct guidance from top experts in over 20+ categories. With tailored mentorship and help, you and your loved ones can learn something new.</p>
                 </div>
             </div>
         </div>
