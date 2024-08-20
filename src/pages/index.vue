@@ -50,7 +50,7 @@
                 <div class="flex flex-col items-center sm:col-span-12 lg:col-span-4">
                     <Icon_People class="mb-2 fill-transparent stroke-orange-light stroke-[3px]" />
 
-                    <h3 class="mb-3">250+ vetted experts</h3>
+                    <h3 class="mb-3">500+ vetted experts</h3>
 
                     <p>Discover experts from a wide variety of fields, book and pay for appointments, and conduct 1:1 video sessions &mdash; all right from within the Smeeple app.</p>
                 </div>
@@ -68,7 +68,7 @@
 
                     <h3 class="mb-3">Get expertise</h3>
 
-                    <p>Enhance your skills and master your craft with personalized expertise across 20+ categories, offering mentorship and guidance.</p>
+                    <p>Get direct guidance from top experts in over 20+ categories. With tailored mentorship and help, you and your loved ones can get the backup you need to accomplish your goals or learn something new.</p>
                 </div>
             </div>
         </div>
