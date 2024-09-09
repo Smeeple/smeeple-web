@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: 'Join Our Community of 250+ Vetted Experts',
+        title: 'Join Our Community of 500+ Vetted Experts',
         meta: [
             { name: 'description', content: 'Unlock a World of Opportunity with Smeeple: Connect with Clients Anywhere, Earn Extra Income, and Expand Your Network, All While Saving Time and Travel Expenses Through the Convenience of Virtual Meetings.' },
             { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills, insight, download, expert, book' },
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="mt-6 xl:hidden">
-                        <CTA_Expert_Signup />
+                        <CTA_Expert_&_Athlete_Signup />
                     </div>
                 </div>
             </div>
