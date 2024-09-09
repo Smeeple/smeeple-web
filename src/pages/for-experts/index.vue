@@ -21,7 +21,7 @@
                 <div class="sm:col-span-12 xl:col-span-6">
                     <h1 class="mb-0 pb-2 text-white sm-max:text-40 sm-max:leading-[1.2] md:text-[60px] md:leading-none lg:text-[72px] xl:text-[60px] 2xl:text-[72px]">Share your expertise.</h1>
 
-                    <p class="mt-3 text-white">Engage through 1:1 video chats, offer your insights, and capitalize on your hard-earned skills. Set your own rates and availability. Smeeple not only enables you to leverage your existing network but also connects you with new opportunities.</p>
+                    <p class="mt-3 text-white">Engage through 1:1 video chats, offer your insights and help, and capitalize on your hard-earned skills. Set your own rates and availability. Smeeple not only enables you to leverage your existing network but also connects you with new opportunities.</p>
 
                     <div class="mt-5 lg-max:hidden">
                         <CTA_Expert_Signup />
