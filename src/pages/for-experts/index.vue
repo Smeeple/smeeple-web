@@ -1,6 +1,6 @@
 <script setup>
     useHead({
-        title: 'Join Our Community of 250+ Vetted Experts',
+        title: 'Join Our Community of 500+ Vetted Experts',
         meta: [
             { name: 'description', content: 'Unlock a World of Opportunity with Smeeple: Connect with Clients Anywhere, Earn Extra Income, and Expand Your Network, All While Saving Time and Travel Expenses Through the Convenience of Virtual Meetings.' },
             { name: 'keywords', content: 'smeeple, experts, people, knowledge, skills, insight, download, expert, book' },
@@ -24,7 +24,7 @@
                     <p class="mt-3 text-white">Engage through 1:1 video chats, offer your insights, and capitalize on your hard-earned skills. Set your own rates and availability. Smeeple not only enables you to leverage your existing network but also connects you with new opportunities.</p>
 
                     <div class="mt-5 lg-max:hidden">
-                        <CTA_Expert_Signup />
+                        <CTA_Expert_&_Athlete_Signup />
                     </div>
                 </div>
 
