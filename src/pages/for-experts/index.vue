@@ -24,7 +24,7 @@
                     <p class="mt-3 text-white">Engage through 1:1 video chats, offer your insights and help, and capitalize on your skills. Set your own rates and availability. Smeeple not only enables you to leverage your existing network but also connects you with new opportunities.</p>
 
                     <div class="mt-5 lg-max:hidden">
-                        <CTA_Expert_&_Athlete_Signup />
+                        <CTA_Expert_Signup />
                     </div>
                 </div>
 
@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="mt-6 xl:hidden">
-                        <CTA_Expert_&_Athlete_Signup />
+                        <CTA_Expert_Signup />
                     </div>
                 </div>
             </div>
