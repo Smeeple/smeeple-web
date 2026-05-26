@@ -1,6 +1,6 @@
 <script setup>
     import { API_URL } from '~/config';
-    const { data: categories } = await useFetch(`https://${API_URL}/api/v1.1/categories/mobile`);
+    const { data: categories } = await useFetch(`https://${API_URL}/api/v1.1/categories/mobile`, { server: false });
 
     const sentenceCase = (str) => {
         return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
