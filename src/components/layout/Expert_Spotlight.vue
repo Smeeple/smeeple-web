@@ -13,7 +13,7 @@
         <div class="marquee mt-8 md-max:mb-3 lg:mb-0">
             <ul class="marquee-content list-none">
                 <li v-for="expert in expertSpotlight" :key="expert.id" class="mx-[15px] flex scale-100 items-center justify-center rounded-lg shadow-md transition-all lg:hover:scale-105">
-                    <a :href="expert.profile" class="flex flex-1 flex-col no-underline" target="_blank">
+                    <a :href="`https://${baseURL}/experts/${expert.profileLinkId}`" class="flex flex-1 flex-col no-underline" target="_blank">
                         <div class="absolute -left-[8px] top-[8px] z-10 rounded-md bg-orange-light px-2 font-poppins text-16 text-white">{{ expert.category }}</div>
 
                         <div :style="{ backgroundImage: `url('${expert.photo}')` }" class="card relative aspect-square h-full overflow-hidden rounded-tl-lg rounded-tr-lg bg-gray-light bg-cover duration-300"></div>
@@ -36,11 +36,13 @@
 
 <script>
     import expertSpotlight from '~/assets/js/data/expert-spotlight.json';
+    import { BASE_URL } from '~/config';
 
     export default {
         data() {
             return {
                 expertSpotlight,
+                baseURL: BASE_URL,
             };
         },
         mounted() {

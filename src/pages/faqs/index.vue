@@ -1,4 +1,14 @@
 <script setup>
+    import { BASE_URL } from '~/config';
+    import faqsConsumersRaw from '~/assets/js/data/faqs-consumers.json';
+    import faqsExpertsData from '~/assets/js/data/faqs-experts.json';
+
+    const faqsConsumers = faqsConsumersRaw.map((faq) => ({
+        ...faq,
+        answer: faq.answer.replace(/\{BASE_URL\}/g, BASE_URL),
+    }));
+    const faqsExperts = faqsExpertsData;
+
     useHead({
         title: 'FAQs',
         meta: [
@@ -132,14 +142,9 @@
 </template>
 
 <script>
-    import faqsConsumers from '~/assets/js/data/faqs-consumers.json';
-    import faqsExperts from '~/assets/js/data/faqs-experts.json';
-
     export default {
         data() {
             return {
-                faqsConsumers,
-                faqsExperts,
                 openAccordion: null,
                 tab: 'consumers',
             };
